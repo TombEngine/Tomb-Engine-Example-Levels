@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Tomb Engine BETA</Name>
+  <GameVersion>TombEngine</GameVersion>
+  <DefaultLanguage>English</DefaultLanguage>
+  <LaunchFilePath>$(ProjectDirectory)\PLAY.exe</LaunchFilePath>
+  <ScriptPath>$(ProjectDirectory)\Engine\Scripts</ScriptPath>
+  <LevelsPath>$(ProjectDirectory)\Levels</LevelsPath>
+  <Levels>
+    <ProjectLevel>
+      <Name>Title</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\Title</FolderPath>
+      <SpecificFile>title_TombEngine.prj2</SpecificFile>
+    </ProjectLevel>
+    <ProjectLevel>
+      <Name>settomb</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\settomb</FolderPath>
+      <SpecificFile>settomb_TombEngine.prj2</SpecificFile>
+    </ProjectLevel>
+    <ProjectLevel>
+      <Name>catacomb</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\catacomb</FolderPath>
+      <SpecificFile>catacomb_TombEngine.prj2</SpecificFile>
+    </ProjectLevel>
+    <ProjectLevel>
+      <Name>cleopal</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\cleopal</FolderPath>
+      <SpecificFile>cleopal_TombEngine.prj2</SpecificFile>
+    </ProjectLevel>
+    <ProjectLevel>
+      <Name>coastal</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\coastal</FolderPath>
+      <SpecificFile>coastal_TombEngine.prj2</SpecificFile>
+    </ProjectLevel>
+    <ProjectLevel>
+      <Name>karnak</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\karnak</FolderPath>
+      <SpecificFile>karnak_TombEngine.prj2</SpecificFile>
+    </ProjectLevel>
+    <ProjectLevel>
+      <Name>city</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\city</FolderPath>
+      <SpecificFile>$(LatestFile)</SpecificFile>
+    </ProjectLevel>
+    <ProjectLevel>
+      <Name>ankor</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\ankor</FolderPath>
+      <SpecificFile>$(LatestFile)</SpecificFile>
+    </ProjectLevel>
+  </Levels>
+</Project>
