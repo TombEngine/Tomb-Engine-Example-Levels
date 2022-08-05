@@ -40,7 +40,7 @@
     <ProjectLevel>
       <Name>city</Name>
       <FolderPath>$(ProjectDirectory)\Levels\city</FolderPath>
-      <SpecificFile>$(LatestFile)</SpecificFile>
+      <SpecificFile>city_TombEngine.prj2</SpecificFile>
     </ProjectLevel>
     <ProjectLevel>
       <Name>ankor</Name>
