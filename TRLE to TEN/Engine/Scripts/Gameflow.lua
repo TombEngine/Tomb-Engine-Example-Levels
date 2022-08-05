@@ -34,7 +34,7 @@ Flow.AddLevel(title);
 	tut1.levelFile = "Data\\tut1.ten";
 	tut1.loadScreenFile = "Screens\\rome.jpg";
 	tut1.horizon = true
-	tut1.farView = 30
+	tut1.farView = 20
 	tut1.layer1 = Flow.SkyLayer.new(Color.new(60,160,192), 7)
 	tut1.objects = {	
 		InventoryItem.new(
@@ -129,7 +129,7 @@ Flow.AddLevel(tut1);
 		settomb.levelFile = "Data\\settomb.ten";
 		settomb.loadScreenFile = "Screens\\rome.jpg";
 		settomb.horizon = false
-		settomb.farView = 30
+		settomb.farView = 20
 			settomb.objects = {	
 			InventoryItem.new(
 				"BaCartouche1", --Name in Strings.lua 
@@ -233,7 +233,7 @@ Flow.AddLevel(settomb);
 		karnak.levelFile = "Data\\karnak.ten";
 		karnak.loadScreenFile = "Screens\\rome.jpg";
 		karnak.horizon = true
-		karnak.farView = 3010
+		karnak.farView = 2010
 		karnak.layer1 = Flow.SkyLayer.new(Color.new(128,96,64), 7)
 			karnak.objects = {	
 			InventoryItem.new(
@@ -350,7 +350,7 @@ Flow.AddLevel(coastal);
 	catacomb.levelFile = "Data\\catacomb.ten";
 	catacomb.loadScreenFile = "Screens\\rome.jpg";
 	catacomb.horizon = false
-	catacomb.farView = 3020
+	catacomb.farView = 20
 		catacomb.objects = {	
 		InventoryItem.new(
 			"pguard", --Name in Strings.lua 
@@ -493,7 +493,7 @@ Flow.AddLevel(catacomb);
 	cleopal.levelFile = "Data\\cleopal.ten";
 	cleopal.loadScreenFile = "Screens\\rome.jpg";
 	cleopal.horizon = false
-	cleopal.farView = 3020
+	cleopal.farView = 20
 		cleopal.objects = {	
 		InventoryItem.new(
 			"pguard", --Name in Strings.lua 
@@ -626,7 +626,7 @@ Flow.AddLevel(cleopal);
 	city.loadScreenFile = "Screens\\rome.jpg";
 	city.horizon = true
 	city.layer1 = Flow.SkyLayer.new(Color.new(56,72,8),16)
-	city.farView = 3020
+	city.farView = 20
 		city.objects = {	
 		InventoryItem.new(
 			"nitro1", --Name in Strings.lua 
@@ -810,8 +810,8 @@ Flow.AddLevel(city);
 	angkor.levelFile = "Data\\angkor.ten";
 	angkor.loadScreenFile = "Screens\\rome.jpg";
 	angkor.horizon = true
-	angkor.farView = 3010
-	--angkor.laraType = Young
+	angkor.farView = 20
+	angkor.laraType = Young
 	angkor.layer1 = Flow.SkyLayer.new(Color.new(160,160,192),7)
 	angkor.objects = {	
 		InventoryItem.new(
