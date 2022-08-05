@@ -1325,7 +1325,68 @@ local strings = {
 	},
 	catacombs ={
 			"Catacombs"
-	}
+	},
+	BaCartouche1 ={
+		"Cartouche Piece 1 "
+	},
+	BaCartouche2 ={
+		"Cartouche Piece 2"
+	},
+	RaCartouche ={
+		"Ra Cartouche"
+	},
+	BaCartouche ={
+		"Ba Cartouche"
+	},
+	eye1 ={
+		"Left Eye Piece"
+	},
+	eye2 ={
+		"Right Eye Piece"
+	},
+	eye ={
+		"Eye of Horus"
+	},
+	handO ={
+		"Hand of Orion"
+	},
+	handS ={
+		"Hand of Sirius"
+	},
+	sands ={
+		"The Timeless Sands"
+	},
+	gkey ={
+		"Gate Key"
+	},
+	jar1 ={
+		"Canopic Jar 1"
+	},
+	jar2 ={
+		"Canopic Jar 2"
+	},
+	sunT ={
+		"Sun Talisman"
+	},
+	sunD ={
+		"Sun Disc"
+	},
+	sunG ={
+		"Sun God Statue"
+	},
+	vraeus ={
+		"Golden Vraeus"
+	},
+	pguard ={
+		"Portal Guardian"
+	},
+	token ={
+		"Token"
+	},
+	gate1 ={
+		"Gate Key"
+	},
+
 
 
 }
