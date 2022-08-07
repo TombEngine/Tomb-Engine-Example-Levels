@@ -42,10 +42,5 @@
 			<FolderPath>$(ProjectDirectory)\Levels\city</FolderPath>
 			<SpecificFile>city_TombEngine.prj2</SpecificFile>
 		</ProjectLevel>
-		<ProjectLevel>
-			<Name>ankor</Name>
-			<FolderPath>$(ProjectDirectory)\Levels\ankor</FolderPath>
-			<SpecificFile>$(LatestFile)</SpecificFile>
-		</ProjectLevel>
 	</Levels>
 </Project>

@@ -674,34 +674,34 @@ Flow.AddLevel(cleopal);
 			ItemAction.USE
 		),
 	}
-Flow.AddLevel(city);	
----angkor Level Block
-	angkor = Level.new();
+----[[]]Flow.AddLevel(city);	
+-----angkor Level Block
+	--angkor = Level.new();
 
-	angkor.nameKey = "angkor";
-	angkor.scriptFile = "Scripts\\angkor.lua";
-	angkor.ambientTrack = "110";
-	angkor.levelFile = "Data\\angkor.ten";
-	angkor.loadScreenFile = "Screens\\rome.jpg";
-	angkor.horizon = true
-	angkor.farView = 20
-	angkor.laraType = Young
-	angkor.layer1 = Flow.SkyLayer.new(Color.new(160,160,192),7)
-	angkor.objects = {	
-		InventoryItem.new(
-			"goldskull", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM1, --Name in Constants.lua
-			0,--yOffset
-			1, -- Scale
-			Rotation.new(0, 0, 90),
-			RotationAxis.Y,
-			-1,
-			ItemAction.EXAMINE
-		),
+	--angkor.nameKey = "angkor";
+	--angkor.scriptFile = "Scripts\\angkor.lua";
+	--angkor.ambientTrack = "110";
+	--angkor.levelFile = "Data\\angkor.ten";
+	--angkor.loadScreenFile = "Screens\\rome.jpg";
+	--angkor.horizon = true
+	--angkor.farView = 20
+	--angkor.laraType = Young
+	--angkor.layer1 = Flow.SkyLayer.new(Color.new(160,160,192),7)
+	--angkor.objects = {	
+		--InventoryItem.new(
+			--"goldskull", --Name in Strings.lua 
+			--InvID.PUZZLE_ITEM1, --Name in Constants.lua
+			--0,--yOffset
+			--1, -- Scale
+			--Rotation.new(0, 0, 90),
+			--RotationAxis.Y,
+			---1,
+			--ItemAction.EXAMINE
+		--),
 
 
 	}
-Flow.AddLevel(angkor);	
+--Flow.AddLevel(angkor);	
 --[[---LDN1 Level Block
 	LDN1 = Level.new();
 
