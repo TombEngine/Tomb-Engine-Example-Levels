@@ -25,102 +25,7 @@ local Fog = Flow.Fog
 		title.loadScreenFile = "Screens\\rome.jpg";
 
 Flow.AddLevel(title);
----Tut1 Level Block
-	tut1 = Level.new();
-
-	tut1.nameKey = "tut1";
-	tut1.scriptFile = "Scripts\\tut1.lua";
-	tut1.ambientTrack = "107";
-	tut1.levelFile = "Data\\tut1.ten";
-	tut1.loadScreenFile = "Screens\\rome.jpg";
-	tut1.horizon = true
-	tut1.farView = 20
-	tut1.layer1 = Flow.SkyLayer.new(Color.new(60,160,192), 7)
-	tut1.objects = {	
-		InventoryItem.new(
-			"BaCartouche1", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM3_COMBO1, --Name in Constants.lua
-			0,--yOffset
-			0.5, -- Scale
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			-1,
-			ItemAction.USE
-		),
-		InventoryItem.new(
-			"BaCartouche2", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM3_COMBO2, --Name in Constants.lua
-			0, --yOffset (negative values move item up)
-			0.5, -- Scale
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			-1,
-			ItemAction.USE
-		),
-		InventoryItem.new(
-			"BaCartouche", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM3, --Name in Constants.lua
-			0,
-			0.5,
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			-1,
-			ItemAction.USE
-		),
-		InventoryItem.new(
-			"eye1", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5_COMBO1, --Name in Constants.lua
-			50,
-			0.5,
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			2,
-			ItemAction.USE
-		),
-		InventoryItem.new(
-			"eye2", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5_COMBO2, --Name in Constants.lua
-			50,
-			0.5,
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			2,
-			ItemAction.USE
-		),
-		InventoryItem.new(
-			"eye", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5, --Name in Constants.lua
-			50,
-			0.5,
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			2,
-			ItemAction.USE
-		),
-		InventoryItem.new(
-			"handO", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM6, --Name in Constants.lua
-			0,--yOffset
-			0.5, -- Scale
-			Rotation.new(0, 0, -90),
-			RotationAxis.Y,
-			-1,
-			ItemAction.USE
-		),
-		InventoryItem.new(
-			"handS", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM8, --Name in Constants.lua
-			0,--yOffset
-			0.5, -- Scale
-			Rotation.new(0, 0, -90),
-			RotationAxis.Y,
-			-1,
-			ItemAction.USE
-		),
-	
-	}
-Flow.AddLevel(tut1);	
----Settomb Level Block
+--Settomb Level Block
 	settomb = Level.new();
 
 		settomb.nameKey = "settomb";
@@ -294,7 +199,7 @@ Flow.AddLevel(settomb);
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				2,
-				ItemAction.EXAMINE
+				ItemAction.USE
 			),
 			InventoryItem.new(
 				"pguard", --Name in Strings.lua 
@@ -304,6 +209,26 @@ Flow.AddLevel(settomb);
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				-1,
+				ItemAction.USE
+			),
+			InventoryItem.new(
+				"hkey", --Name in Strings.lua 
+				InvID.KEY_ITEM2, --Name in Constants.lua
+				-50,--yOffset
+				0.5, -- Scale
+				Rotation.new(90,90, 0),
+				RotationAxis.Y,
+				-1,
+				ItemAction.USE
+			),
+			InventoryItem.new(
+				"horseG", --Name in Strings.lua 
+				InvID.PUZZLE_ITEM6, --Name in Constants.lua
+				50,
+				0.5,
+				Rotation.new(0, 0, 0),
+				RotationAxis.Y,
+				2,
 				ItemAction.USE
 			),
 		}
@@ -347,7 +272,7 @@ Flow.AddLevel(coastal);
 	catacomb.nameKey = "catacombs";
 	catacomb.scriptFile = "Scripts\\catacomb.lua";
 	catacomb.ambientTrack = "1080";
-	catacomb.levelFile = "Data\\catacomb.ten";
+	catacomb.levelFile = "Data\\catacombs.ten";
 	catacomb.loadScreenFile = "Screens\\rome.jpg";
 	catacomb.horizon = false
 	catacomb.farView = 20
@@ -748,57 +673,6 @@ Flow.AddLevel(cleopal);
 			-1,
 			ItemAction.USE
 		),
-		InventoryItem.new(
-			"breast", --Name in Strings.lua 
-			InvID.PICKUP_ITEM6, --Name in Constants.lua
-			0,--yOffset
-			1, -- Scale
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			-1,
-			ItemAction.EXAMINE
-		),
-		InventoryItem.new(
-			"horuslg", --Name in Strings.lua 
-			InvID.PICKUP_ITEM7, --Name in Constants.lua
-			0,--yOffset
-			0.5, -- Scale
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			-1,
-			ItemAction.EXAMINE
-		),
-		InventoryItem.new(
-			"horusrg", --Name in Strings.lua 
-			InvID.PICKUP_ITEM8, --Name in Constants.lua
-			0,--yOffset
-			0.5, -- Scale
-			Rotation.new(0, 0, 0),
-			RotationAxis.Y,
-			-1,
-			ItemAction.EXAMINE
-		),
-		InventoryItem.new(
-			"horuslga", --Name in Strings.lua 
-			InvID.PICKUP_ITEM9, --Name in Constants.lua
-			0,--yOffset
-			0.5, -- Scale
-			Rotation.new(0, 0, 90),
-			RotationAxis.Y,
-			-1,
-			ItemAction.EXAMINE
-		),
-		InventoryItem.new(
-			"horusrga", --Name in Strings.lua 
-			InvID.PICKUP_ITEM10, --Name in Constants.lua
-			0,--yOffset
-			0.5, -- Scale
-			Rotation.new(0, 0, 90),
-			RotationAxis.Y,
-			-1,
-			ItemAction.EXAMINE
-		),
-	
 	}
 Flow.AddLevel(city);	
 ---angkor Level Block
@@ -828,7 +702,7 @@ Flow.AddLevel(city);
 
 	}
 Flow.AddLevel(angkor);	
----LDN1 Level Block
+--[[---LDN1 Level Block
 	LDN1 = Level.new();
 
 	LDN1.nameKey = "LDN1";
@@ -843,3 +717,4 @@ Flow.AddLevel(angkor);
 	LDN1.fog = Flow.Fog.new(Color.new(0,0,0), 1,10)
 	
 Flow.AddLevel(LDN1);	
+--]]

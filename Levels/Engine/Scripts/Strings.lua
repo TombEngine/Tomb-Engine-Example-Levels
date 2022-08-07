@@ -1,6 +1,6 @@
 local strings = {
 	 window_title = {
-		"TombEngine BETA",
+		"TombEngine Demo Levels",
 		"",
 		"",
 		"",
@@ -1357,7 +1357,7 @@ local strings = {
 		"The Timeless Sands"
 	},
 	gkey ={
-		"Gate Key"
+		"Guardian Key"
 	},
 	jar1 ={
 		"Canopic Jar 1"
@@ -1369,10 +1369,10 @@ local strings = {
 		"Sun Talisman"
 	},
 	sunD ={
-		"Sun Disc"
+		"Sun Disk"
 	},
 	sunG ={
-		"Sun God Statue"
+		"Sun Goddess"
 	},
 	vraeus ={
 		"Golden Vraeus"
@@ -1384,8 +1384,74 @@ local strings = {
 		"Token"
 	},
 	gate1 ={
-		"Gate Key"
+		"Guardian Key"
 	},
+	handle ={
+		"Ornate Handle"
+	},
+	hath ={
+		"Hathor Effigy"
+	},
+	star = {
+		"Golden Star"
+	},
+	horseG = {
+		"Horseman's Gem"
+	},
+	pknot = {
+		"Pharos Knot"
+	},
+	ppilar = {
+		"Pharos Pillar"
+	},
+	beetleb = {
+		"Broken Beetle"
+	},
+	beetle = {
+		"Black Beetle"
+	},
+	specs = {
+		"Broken Glasses"
+	},
+	cjack = {
+		 "Car-Jack",
+	},
+	roofK = { 
+		"Roof Key",
+	},
+	code1 = {
+		 "Weapon Code Key"
+	},
+	mine = {
+		 "Mine Detonator"
+	},
+	valve1 = {
+		"Valve Pipe"
+	},
+	nitro1 = {
+		"Nitrous Oxide Feeder"
+	},
+	nitro2 = {
+		"Nitrous Oxide Cannister"
+	},
+	cjackb = {
+		"Car-Jack Body"
+	},
+	chandle = {
+		"Handle"
+	},
+	mine1 = {
+		 "Mine Detonator Body"
+	},
+	hkey = {
+		"Hypostyle Key"
+	},
+	trident = {
+		"Posiden's Trident"
+	},
+	music = {
+		"Music Scrolls"
+	}
 
 
 
