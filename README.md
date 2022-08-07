@@ -1,5 +1,10 @@
-# Tomb-Engine-Stock-Levels
-The Original TRLE stock levels, now in Tomb Engine. This also includes Lua tutorial by Kubsy and Squidshire's Lua documentation.
+# Tomb Engine Demo Levels
+The Original TRLE stock levels, and new demo levels to show and teach the new features within Tomb Raider Engine (abbreivated as TEN). 
+
+This repository also includes extremely helpful guides as handy PDFs'. These are:
+
+* Lua Basics PDF by Kubsy 
+* Squidshire's Lua documentation.
 
 Installation: 
 
