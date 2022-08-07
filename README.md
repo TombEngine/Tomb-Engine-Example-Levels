@@ -3,8 +3,8 @@ The Original TRLE stock levels, and new demo levels to show and teach the new fe
 
 This repository also includes extremely helpful guides as handy PDFs'. These are:
 
-* Lua Basics PDF by Kubsy 
-* Squidshire's Lua documentation.
+* Lua & Tomb Engine API documentation - Squidshire
+* Lua Basics - Kubsy
 
 Installation: 
 
