@@ -23,6 +23,8 @@ local Fog = Flow.Fog
 		title.levelFile = "Data\\title.ten";
 		title.scriptFile = "Scripts\\title.lua";
 		title.loadScreenFile = "Screens\\rome.jpg";
+		title.fog = Flow.Fog.new(Color.new(5,5,5), 15,20)
+		title.horizon=true
 
 Flow.AddLevel(title);
 --Settomb Level Block
@@ -236,7 +238,6 @@ Flow.AddLevel(settomb);
 Flow.AddLevel(karnak);	
 ---coastal Level Block
 	coastal = Level.new();
-
 	coastal.nameKey = "coastal";
 	coastal.scriptFile = "Scripts\\coastal.lua";
 	coastal.ambientTrack = "110";
