@@ -33,8 +33,9 @@ Flow.AddLevel(title);
 		settomb.ambientTrack = "107";
 		settomb.levelFile = "Data\\settomb.ten";
 		settomb.loadScreenFile = "Screens\\rome.jpg";
-		settomb.horizon = false
-		settomb.farView = 20
+		settomb.horizon = false;
+		settomb.farView = 25
+		settomb.fog = Flow.Fog.new(Color.new(5,5,5), 15,20)
 			settomb.objects = {	
 			InventoryItem.new(
 				"BaCartouche1", --Name in Strings.lua 
@@ -674,8 +675,8 @@ Flow.AddLevel(cleopal);
 			ItemAction.USE
 		),
 	}
-----[[]]Flow.AddLevel(city);	
------angkor Level Block
+Flow.AddLevel(city);	
+-----[[]]----angkor Level Block
 	--angkor = Level.new();
 
 	--angkor.nameKey = "angkor";
@@ -700,7 +701,7 @@ Flow.AddLevel(cleopal);
 		--),
 
 
-	}
+	
 --Flow.AddLevel(angkor);	
 --[[---LDN1 Level Block
 	LDN1 = Level.new();
