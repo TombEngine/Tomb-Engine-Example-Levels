@@ -1,5 +1,5 @@
 # Tomb-Engine-Stock-Levels
-The Original TRLE stock levels, now in Tomb Engine. 
+The Original TRLE stock levels, now in Tomb Engine. This also includes Lua tutorial by Kubsy and Squidshire's Lua documentation.
 
 Installation: 
 
