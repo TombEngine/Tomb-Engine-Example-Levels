@@ -1,438 +1,96 @@
-[2022-Aug-07 02:07:36] [info] Starting TombEngine version 1.0.0
-[2022-Aug-07 02:07:36] [error] levelFarView value must be in the range [1, 127].
-[2022-Aug-07 02:07:36] [warning] Setting levelFarView view to 32.
-[2022-Aug-07 02:07:36] [error] weatherStrength value must be in the range [0.1, 1.0].
-[2022-Aug-07 02:07:36] [warning] Setting weatherStrength view to 1.
-[2022-Aug-07 02:07:37] [info] Initializing DX11...
-[2022-Aug-07 02:07:43] [info] Initializing BASS sound device: success
-[2022-Aug-07 02:07:43] [info] Initializing FX plugin: success
-[2022-Aug-07 02:07:43] [info] Starting 3D mixdown: success
-[2022-Aug-07 02:07:43] [info] Attaching environmental FX: success
-[2022-Aug-07 02:07:43] [info] Attaching compressor: success
-[2022-Aug-07 02:07:43] [info] Initializing input system...
-[2022-Aug-07 02:07:43] [info] OIS Version: 1.5.1
-[2022-Aug-07 02:07:43] [info] Starting GameMain...
-[2022-Aug-07 02:07:45] [info] DoTitle
-[2022-Aug-07 02:07:45] [info] Loading level file...
-[2022-Aug-07 02:07:45] [info] Loading level file: Data\title.ten
-[2022-Aug-07 02:07:45] [info] Level compiler version: 1.5.1
-[2022-Aug-07 02:07:45] [info] Loading textures... 
-[2022-Aug-07 02:07:45] [info] Num room textures: 1
-[2022-Aug-07 02:07:45] [info] Num object textures: 1
-[2022-Aug-07 02:07:45] [info] Num static textures: 1
-[2022-Aug-07 02:07:45] [info] Num anim textures: 2
-[2022-Aug-07 02:07:45] [info] Num sprite textures: 152
-[2022-Aug-07 02:07:45] [info] Loading rooms... 
-[2022-Aug-07 02:07:45] [info] Num rooms: 42
-[2022-Aug-07 02:07:46] [info] Num meshes: 244
-[2022-Aug-07 02:07:46] [info] Num animations: 615
-[2022-Aug-07 02:07:46] [info] Num models: 48
-[2022-Aug-07 02:07:46] [info] Initializing objects...
-[2022-Aug-07 02:07:46] [info] Num statics: 23
-[2022-Aug-07 02:07:46] [info] Num sprites: 152
-[2022-Aug-07 02:07:46] [info] Num sprite sequences: 20
-[2022-Aug-07 02:07:46] [info] Num cameras: 0
-[2022-Aug-07 02:07:46] [info] Num sinks: 0
-[2022-Aug-07 02:07:46] [info] Num sound sources: 0
-[2022-Aug-07 02:07:46] [info] Num boxes: 98
-[2022-Aug-07 02:07:46] [info] Num overlaps: 498
-[2022-Aug-07 02:07:46] [info] Num anim textures: 2
-[2022-Aug-07 02:07:46] [info] Num texinfos: 1882
-[2022-Aug-07 02:07:46] [info] Num items: 30
-[2022-Aug-07 02:07:46] [info] Num AI objects: 0
-[2022-Aug-07 02:07:46] [info] Parsing Lua function names... 
-[2022-Aug-07 02:07:46] [info] Loading samples... 
-[2022-Aug-07 02:07:46] [info] Sound map size: 4096
-[2022-Aug-07 02:07:46] [warning] No samples were found and loaded.
-[2022-Aug-07 02:07:46] [info] Initializing level...
-[2022-Aug-07 02:07:46] [info] Preparing renderer...
-[2022-Aug-07 02:07:46] [info] Level loading complete.
-[2022-Aug-07 02:07:47] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-07 02:07:47] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-07 02:07:47] [warning] Non present effect: 150
-[2022-Aug-07 02:07:47] [info] Playing soundtrack 'Audio\104.wav': success
-[2022-Aug-07 02:07:48] [warning] Non present effect: 109
-[2022-Aug-07 02:07:48] [error] Couldn't find string LDN1
-[2022-Aug-07 02:07:48] [warning] Non present effect: 111
-[2022-Aug-07 02:07:48] [error] Couldn't find string LDN1
-[2022-Aug-07 02:07:50] [info] Loading level file...
-[2022-Aug-07 02:07:50] [info] Loading level file: Data\city.ten
-[2022-Aug-07 02:07:51] [info] Level compiler version: 1.5.1
-[2022-Aug-07 02:07:51] [info] Loading textures... 
-[2022-Aug-07 02:07:51] [info] Num room textures: 1
-[2022-Aug-07 02:07:51] [info] Num object textures: 1
-[2022-Aug-07 02:07:51] [info] Num static textures: 1
-[2022-Aug-07 02:07:51] [info] Num anim textures: 0
-[2022-Aug-07 02:07:51] [info] Num sprite textures: 152
-[2022-Aug-07 02:07:51] [info] Loading rooms... 
-[2022-Aug-07 02:07:51] [info] Num rooms: 209
-[2022-Aug-07 02:07:54] [info] Num meshes: 726
-[2022-Aug-07 02:07:54] [info] Num animations: 893
-[2022-Aug-07 02:07:54] [info] Num models: 126
-[2022-Aug-07 02:07:54] [info] Initializing objects...
-[2022-Aug-07 02:07:54] [info] Num statics: 41
-[2022-Aug-07 02:07:54] [info] Num sprites: 152
-[2022-Aug-07 02:07:54] [info] Num sprite sequences: 20
-[2022-Aug-07 02:07:54] [info] Num cameras: 10
-[2022-Aug-07 02:07:54] [info] Num sinks: 2
-[2022-Aug-07 02:07:54] [info] Num sound sources: 1
-[2022-Aug-07 02:07:54] [info] Num boxes: 470
-[2022-Aug-07 02:07:54] [info] Num overlaps: 2394
-[2022-Aug-07 02:07:54] [info] Num anim textures: 0
-[2022-Aug-07 02:07:54] [info] Num texinfos: 2758
-[2022-Aug-07 02:07:54] [info] Num items: 100
-[2022-Aug-07 02:07:54] [info] Num AI objects: 5
-[2022-Aug-07 02:07:54] [info] Parsing Lua function names... 
-[2022-Aug-07 02:07:54] [info] Loading samples... 
-[2022-Aug-07 02:07:54] [info] Sound map size: 4096
-[2022-Aug-07 02:07:54] [info] Initializing level...
-[2022-Aug-07 02:07:54] [info] Preparing renderer...
-[2022-Aug-07 02:07:54] [info] Level loading complete.
-[2022-Aug-07 02:07:55] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-07 02:07:55] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-07 02:07:55] [info] Playing soundtrack 'Audio\102.wav': success
-[2022-Aug-07 02:08:21] [warning] Non present effect: 1576
-[2022-Aug-07 02:08:28] [warning] Non present effect: 1583
-[2022-Aug-07 02:08:35] [warning] Non present effect: 1581
-[2022-Aug-07 02:08:51] [warning] Non present effect: 1446
-[2022-Aug-07 02:09:08] [warning] Non present effect: 377
-[2022-Aug-07 02:09:18] [warning] Non present effect: 27
-[2022-Aug-07 02:09:34] [info] Playing soundtrack 'Audio\065.wav': success
-[2022-Aug-07 02:10:04] [error] Couldn't find string mine
-[2022-Aug-07 02:10:04] [error] Couldn't find string code1
-[2022-Aug-07 02:10:05] [error] Couldn't find string roofK
-[2022-Aug-07 02:10:06] [error] Couldn't find string cjack
-[2022-Aug-07 02:10:07] [error] Couldn't find string nitro1
-[2022-Aug-07 02:10:36] [warning] Non present effect: 1092
-[2022-Aug-07 02:12:30] [warning] Non present effect: 944
-[2022-Aug-07 02:12:48] [info] Playing soundtrack 'Audio\041.wav': success
-[2022-Aug-07 02:14:15] [info] Loading level file...
-[2022-Aug-07 02:14:15] [info] Loading level file: Data\angkor.ten
-[2022-Aug-07 02:14:15] [info] Level compiler version: 1.5.1
-[2022-Aug-07 02:14:15] [info] Loading textures... 
-[2022-Aug-07 02:14:15] [info] Num room textures: 1
-[2022-Aug-07 02:14:15] [info] Num object textures: 1
-[2022-Aug-07 02:14:15] [info] Num static textures: 1
-[2022-Aug-07 02:14:15] [info] Num anim textures: 0
-[2022-Aug-07 02:14:15] [info] Num sprite textures: 152
-[2022-Aug-07 02:14:15] [info] Loading rooms... 
-[2022-Aug-07 02:14:15] [info] Num rooms: 174
-[2022-Aug-07 02:14:18] [info] Num meshes: 380
-[2022-Aug-07 02:14:18] [info] Num animations: 865
-[2022-Aug-07 02:14:18] [info] Num models: 72
-[2022-Aug-07 02:14:18] [info] Initializing objects...
-[2022-Aug-07 02:14:18] [info] Num statics: 10
-[2022-Aug-07 02:14:18] [info] Num sprites: 152
-[2022-Aug-07 02:14:18] [info] Num sprite sequences: 20
-[2022-Aug-07 02:14:18] [info] Num cameras: 7
-[2022-Aug-07 02:14:18] [info] Num sinks: 0
-[2022-Aug-07 02:14:18] [info] Num sound sources: 10
-[2022-Aug-07 02:14:18] [info] Num boxes: 650
-[2022-Aug-07 02:14:18] [info] Num overlaps: 3134
-[2022-Aug-07 02:14:18] [info] Num anim textures: 0
-[2022-Aug-07 02:14:18] [info] Num texinfos: 2290
-[2022-Aug-07 02:14:18] [info] Num items: 104
-[2022-Aug-07 02:14:18] [info] Num AI objects: 61
-[2022-Aug-07 02:14:18] [info] Parsing Lua function names... 
-[2022-Aug-07 02:14:18] [info] Loading samples... 
-[2022-Aug-07 02:14:18] [info] Sound map size: 4096
-[2022-Aug-07 02:14:18] [info] Initializing level...
-[2022-Aug-07 02:14:18] [info] Preparing renderer...
-[2022-Aug-07 02:14:18] [info] Level loading complete.
-[2022-Aug-07 02:14:19] [error] Level's script does not define callback LevelFuncs.OnLoad
-[2022-Aug-07 02:14:19] [warning] Defaulting to no LevelFuncs.OnLoad behaviour.
-[2022-Aug-07 02:14:19] [error] Level's script does not define callback LevelFuncs.OnControlPhase
-[2022-Aug-07 02:14:19] [warning] Defaulting to no LevelFuncs.OnControlPhase behaviour.
-[2022-Aug-07 02:14:19] [error] Level's script does not define callback LevelFuncs.OnSave
-[2022-Aug-07 02:14:19] [warning] Defaulting to no LevelFuncs.OnSave behaviour.
-[2022-Aug-07 02:14:19] [error] Level's script does not define callback LevelFuncs.OnEnd
-[2022-Aug-07 02:14:19] [warning] Defaulting to no LevelFuncs.OnEnd behaviour.
-[2022-Aug-07 02:14:19] [info] Playing soundtrack 'Audio\110.wav': success
-[2022-Aug-07 02:14:19] [warning] Non present effect: 21
-[2022-Aug-07 02:14:19] [info] State:6
-[2022-Aug-07 02:14:21] [info] State:1
-[2022-Aug-07 02:14:21] [info] State:2
-[2022-Aug-07 02:14:22] [info] State:3
-[2022-Aug-07 02:14:23] [info] State:1
-[2022-Aug-07 02:14:24] [info] State:2
-[2022-Aug-07 02:14:26] [info] State:3
-[2022-Aug-07 02:14:27] [info] State:1
-[2022-Aug-07 02:14:28] [info] State:2
-[2022-Aug-07 02:14:30] [info] State:3
-[2022-Aug-07 02:14:31] [info] State:1
-[2022-Aug-07 02:14:32] [info] State:2
-[2022-Aug-07 02:14:33] [info] State:3
-[2022-Aug-07 02:14:34] [info] State:1
-[2022-Aug-07 02:14:35] [info] State:2
-[2022-Aug-07 02:14:37] [info] State:1
-[2022-Aug-07 02:14:38] [info] State:2
-[2022-Aug-07 02:14:39] [info] State:1
-[2022-Aug-07 02:14:40] [info] State:2
-[2022-Aug-07 02:14:42] [info] State:1
-[2022-Aug-07 02:14:43] [info] State:2
-[2022-Aug-07 02:14:44] [info] State:1
-[2022-Aug-07 02:14:45] [info] State:2
-[2022-Aug-07 02:14:47] [info] State:1
-[2022-Aug-07 02:14:47] [info] State:2
-[2022-Aug-07 02:14:49] [info] State:1
-[2022-Aug-07 02:14:50] [info] State:2
-[2022-Aug-07 02:14:52] [info] State:1
-[2022-Aug-07 02:14:52] [info] State:2
-[2022-Aug-07 02:14:54] [info] State:1
-[2022-Aug-07 02:14:55] [info] State:2
-[2022-Aug-07 02:14:57] [info] State:1
-[2022-Aug-07 02:14:57] [info] State:2
-[2022-Aug-07 02:14:59] [info] State:1
-[2022-Aug-07 02:15:00] [info] State:2
-[2022-Aug-07 02:15:01] [info] State:1
-[2022-Aug-07 02:15:02] [info] State:2
-[2022-Aug-07 02:15:04] [info] State:1
-[2022-Aug-07 02:15:05] [info] State:2
-[2022-Aug-07 02:15:06] [info] State:1
-[2022-Aug-07 02:15:07] [info] State:2
-[2022-Aug-07 02:15:09] [info] State:1
-[2022-Aug-07 02:15:09] [info] State:2
-[2022-Aug-07 02:15:11] [info] State:1
-[2022-Aug-07 02:15:12] [info] State:2
-[2022-Aug-07 02:15:14] [info] State:1
-[2022-Aug-07 02:15:14] [info] State:2
-[2022-Aug-07 02:15:16] [info] State:1
-[2022-Aug-07 02:15:17] [info] State:2
-[2022-Aug-07 02:15:18] [info] State:1
-[2022-Aug-07 02:15:19] [info] State:2
-[2022-Aug-07 02:15:21] [info] State:1
-[2022-Aug-07 02:15:22] [info] State:2
-[2022-Aug-07 02:15:23] [error] No track registered with index 20
-[2022-Aug-07 02:15:23] [info] State:2
-[2022-Aug-07 02:15:23] [info] State:1
-[2022-Aug-07 02:15:24] [info] State:2
-[2022-Aug-07 02:15:26] [info] State:1
-[2022-Aug-07 02:15:26] [info] State:2
-[2022-Aug-07 02:15:28] [info] State:1
-[2022-Aug-07 02:15:29] [info] State:2
-[2022-Aug-07 02:15:31] [info] State:1
-[2022-Aug-07 02:15:31] [info] State:2
-[2022-Aug-07 02:15:33] [info] State:1
-[2022-Aug-07 02:15:34] [info] State:2
-[2022-Aug-07 02:15:35] [warning] Non present effect: 37
-[2022-Aug-07 02:15:35] [info] State:2
-[2022-Aug-07 02:15:35] [info] State:1
-[2022-Aug-07 02:15:36] [info] State:2
-[2022-Aug-07 02:15:38] [info] State:1
-[2022-Aug-07 02:15:39] [info] State:2
-[2022-Aug-07 02:15:40] [info] State:1
-[2022-Aug-07 02:15:41] [info] State:2
-[2022-Aug-07 02:15:43] [info] State:1
-[2022-Aug-07 02:15:43] [info] State:2
-[2022-Aug-07 02:15:45] [info] State:1
-[2022-Aug-07 02:15:46] [info] State:2
-[2022-Aug-07 02:15:48] [info] State:1
-[2022-Aug-07 02:15:48] [info] State:2
-[2022-Aug-07 02:15:50] [info] State:1
-[2022-Aug-07 02:15:51] [info] State:2
-[2022-Aug-07 02:15:52] [info] State:1
-[2022-Aug-07 02:15:53] [info] State:2
-[2022-Aug-07 02:15:55] [info] State:1
-[2022-Aug-07 02:15:56] [info] State:2
-[2022-Aug-07 02:15:57] [info] State:1
-[2022-Aug-07 02:15:58] [info] State:2
-[2022-Aug-07 02:15:59] [info] DoTitle
-[2022-Aug-07 02:15:59] [info] Loading level file...
-[2022-Aug-07 02:16:00] [info] Loading level file: Data\title.ten
-[2022-Aug-07 02:16:00] [info] Level compiler version: 1.5.1
-[2022-Aug-07 02:16:00] [info] Loading textures... 
-[2022-Aug-07 02:16:00] [info] Num room textures: 1
-[2022-Aug-07 02:16:00] [info] Num object textures: 1
-[2022-Aug-07 02:16:00] [info] Num static textures: 1
-[2022-Aug-07 02:16:00] [info] Num anim textures: 2
-[2022-Aug-07 02:16:00] [info] Num sprite textures: 152
-[2022-Aug-07 02:16:00] [info] Loading rooms... 
-[2022-Aug-07 02:16:00] [info] Num rooms: 42
-[2022-Aug-07 02:16:01] [info] Num meshes: 244
-[2022-Aug-07 02:16:01] [info] Num animations: 615
-[2022-Aug-07 02:16:01] [info] Num models: 48
-[2022-Aug-07 02:16:01] [info] Initializing objects...
-[2022-Aug-07 02:16:01] [info] Num statics: 23
-[2022-Aug-07 02:16:01] [info] Num sprites: 152
-[2022-Aug-07 02:16:01] [info] Num sprite sequences: 20
-[2022-Aug-07 02:16:01] [info] Num cameras: 0
-[2022-Aug-07 02:16:01] [info] Num sinks: 0
-[2022-Aug-07 02:16:01] [info] Num sound sources: 0
-[2022-Aug-07 02:16:01] [info] Num boxes: 98
-[2022-Aug-07 02:16:01] [info] Num overlaps: 498
-[2022-Aug-07 02:16:01] [info] Num anim textures: 2
-[2022-Aug-07 02:16:01] [info] Num texinfos: 1882
-[2022-Aug-07 02:16:01] [info] Num items: 30
-[2022-Aug-07 02:16:01] [info] Num AI objects: 0
-[2022-Aug-07 02:16:01] [info] Parsing Lua function names... 
-[2022-Aug-07 02:16:01] [info] Loading samples... 
-[2022-Aug-07 02:16:01] [info] Sound map size: 4096
-[2022-Aug-07 02:16:01] [warning] No samples were found and loaded.
-[2022-Aug-07 02:16:01] [info] Initializing level...
-[2022-Aug-07 02:16:01] [info] Preparing renderer...
-[2022-Aug-07 02:16:01] [info] Level loading complete.
-[2022-Aug-07 02:16:01] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-07 02:16:01] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-07 02:16:01] [warning] Non present effect: 150
-[2022-Aug-07 02:16:01] [info] Playing soundtrack 'Audio\104.wav': success
-[2022-Aug-07 02:16:02] [warning] Non present effect: 109
-[2022-Aug-07 02:16:02] [error] Couldn't find string LDN1
-[2022-Aug-07 02:16:03] [info] Loading level file...
-[2022-Aug-07 02:16:03] [info] Loading level file: Data\tut1.ten
-[2022-Aug-07 02:16:03] [error] Error while loading level: Unable to read level file: Data\tut1.ten
-[2022-Aug-07 02:16:03] [info] DoTitle
-[2022-Aug-07 02:16:03] [info] Loading level file...
-[2022-Aug-07 02:16:03] [info] Loading level file: Data\title.ten
-[2022-Aug-07 02:16:04] [info] Level compiler version: 1.5.1
-[2022-Aug-07 02:16:04] [info] Loading textures... 
-[2022-Aug-07 02:16:04] [info] Num room textures: 1
-[2022-Aug-07 02:16:04] [info] Num object textures: 1
-[2022-Aug-07 02:16:04] [info] Num static textures: 1
-[2022-Aug-07 02:16:04] [info] Num anim textures: 2
-[2022-Aug-07 02:16:04] [info] Num sprite textures: 152
-[2022-Aug-07 02:16:04] [info] Loading rooms... 
-[2022-Aug-07 02:16:04] [info] Num rooms: 42
-[2022-Aug-07 02:16:04] [info] Num meshes: 244
-[2022-Aug-07 02:16:04] [info] Num animations: 615
-[2022-Aug-07 02:16:04] [info] Num models: 48
-[2022-Aug-07 02:16:04] [info] Initializing objects...
-[2022-Aug-07 02:16:04] [info] Num statics: 23
-[2022-Aug-07 02:16:04] [info] Num sprites: 152
-[2022-Aug-07 02:16:04] [info] Num sprite sequences: 20
-[2022-Aug-07 02:16:04] [info] Num cameras: 0
-[2022-Aug-07 02:16:04] [info] Num sinks: 0
-[2022-Aug-07 02:16:04] [info] Num sound sources: 0
-[2022-Aug-07 02:16:04] [info] Num boxes: 98
-[2022-Aug-07 02:16:04] [info] Num overlaps: 498
-[2022-Aug-07 02:16:04] [info] Num anim textures: 2
-[2022-Aug-07 02:16:05] [info] Num texinfos: 1882
-[2022-Aug-07 02:16:05] [info] Num items: 30
-[2022-Aug-07 02:16:05] [info] Num AI objects: 0
-[2022-Aug-07 02:16:05] [info] Parsing Lua function names... 
-[2022-Aug-07 02:16:05] [info] Loading samples... 
-[2022-Aug-07 02:16:05] [info] Sound map size: 4096
-[2022-Aug-07 02:16:05] [warning] No samples were found and loaded.
-[2022-Aug-07 02:16:05] [info] Initializing level...
-[2022-Aug-07 02:16:05] [info] Preparing renderer...
-[2022-Aug-07 02:16:05] [info] Level loading complete.
-[2022-Aug-07 02:16:05] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-07 02:16:05] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-07 02:16:05] [warning] Non present effect: 150
-[2022-Aug-07 02:16:05] [info] Playing soundtrack 'Audio\104.wav': success
-[2022-Aug-07 02:16:06] [warning] Non present effect: 109
-[2022-Aug-07 02:16:06] [error] Couldn't find string LDN1
-[2022-Aug-07 02:16:06] [warning] Non present effect: 111
-[2022-Aug-07 02:16:06] [error] Couldn't find string LDN1
-[2022-Aug-07 02:16:09] [info] Loading level file...
-[2022-Aug-07 02:16:09] [info] Loading level file: Data\cleopal.ten
-[2022-Aug-07 02:16:10] [info] Level compiler version: 1.5.1
-[2022-Aug-07 02:16:10] [info] Loading textures... 
-[2022-Aug-07 02:16:10] [info] Num room textures: 1
-[2022-Aug-07 02:16:10] [info] Num object textures: 1
-[2022-Aug-07 02:16:10] [info] Num static textures: 1
-[2022-Aug-07 02:16:10] [info] Num anim textures: 4
-[2022-Aug-07 02:16:10] [info] Num sprite textures: 149
-[2022-Aug-07 02:16:10] [info] Loading rooms... 
-[2022-Aug-07 02:16:10] [info] Num rooms: 116
-[2022-Aug-07 02:16:12] [info] Num meshes: 575
-[2022-Aug-07 02:16:12] [info] Num animations: 879
-[2022-Aug-07 02:16:12] [info] Num models: 134
-[2022-Aug-07 02:16:12] [info] Initializing objects...
-[2022-Aug-07 02:16:12] [info] Num statics: 31
-[2022-Aug-07 02:16:12] [info] Num sprites: 149
-[2022-Aug-07 02:16:12] [info] Num sprite sequences: 20
-[2022-Aug-07 02:16:12] [info] Num cameras: 2
-[2022-Aug-07 02:16:12] [info] Num sinks: 0
-[2022-Aug-07 02:16:12] [info] Num sound sources: 4
-[2022-Aug-07 02:16:12] [info] Num boxes: 365
-[2022-Aug-07 02:16:12] [info] Num overlaps: 2381
-[2022-Aug-07 02:16:12] [info] Num anim textures: 4
-[2022-Aug-07 02:16:12] [info] Num texinfos: 2669
-[2022-Aug-07 02:16:12] [info] Num items: 152
-[2022-Aug-07 02:16:12] [info] Num AI objects: 0
-[2022-Aug-07 02:16:12] [info] Parsing Lua function names... 
-[2022-Aug-07 02:16:12] [info] Loading samples... 
-[2022-Aug-07 02:16:12] [info] Sound map size: 4096
-[2022-Aug-07 02:16:12] [info] Initializing level...
-[2022-Aug-07 02:16:12] [info] Preparing renderer...
-[2022-Aug-07 02:16:12] [info] Level loading complete.
-[2022-Aug-07 02:16:13] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-07 02:16:13] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-07 02:16:13] [error] No soundtrack files with name '1080' were found
-[2022-Aug-07 02:16:26] [error] Couldn't find string specs
-[2022-Aug-07 02:16:27] [error] Couldn't find string beetleb
-[2022-Aug-07 02:16:27] [error] Couldn't find string horseG
-[2022-Aug-07 02:16:28] [error] Couldn't find string music
-[2022-Aug-07 02:16:32] [warning] Non present effect: 27
-[2022-Aug-07 02:16:47] [warning] Non present effect: 379
-[2022-Aug-07 02:16:47] [warning] Non present effect: 378
-[2022-Aug-07 02:16:56] [info] Playing soundtrack 'Audio\051.wav': success
-[2022-Aug-07 02:17:16] [warning] Non present effect: 37
-[2022-Aug-07 02:17:43] [error] Couldn't find string specs
-[2022-Aug-07 02:17:43] [error] Couldn't find string beetleb
-[2022-Aug-07 02:17:43] [error] Couldn't find string beetle
-[2022-Aug-07 02:17:43] [error] Couldn't find string horseG
-[2022-Aug-07 02:17:44] [error] Couldn't find string music
-[2022-Aug-07 02:17:46] [error] Couldn't find string horseG
-[2022-Aug-07 02:17:47] [error] Couldn't find string beetle
-[2022-Aug-07 02:17:48] [error] Couldn't find string beetleb
-[2022-Aug-07 02:17:49] [error] Couldn't find string specs
-[2022-Aug-07 02:18:09] [error] Couldn't find string music
-[2022-Aug-07 02:18:10] [error] Couldn't find string horseG
-[2022-Aug-07 02:18:10] [error] Couldn't find string beetle
-[2022-Aug-07 02:18:10] [error] Couldn't find string beetleb
-[2022-Aug-07 02:18:11] [error] Couldn't find string specs
-[2022-Aug-07 02:18:11] [error] Couldn't find string beetleb
-[2022-Aug-07 02:18:11] [error] Couldn't find string beetle
-[2022-Aug-07 02:18:49] [warning] Non present effect: 1092
-[2022-Aug-07 02:19:04] [error] Couldn't find string beetle
-[2022-Aug-07 02:19:05] [error] Couldn't find string beetleb
-[2022-Aug-07 02:19:06] [error] Couldn't find string specs
-[2022-Aug-07 02:19:07] [error] Couldn't find string beetleb
-[2022-Aug-07 02:19:07] [error] Couldn't find string beetle
-[2022-Aug-07 02:19:08] [error] Couldn't find string horseG
-[2022-Aug-07 02:19:08] [error] Couldn't find string music
-[2022-Aug-07 02:19:26] [warning] Non present effect: 62
-[2022-Aug-07 02:19:56] [info] DoTitle
-[2022-Aug-07 02:19:56] [info] Loading level file...
-[2022-Aug-07 02:19:56] [info] Loading level file: Data\title.ten
-[2022-Aug-07 02:19:56] [info] Level compiler version: 1.5.1
-[2022-Aug-07 02:19:56] [info] Loading textures... 
-[2022-Aug-07 02:19:56] [info] Num room textures: 1
-[2022-Aug-07 02:19:56] [info] Num object textures: 1
-[2022-Aug-07 02:19:56] [info] Num static textures: 1
-[2022-Aug-07 02:19:56] [info] Num anim textures: 2
-[2022-Aug-07 02:19:56] [info] Num sprite textures: 152
-[2022-Aug-07 02:19:56] [info] Loading rooms... 
-[2022-Aug-07 02:19:56] [info] Num rooms: 42
-[2022-Aug-07 02:19:57] [info] Num meshes: 244
-[2022-Aug-07 02:19:57] [info] Num animations: 615
-[2022-Aug-07 02:19:57] [info] Num models: 48
-[2022-Aug-07 02:19:57] [info] Initializing objects...
-[2022-Aug-07 02:19:57] [info] Num statics: 23
-[2022-Aug-07 02:19:57] [info] Num sprites: 152
-[2022-Aug-07 02:19:57] [info] Num sprite sequences: 20
-[2022-Aug-07 02:19:57] [info] Num cameras: 0
-[2022-Aug-07 02:19:57] [info] Num sinks: 0
-[2022-Aug-07 02:19:57] [info] Num sound sources: 0
-[2022-Aug-07 02:19:57] [info] Num boxes: 98
-[2022-Aug-07 02:19:57] [info] Num overlaps: 498
-[2022-Aug-07 02:19:57] [info] Num anim textures: 2
-[2022-Aug-07 02:19:57] [info] Num texinfos: 1882
-[2022-Aug-07 02:19:57] [info] Num items: 30
-[2022-Aug-07 02:19:57] [info] Num AI objects: 0
-[2022-Aug-07 02:19:57] [info] Parsing Lua function names... 
-[2022-Aug-07 02:19:57] [info] Loading samples... 
-[2022-Aug-07 02:19:57] [info] Sound map size: 4096
-[2022-Aug-07 02:19:57] [warning] No samples were found and loaded.
-[2022-Aug-07 02:19:57] [info] Initializing level...
-[2022-Aug-07 02:19:57] [info] Preparing renderer...
-[2022-Aug-07 02:19:57] [info] Level loading complete.
-[2022-Aug-07 02:19:58] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-07 02:19:58] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-07 02:19:58] [warning] Non present effect: 150
-[2022-Aug-07 02:19:58] [info] Playing soundtrack 'Audio\104.wav': success
-[2022-Aug-07 02:19:58] [warning] Non present effect: 109
-[2022-Aug-07 02:19:58] [error] Couldn't find string LDN1
-[2022-Aug-07 02:19:58] [warning] Non present effect: 111
-[2022-Aug-07 02:19:58] [error] Couldn't find string LDN1
+[2022-Aug-08 11:10:50] [info] Starting TombEngine version 1.0.0
+[2022-Aug-08 11:10:50] [error] levelFarView value must be in the range [1, 127].
+[2022-Aug-08 11:10:50] [warning] Setting levelFarView view to 32.
+[2022-Aug-08 11:10:50] [error] weatherStrength value must be in the range [0.1, 1.0].
+[2022-Aug-08 11:10:50] [warning] Setting weatherStrength view to 1.
+[2022-Aug-08 11:10:50] [info] Creating DX11 renderer device...
+[2022-Aug-08 11:10:50] [info] Initializing DX11...
+[2022-Aug-08 11:10:55] [info] Initializing BASS sound device: success
+[2022-Aug-08 11:10:55] [info] Initializing FX plugin: success
+[2022-Aug-08 11:10:55] [info] Starting 3D mixdown: success
+[2022-Aug-08 11:10:55] [info] Attaching environmental FX: success
+[2022-Aug-08 11:10:55] [info] Attaching compressor: success
+[2022-Aug-08 11:10:55] [info] Initializing input system...
+[2022-Aug-08 11:10:55] [info] OIS Version: 1.5.1
+[2022-Aug-08 11:10:55] [info] Starting GameMain...
+[2022-Aug-08 11:10:57] [info] DoTitle
+[2022-Aug-08 11:10:57] [info] Loading level file...
+[2022-Aug-08 11:10:57] [info] Loading level file: Data\title.ten
+[2022-Aug-08 11:10:58] [info] Level compiler version: 1.5.1
+[2022-Aug-08 11:10:58] [info] Loading textures... 
+[2022-Aug-08 11:10:58] [info] Num room textures: 1
+[2022-Aug-08 11:10:58] [info] Num object textures: 1
+[2022-Aug-08 11:10:58] [info] Num static textures: 1
+[2022-Aug-08 11:10:58] [info] Num anim textures: 2
+[2022-Aug-08 11:10:58] [info] Num sprite textures: 152
+[2022-Aug-08 11:10:58] [info] Loading rooms... 
+[2022-Aug-08 11:10:58] [info] Num rooms: 42
+[2022-Aug-08 11:10:58] [info] Num meshes: 244
+[2022-Aug-08 11:10:58] [info] Num animations: 615
+[2022-Aug-08 11:10:58] [info] Num models: 48
+[2022-Aug-08 11:10:58] [info] Initializing objects...
+[2022-Aug-08 11:10:58] [info] Num statics: 23
+[2022-Aug-08 11:10:58] [info] Num sprites: 152
+[2022-Aug-08 11:10:58] [info] Num sprite sequences: 20
+[2022-Aug-08 11:10:58] [info] Num cameras: 0
+[2022-Aug-08 11:10:58] [info] Num sinks: 0
+[2022-Aug-08 11:10:58] [info] Num sound sources: 0
+[2022-Aug-08 11:10:58] [info] Num boxes: 100
+[2022-Aug-08 11:10:58] [info] Num overlaps: 506
+[2022-Aug-08 11:10:58] [info] Num anim textures: 2
+[2022-Aug-08 11:10:58] [info] Num items: 31
+[2022-Aug-08 11:10:58] [info] Num AI objects: 0
+[2022-Aug-08 11:10:58] [info] Num level sets: 1
+[2022-Aug-08 11:10:58] [info] Loading samples... 
+[2022-Aug-08 11:10:58] [info] Sound map size: 4096
+[2022-Aug-08 11:10:58] [info] Initializing level...
+[2022-Aug-08 11:10:58] [info] Preparing renderer...
+[2022-Aug-08 11:10:59] [info] Level loading complete.
+[2022-Aug-08 11:10:59] [warning] Non present effect: 150
+[2022-Aug-08 11:10:59] [info] Playing soundtrack 'Audio\104.wav': success
+[2022-Aug-08 11:11:00] [info] Loading level file...
+[2022-Aug-08 11:11:00] [info] Loading level file: Data\dock.ten
+[2022-Aug-08 11:11:00] [info] Level compiler version: 1.5.1
+[2022-Aug-08 11:11:01] [info] Loading textures... 
+[2022-Aug-08 11:11:01] [info] Num room textures: 1
+[2022-Aug-08 11:11:01] [info] Num object textures: 1
+[2022-Aug-08 11:11:01] [info] Num static textures: 1
+[2022-Aug-08 11:11:01] [info] Num anim textures: 6
+[2022-Aug-08 11:11:01] [info] Num sprite textures: 152
+[2022-Aug-08 11:11:01] [info] Loading rooms... 
+[2022-Aug-08 11:11:01] [info] Num rooms: 137
+[2022-Aug-08 11:11:03] [info] Num meshes: 944
+[2022-Aug-08 11:11:03] [info] Num animations: 1430
+[2022-Aug-08 11:11:03] [info] Num models: 177
+[2022-Aug-08 11:11:03] [info] Initializing objects...
+[2022-Aug-08 11:11:03] [info] Num statics: 30
+[2022-Aug-08 11:11:03] [info] Num sprites: 152
+[2022-Aug-08 11:11:03] [info] Num sprite sequences: 20
+[2022-Aug-08 11:11:03] [info] Num cameras: 1
+[2022-Aug-08 11:11:03] [info] Num sinks: 0
+[2022-Aug-08 11:11:03] [info] Num sound sources: 21
+[2022-Aug-08 11:11:03] [info] Num boxes: 532
+[2022-Aug-08 11:11:03] [info] Num overlaps: 4091
+[2022-Aug-08 11:11:03] [info] Num anim textures: 6
+[2022-Aug-08 11:11:03] [info] Num items: 140
+[2022-Aug-08 11:11:03] [info] Num AI objects: 0
+[2022-Aug-08 11:11:03] [info] Num level sets: 0
+[2022-Aug-08 11:11:03] [info] Loading samples... 
+[2022-Aug-08 11:11:03] [info] Sound map size: 4096
+[2022-Aug-08 11:11:03] [info] Initializing level...
+[2022-Aug-08 11:11:03] [info] Preparing renderer...
+[2022-Aug-08 11:11:03] [info] Level loading complete.
+[2022-Aug-08 11:11:04] [error] Level's script does not define callback LevelFuncs.OnStart
+[2022-Aug-08 11:11:04] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
+[2022-Aug-08 11:11:04] [error] Level's script does not define callback LevelFuncs.OnLoad
+[2022-Aug-08 11:11:04] [warning] Defaulting to no LevelFuncs.OnLoad behaviour.
+[2022-Aug-08 11:11:04] [error] Level's script does not define callback LevelFuncs.OnSave
+[2022-Aug-08 11:11:04] [warning] Defaulting to no LevelFuncs.OnSave behaviour.
+[2022-Aug-08 11:11:04] [error] Level's script does not define callback LevelFuncs.OnEnd
+[2022-Aug-08 11:11:04] [warning] Defaulting to no LevelFuncs.OnEnd behaviour.
+[2022-Aug-08 11:11:04] [info] Playing soundtrack 'Audio\xa17_A_Industry.wav': success
+[2022-Aug-08 11:11:06] [info] Playing soundtrack 'Audio\008.wav': success
+[2022-Aug-08 11:11:27] [error] No track registered with index 62
+[2022-Aug-08 11:11:43] [error] No track registered with index 15
+[2022-Aug-08 11:12:04] [warning] Non present effect: 27
+[2022-Aug-08 11:12:13] [warning] No secret soundtrack index was found!
