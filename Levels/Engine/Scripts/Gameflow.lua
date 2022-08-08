@@ -699,24 +699,20 @@ Flow.AddLevel(city);
 			--RotationAxis.Y,
 			---1,
 			--ItemAction.EXAMINE
-		--),
-
-
-	
+		--),	
 --Flow.AddLevel(angkor);	
---[[---LDN1 Level Block
-	LDN1 = Level.new();
+---dock Level Block
+	dock = Level.new();
 
-	LDN1.nameKey = "LDN1";
-	LDN1.scriptFile = "Scripts\\LDN1.lua";
-	--LDN1.ambientTrack = "73_Old_Smokey";
-	LDN1.levelFile = "Data\\LDN1.ten";
-	LDN1.loadScreenFile = "Screens\\rome.jpg";
-	LDN1.horizon = true
-	LDN1.layer1 = Flow.SkyLayer.new(Color.new(0,0,0), 7)
-	LDN1.weather = 1
-	LDN1.weatherStrength = 2
-	LDN1.fog = Flow.Fog.new(Color.new(0,0,0), 1,10)
+	dock.nameKey = "dock";
+	dock.scriptFile = "Scripts\\dock.lua";
+	--dock.ambientTrack = "73_Old_Smokey";
+	dock.levelFile = "Data\\dock.ten";
+	dock.loadScreenFile = "Screens\\rome.jpg";
+	dock.horizon = true
+	dock.layer1 = Flow.SkyLayer.new(Color.new(0,0,0), 7)
+	dock.weather = 2
+	dock.weatherStrength = 2
+	dock.fog = Flow.Fog.new(Color.new(200,200,200), 10,30)
 	
-Flow.AddLevel(LDN1);	
---]]
+Flow.AddLevel(dock);	
