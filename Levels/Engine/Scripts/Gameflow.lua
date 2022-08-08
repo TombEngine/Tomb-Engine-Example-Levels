@@ -706,13 +706,13 @@ Flow.AddLevel(city);
 
 	dock.nameKey = "dock";
 	dock.scriptFile = "Scripts\\dock.lua";
-	--dock.ambientTrack = "73_Old_Smokey";
+	dock.ambientTrack = "xa17_A_Industry";
 	dock.levelFile = "Data\\dock.ten";
 	dock.loadScreenFile = "Screens\\rome.jpg";
 	dock.horizon = true
 	dock.layer1 = Flow.SkyLayer.new(Color.new(0,0,0), 7)
 	dock.weather = 2
 	dock.weatherStrength = 2
-	dock.fog = Flow.Fog.new(Color.new(200,200,200), 10,30)
+	dock.fog = Flow.Fog.new(Color.new(200,200,200), 20,30)
 	
 Flow.AddLevel(dock);	
