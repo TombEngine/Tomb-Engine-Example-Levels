@@ -710,9 +710,9 @@ Flow.AddLevel(city);
 	dock.levelFile = "Data\\dock.ten";
 	dock.loadScreenFile = "Screens\\rome.jpg";
 	dock.horizon = true
-	dock.layer1 = Flow.SkyLayer.new(Color.new(0,0,0), 7)
+	dock.layer1 = Flow.SkyLayer.new(Color(255,255,255),4)
 	dock.weather = 2
 	dock.weatherStrength = 2
-	dock.fog = Flow.Fog.new(Color.new(200,200,200), 20,30)
+	dock.fog = Flow.Fog.new(Color.new(200,200,200), 10,18)
 	
 Flow.AddLevel(dock);	

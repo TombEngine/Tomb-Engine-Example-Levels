@@ -207,33 +207,38 @@ LevelFuncs.Shiva = function()
     end--]]
 function InitClaw2local()
     
-    local Claw=GetMoveableByName("claw")
-        local ClawOn=Claw:GetStatus()
-        local ClawPos = Claw:GetPosition()
-    local ClawTop = GetMoveableByName("claw_top")
-        local ClawTopOn=ClawTop:GetStatus()
-        local ClawTopPos = ClawTop:GetPosition()
-    local ClawChain = GetMoveableByName("claw_chain")
-        local ClawChainOn=ClawChain:GetStatus()
-        local ClawChainPos = ClawChain:GetPosition()
-    local ClawFloorTarget = GetMoveableByName("ClawFloorTarget")
-        local ClawFloorTargetPos = ClawFloorTarget:GetPosition()
+     Claw=GetMoveableByName("claw")
+         ClawOn=Claw:GetStatus()
+         ClawPos = Claw:GetPosition()
+     ClawTop = GetMoveableByName("claw_top")
+         ClawTopOn=ClawTop:GetStatus()
+         ClawTopPos = ClawTop:GetPosition()
+     ClawChain = GetMoveableByName("claw_chain")
+         ClawChainOn=ClawChain:GetStatus()
+         ClawChainPos = ClawChain:GetPosition()
+     ClawFloorTarget = GetMoveableByName("ClawFloorTarget")
+         ClawFloorTargetPos = ClawFloorTarget:GetPosition()
+        
     --lighting
+        LightRandomness = math.random(1,4)
+    --Logic
         local clawoncolor = Color(255,0,0)
         if ClawOn == 1 
         then 
-        Effects.EmitLight(ClawPos,clawoncolor,1000)
+        Effects.EmitLight(ClawPos,clawoncolor,LightRandomness)
+        end
+    end
 end
-end
+
 LevelFuncs.InitClaw = function()
     InitClaw2local()
     end
 
-
-
-LevelFuncs.ClawMovement = function()
-    --InitClaw2local()
-end
+    LevelFuncs.ClawMovement = function()
+--local Clawarea = GetRoom(40)
+local ClawSpin = Claw:GetRotation()
+Claw:SetRotation((Clawspin) + (Vec3(0,10,0)))
+    end
 
 LevelFuncs.ClawStop = function()
 ---=================Shiva Boss End=====================
@@ -278,7 +283,6 @@ LevelFuncs.ClawStop = function()
                     Table1:SetPosition(Table1.y + 3072)
 
 
-end
 end
 end
 end
