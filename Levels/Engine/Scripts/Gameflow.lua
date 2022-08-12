@@ -14,7 +14,6 @@ local Fog = Flow.Fog
 -- Title level
 	Flow.SetIntroImagePath("Screens\\Main.png")
 	Flow.SetTitleScreenImagePath("Screens\\Title.png")
-	Flow.SetFarView(40)
 
 
 		title = Level.new();
