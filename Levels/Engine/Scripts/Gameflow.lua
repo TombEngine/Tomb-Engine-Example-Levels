@@ -712,6 +712,6 @@ Flow.AddLevel(city);
 	dock.layer1 = Flow.SkyLayer.new(Color(255,255,255),4)
 	dock.weather = 2
 	dock.weatherStrength = 2
-	dock.fog = Flow.Fog.new(Color.new(200,200,200), 10,18)
+	dock.fog = Flow.Fog.new(Color.new(200,200,200), 30,50)
 	
 Flow.AddLevel(dock);	
