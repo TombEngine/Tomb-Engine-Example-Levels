@@ -54,7 +54,7 @@ LevelFuncs.Cut1 = function()
     local laraCutinit = lara:SetAnim(laraCutAnim)
 end
 
-function InitClaw2local()
+--[[function InitClaw2local()
     
      Claw=GetMoveableByName("claw")
          ClawOn=Claw:GetStatus()
@@ -76,7 +76,7 @@ function InitClaw2local()
         then 
         Effects.EmitLight(ClawPos,clawoncolor,LightRandomness)
         end
-    end
+    end --]]
 
 LevelFuncs.Cut1Start = function()
 
@@ -98,6 +98,7 @@ LevelFuncs.Cut1Start = function()
     --CraneMan:Enable()
 end
 LevelFuncs.Cut1Cam =function()
+
     local lararoot = lara:GetJointPosition(0)
     local lararootroom = lara:GetRoom()
     --local CamTarget = GetMoveableByName("cam_target")
