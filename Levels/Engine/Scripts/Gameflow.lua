@@ -72,11 +72,11 @@ Flow.AddLevel(title);
 				"eye1", --Name in Strings.lua 
 				InvID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
 				50,
-				1,
+				0.5,
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				2,
-				ItemAction.USE
+				ItemAction.Combine
 			),
 			InventoryItem.new(
 				"eye2", --Name in Strings.lua 
@@ -86,7 +86,7 @@ Flow.AddLevel(title);
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				2,
-				ItemAction.USE
+				ItemAction.Combine
 			),
 			InventoryItem.new(
 				"eye", --Name in Strings.lua 
@@ -140,7 +140,7 @@ Flow.AddLevel(settomb);
 		karnak.levelFile = "Data\\karnak.ten";
 		karnak.loadScreenFile = "Screens\\rome.jpg";
 		karnak.horizon = true
-		karnak.farView = 2010
+		karnak.farView = 20
 		karnak.layer1 = Flow.SkyLayer.new(Color.new(128,96,64), 7)
 			karnak.objects = {	
 			InventoryItem.new(

@@ -1,55 +1,43 @@
-[2022-Aug-15 00:24:02] [info] Starting TombEngine version 1.0.1
-[2022-Aug-15 00:24:02] [error] weatherStrength value must be in the range [0.1, 1.0].
-[2022-Aug-15 00:24:02] [warning] Setting weatherStrength view to 1.
-[2022-Aug-15 00:24:02] [info] Creating DX11 renderer device...
-[2022-Aug-15 00:24:02] [info] Initializing DX11...
-[2022-Aug-15 00:24:07] [info] Initializing BASS sound device: success
-[2022-Aug-15 00:24:07] [info] Initializing FX plugin: success
-[2022-Aug-15 00:24:07] [info] Starting 3D mixdown: success
-[2022-Aug-15 00:24:07] [info] Attaching environmental FX: success
-[2022-Aug-15 00:24:07] [info] Attaching compressor: success
-[2022-Aug-15 00:24:07] [info] Initializing input system...
-[2022-Aug-15 00:24:07] [info] OIS Version: 1.5.1
-[2022-Aug-15 00:24:08] [info] Starting GameMain...
-[2022-Aug-15 00:24:09] [info] Loading level file...
-[2022-Aug-15 00:24:09] [info] Loading level file: Data\dock.ten
-[2022-Aug-15 00:24:10] [info] Level compiler version: 1.5.2
-[2022-Aug-15 00:24:10] [info] Loading textures... 
-[2022-Aug-15 00:24:10] [info] Num room textures: 1
-[2022-Aug-15 00:24:10] [info] Num object textures: 1
-[2022-Aug-15 00:24:10] [info] Num static textures: 1
-[2022-Aug-15 00:24:10] [info] Num anim textures: 7
-[2022-Aug-15 00:24:10] [info] Num sprite textures: 152
-[2022-Aug-15 00:24:10] [info] Loading rooms... 
-[2022-Aug-15 00:24:10] [info] Num rooms: 162
-[2022-Aug-15 00:24:13] [info] Num meshes: 976
-[2022-Aug-15 00:24:13] [info] Num animations: 1437
-[2022-Aug-15 00:24:13] [info] Num models: 180
-[2022-Aug-15 00:24:13] [info] Initializing objects...
-[2022-Aug-15 00:24:13] [info] Num statics: 30
-[2022-Aug-15 00:24:13] [info] Num sprites: 152
-[2022-Aug-15 00:24:13] [info] Num sprite sequences: 20
-[2022-Aug-15 00:24:13] [info] Num cameras: 2
-[2022-Aug-15 00:24:13] [info] Num sinks: 0
-[2022-Aug-15 00:24:13] [info] Num sound sources: 20
-[2022-Aug-15 00:24:13] [info] Num boxes: 627
-[2022-Aug-15 00:24:13] [info] Num overlaps: 4374
-[2022-Aug-15 00:24:13] [info] Num anim textures: 7
-[2022-Aug-15 00:24:13] [info] Num items: 145
-[2022-Aug-15 00:24:13] [info] Num AI objects: 0
-[2022-Aug-15 00:24:13] [info] Num level sets: 2
-[2022-Aug-15 00:24:13] [info] Loading samples... 
-[2022-Aug-15 00:24:13] [info] Sound map size: 4096
-[2022-Aug-15 00:24:13] [info] Initializing level...
-[2022-Aug-15 00:24:13] [info] Preparing renderer...
-[2022-Aug-15 00:24:13] [info] Level loading complete.
-[2022-Aug-15 00:24:14] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-15 00:24:14] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-15 00:24:14] [error] Level's script does not define callback LevelFuncs.OnLoad
-[2022-Aug-15 00:24:14] [warning] Defaulting to no LevelFuncs.OnLoad behaviour.
-[2022-Aug-15 00:24:14] [error] Level's script does not define callback LevelFuncs.OnSave
-[2022-Aug-15 00:24:14] [warning] Defaulting to no LevelFuncs.OnSave behaviour.
-[2022-Aug-15 00:24:14] [error] Level's script does not define callback LevelFuncs.OnEnd
-[2022-Aug-15 00:24:14] [warning] Defaulting to no LevelFuncs.OnEnd behaviour.
-[2022-Aug-15 00:24:14] [info] Playing soundtrack 'Audio\xa17_A_Industry.wav': success
-[2022-Aug-15 00:24:15] [info] Playing soundtrack 'Audio\xa14_joby1.wav': success
+[2022-Aug-20 16:57:22] [info] Starting TombEngine version 1.0.1
+[2022-Aug-20 16:57:22] [info] Creating DX11 renderer device...
+[2022-Aug-20 16:57:22] [info] Initializing DX11...
+[2022-Aug-20 16:57:28] [info] Initializing BASS sound device: success
+[2022-Aug-20 16:57:28] [info] Initializing FX plugin: success
+[2022-Aug-20 16:57:28] [info] Starting 3D mixdown: success
+[2022-Aug-20 16:57:28] [info] Attaching environmental FX: success
+[2022-Aug-20 16:57:28] [info] Attaching compressor: success
+[2022-Aug-20 16:57:28] [info] Initializing input system...
+[2022-Aug-20 16:57:28] [info] Starting GameMain...
+[2022-Aug-20 16:57:30] [info] Loading level file...
+[2022-Aug-20 16:57:30] [info] Loading level file: Data\settomb.ten
+[2022-Aug-20 16:57:30] [info] Level compiler version: 1.5.2
+[2022-Aug-20 16:57:30] [info] Loading textures... 
+[2022-Aug-20 16:57:30] [info] Num room textures: 1
+[2022-Aug-20 16:57:30] [info] Num object textures: 1
+[2022-Aug-20 16:57:30] [info] Num static textures: 1
+[2022-Aug-20 16:57:30] [info] Num anim textures: 2
+[2022-Aug-20 16:57:30] [info] Num sprite textures: 152
+[2022-Aug-20 16:57:30] [info] Loading rooms... 
+[2022-Aug-20 16:57:30] [info] Num rooms: 169
+[2022-Aug-20 16:57:33] [info] Num meshes: 904
+[2022-Aug-20 16:57:33] [info] Num animations: 1425
+[2022-Aug-20 16:57:33] [info] Num models: 172
+[2022-Aug-20 16:57:33] [info] Initializing objects...
+[2022-Aug-20 16:57:33] [info] Num statics: 18
+[2022-Aug-20 16:57:33] [info] Num sprites: 152
+[2022-Aug-20 16:57:33] [info] Num sprite sequences: 20
+[2022-Aug-20 16:57:33] [info] Num cameras: 6
+[2022-Aug-20 16:57:33] [info] Num sinks: 0
+[2022-Aug-20 16:57:33] [info] Num sound sources: 0
+[2022-Aug-20 16:57:33] [info] Num boxes: 646
+[2022-Aug-20 16:57:33] [info] Num overlaps: 2490
+[2022-Aug-20 16:57:33] [info] Num anim textures: 2
+[2022-Aug-20 16:57:33] [info] Num items: 151
+[2022-Aug-20 16:57:33] [info] Num AI objects: 17
+[2022-Aug-20 16:57:33] [info] Num level sets: 1
+[2022-Aug-20 16:57:33] [info] Loading samples... 
+[2022-Aug-20 16:57:33] [info] Sound map size: 4096
+[2022-Aug-20 16:57:33] [info] Initializing level...
+[2022-Aug-20 16:57:33] [info] Preparing renderer...
+[2022-Aug-20 16:57:33] [info] Level loading complete.
+[2022-Aug-20 16:57:34] [info] Playing soundtrack 'Audio\107.wav': success
