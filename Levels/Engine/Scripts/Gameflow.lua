@@ -140,7 +140,7 @@ Flow.AddLevel(settomb);
 		karnak.levelFile = "Data\\karnak.ten";
 		karnak.loadScreenFile = "Screens\\rome.jpg";
 		karnak.horizon = true
-		karnak.farView = 2010
+		karnak.farView = 20
 		karnak.layer1 = Flow.SkyLayer.new(Color.new(128,96,64), 7)
 			karnak.objects = {	
 			InventoryItem.new(

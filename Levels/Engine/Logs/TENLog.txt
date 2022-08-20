@@ -1,192 +1,43 @@
-[2022-Aug-19 00:56:27] [info] Starting TombEngine version 1.0.1
-[2022-Aug-19 00:56:27] [info] Creating DX11 renderer device...
-[2022-Aug-19 00:56:27] [info] Initializing DX11...
-[2022-Aug-19 00:56:32] [info] Initializing BASS sound device: success
-[2022-Aug-19 00:56:32] [info] Initializing FX plugin: success
-[2022-Aug-19 00:56:32] [info] Starting 3D mixdown: success
-[2022-Aug-19 00:56:32] [info] Attaching environmental FX: success
-[2022-Aug-19 00:56:32] [info] Attaching compressor: success
-[2022-Aug-19 00:56:32] [info] Initializing input system...
-[2022-Aug-19 00:56:33] [info] Starting GameMain...
-[2022-Aug-19 00:56:34] [info] DoTitle
-[2022-Aug-19 00:56:34] [info] Loading level file...
-[2022-Aug-19 00:56:34] [info] Loading level file: Data\title.ten
-[2022-Aug-19 00:56:35] [info] Level compiler version: 1.5.2
-[2022-Aug-19 00:56:35] [info] Loading textures... 
-[2022-Aug-19 00:56:35] [info] Num room textures: 1
-[2022-Aug-19 00:56:35] [info] Num object textures: 1
-[2022-Aug-19 00:56:35] [info] Num static textures: 1
-[2022-Aug-19 00:56:35] [info] Num anim textures: 2
-[2022-Aug-19 00:56:35] [info] Num sprite textures: 152
-[2022-Aug-19 00:56:35] [info] Loading rooms... 
-[2022-Aug-19 00:56:35] [info] Num rooms: 42
-[2022-Aug-19 00:56:36] [info] Num meshes: 244
-[2022-Aug-19 00:56:36] [info] Num animations: 615
-[2022-Aug-19 00:56:36] [info] Num models: 48
-[2022-Aug-19 00:56:36] [info] Initializing objects...
-[2022-Aug-19 00:56:36] [info] Num statics: 23
-[2022-Aug-19 00:56:36] [info] Num sprites: 152
-[2022-Aug-19 00:56:36] [info] Num sprite sequences: 20
-[2022-Aug-19 00:56:36] [info] Num cameras: 0
-[2022-Aug-19 00:56:36] [info] Num sinks: 0
-[2022-Aug-19 00:56:36] [info] Num sound sources: 0
-[2022-Aug-19 00:56:36] [info] Num boxes: 100
-[2022-Aug-19 00:56:36] [info] Num overlaps: 506
-[2022-Aug-19 00:56:36] [info] Num anim textures: 2
-[2022-Aug-19 00:56:36] [info] Num items: 31
-[2022-Aug-19 00:56:36] [info] Num AI objects: 0
-[2022-Aug-19 00:56:36] [info] Num level sets: 1
-[2022-Aug-19 00:56:36] [info] Loading samples... 
-[2022-Aug-19 00:56:36] [info] Sound map size: 4096
-[2022-Aug-19 00:56:36] [info] Initializing level...
-[2022-Aug-19 00:56:36] [info] Preparing renderer...
-[2022-Aug-19 00:56:36] [info] Level loading complete.
-[2022-Aug-19 00:56:36] [warning] Non present effect: 150
-[2022-Aug-19 00:56:36] [info] Playing soundtrack 'Audio\104.wav': success
-[2022-Aug-19 00:56:50] [info] Loading level file...
-[2022-Aug-19 00:56:50] [info] Loading level file: Data\settomb.ten
-[2022-Aug-19 00:56:50] [info] Level compiler version: 1.5.2
-[2022-Aug-19 00:56:50] [info] Loading textures... 
-[2022-Aug-19 00:56:50] [info] Num room textures: 1
-[2022-Aug-19 00:56:50] [info] Num object textures: 1
-[2022-Aug-19 00:56:50] [info] Num static textures: 1
-[2022-Aug-19 00:56:50] [info] Num anim textures: 2
-[2022-Aug-19 00:56:50] [info] Num sprite textures: 152
-[2022-Aug-19 00:56:50] [info] Loading rooms... 
-[2022-Aug-19 00:56:50] [info] Num rooms: 169
-[2022-Aug-19 00:56:53] [info] Num meshes: 904
-[2022-Aug-19 00:56:53] [info] Num animations: 1425
-[2022-Aug-19 00:56:53] [info] Num models: 172
-[2022-Aug-19 00:56:53] [info] Initializing objects...
-[2022-Aug-19 00:56:53] [info] Num statics: 18
-[2022-Aug-19 00:56:53] [info] Num sprites: 152
-[2022-Aug-19 00:56:53] [info] Num sprite sequences: 20
-[2022-Aug-19 00:56:53] [info] Num cameras: 6
-[2022-Aug-19 00:56:53] [info] Num sinks: 0
-[2022-Aug-19 00:56:53] [info] Num sound sources: 0
-[2022-Aug-19 00:56:53] [info] Num boxes: 652
-[2022-Aug-19 00:56:53] [info] Num overlaps: 2510
-[2022-Aug-19 00:56:53] [info] Num anim textures: 2
-[2022-Aug-19 00:56:53] [info] Num items: 151
-[2022-Aug-19 00:56:53] [info] Num AI objects: 16
-[2022-Aug-19 00:56:53] [info] Num level sets: 0
-[2022-Aug-19 00:56:53] [info] Loading samples... 
-[2022-Aug-19 00:56:53] [info] Sound map size: 4096
-[2022-Aug-19 00:56:53] [info] Initializing level...
-[2022-Aug-19 00:56:53] [info] Preparing renderer...
-[2022-Aug-19 00:56:53] [info] Level loading complete.
-[2022-Aug-19 00:56:54] [info] Playing soundtrack 'Audio\107.wav': success
-[2022-Aug-19 00:56:54] [info] Playing soundtrack 'Audio\086.wav': success
-[2022-Aug-19 00:58:43] [info] Playing soundtrack 'Audio\065.wav': success
-[2022-Aug-19 00:59:05] [warning] Non present effect: 27
-[2022-Aug-19 00:59:26] [warning] No secret soundtrack index was found!
-[2022-Aug-19 00:59:45] [info] DoTitle
-[2022-Aug-19 00:59:45] [info] Loading level file...
-[2022-Aug-19 00:59:45] [info] Loading level file: Data\title.ten
-[2022-Aug-19 00:59:45] [info] Level compiler version: 1.5.2
-[2022-Aug-19 00:59:45] [info] Loading textures... 
-[2022-Aug-19 00:59:45] [info] Num room textures: 1
-[2022-Aug-19 00:59:45] [info] Num object textures: 1
-[2022-Aug-19 00:59:45] [info] Num static textures: 1
-[2022-Aug-19 00:59:45] [info] Num anim textures: 2
-[2022-Aug-19 00:59:45] [info] Num sprite textures: 152
-[2022-Aug-19 00:59:45] [info] Loading rooms... 
-[2022-Aug-19 00:59:45] [info] Num rooms: 42
-[2022-Aug-19 00:59:46] [info] Num meshes: 244
-[2022-Aug-19 00:59:46] [info] Num animations: 615
-[2022-Aug-19 00:59:46] [info] Num models: 48
-[2022-Aug-19 00:59:46] [info] Initializing objects...
-[2022-Aug-19 00:59:46] [info] Num statics: 23
-[2022-Aug-19 00:59:46] [info] Num sprites: 152
-[2022-Aug-19 00:59:46] [info] Num sprite sequences: 20
-[2022-Aug-19 00:59:46] [info] Num cameras: 0
-[2022-Aug-19 00:59:46] [info] Num sinks: 0
-[2022-Aug-19 00:59:46] [info] Num sound sources: 0
-[2022-Aug-19 00:59:46] [info] Num boxes: 100
-[2022-Aug-19 00:59:46] [info] Num overlaps: 506
-[2022-Aug-19 00:59:46] [info] Num anim textures: 2
-[2022-Aug-19 00:59:46] [info] Num items: 31
-[2022-Aug-19 00:59:46] [info] Num AI objects: 0
-[2022-Aug-19 00:59:46] [info] Num level sets: 1
-[2022-Aug-19 00:59:46] [info] Loading samples... 
-[2022-Aug-19 00:59:46] [info] Sound map size: 4096
-[2022-Aug-19 00:59:46] [info] Initializing level...
-[2022-Aug-19 00:59:46] [info] Preparing renderer...
-[2022-Aug-19 00:59:46] [info] Level loading complete.
-[2022-Aug-19 00:59:47] [warning] Non present effect: 150
-[2022-Aug-19 00:59:47] [info] Playing soundtrack 'Audio\104.wav': success
-[2022-Aug-19 00:59:48] [info] Loading level file...
-[2022-Aug-19 00:59:48] [info] Loading level file: Data\karnak.ten
-[2022-Aug-19 00:59:49] [info] Level compiler version: 1.5.2
-[2022-Aug-19 00:59:49] [info] Loading textures... 
-[2022-Aug-19 00:59:49] [info] Num room textures: 1
-[2022-Aug-19 00:59:49] [info] Num object textures: 1
-[2022-Aug-19 00:59:49] [info] Num static textures: 1
-[2022-Aug-19 00:59:49] [info] Num anim textures: 2
-[2022-Aug-19 00:59:49] [info] Num sprite textures: 152
-[2022-Aug-19 00:59:49] [info] Loading rooms... 
-[2022-Aug-19 00:59:49] [info] Num rooms: 127
-[2022-Aug-19 00:59:51] [info] Num meshes: 833
-[2022-Aug-19 00:59:51] [info] Num animations: 1407
-[2022-Aug-19 00:59:51] [info] Num models: 163
-[2022-Aug-19 00:59:51] [info] Initializing objects...
-[2022-Aug-19 00:59:51] [info] Num statics: 22
-[2022-Aug-19 00:59:51] [info] Num sprites: 152
-[2022-Aug-19 00:59:51] [info] Num sprite sequences: 20
-[2022-Aug-19 00:59:51] [info] Num cameras: 5
-[2022-Aug-19 00:59:51] [info] Num sinks: 8
-[2022-Aug-19 00:59:51] [info] Num sound sources: 23
-[2022-Aug-19 00:59:51] [info] Num boxes: 775
-[2022-Aug-19 00:59:51] [info] Num overlaps: 5455
-[2022-Aug-19 00:59:51] [info] Num anim textures: 2
-[2022-Aug-19 00:59:51] [info] Num items: 100
-[2022-Aug-19 00:59:51] [info] Num AI objects: 0
-[2022-Aug-19 00:59:51] [info] Num level sets: 0
-[2022-Aug-19 00:59:51] [info] Loading samples... 
-[2022-Aug-19 00:59:51] [info] Sound map size: 4096
-[2022-Aug-19 00:59:51] [info] Initializing level...
-[2022-Aug-19 00:59:51] [info] Preparing renderer...
-[2022-Aug-19 00:59:51] [info] Level loading complete.
-[2022-Aug-19 00:59:52] [error] Level's script does not define callback LevelFuncs.OnStart
-[2022-Aug-19 00:59:52] [warning] Defaulting to no LevelFuncs.OnStart behaviour.
-[2022-Aug-19 00:59:52] [info] Playing soundtrack 'Audio\110.wav': success
-[2022-Aug-19 01:00:06] [warning] Non present effect: 27
-[2022-Aug-19 01:00:44] [info] Playing soundtrack 'Audio\000.wav': success
-[2022-Aug-19 01:00:53] [warning] Non present effect: 944
-[2022-Aug-19 01:01:10] [info] Playing soundtrack 'Audio\107.wav': success
-[2022-Aug-19 01:02:14] [info] Playing soundtrack 'Audio\110.wav': success
-[2022-Aug-19 01:03:36] [info] DoTitle
-[2022-Aug-19 01:03:36] [info] Loading level file...
-[2022-Aug-19 01:03:36] [info] Loading level file: Data\title.ten
-[2022-Aug-19 01:03:37] [info] Level compiler version: 1.5.2
-[2022-Aug-19 01:03:37] [info] Loading textures... 
-[2022-Aug-19 01:03:37] [info] Num room textures: 1
-[2022-Aug-19 01:03:37] [info] Num object textures: 1
-[2022-Aug-19 01:03:37] [info] Num static textures: 1
-[2022-Aug-19 01:03:37] [info] Num anim textures: 2
-[2022-Aug-19 01:03:37] [info] Num sprite textures: 152
-[2022-Aug-19 01:03:37] [info] Loading rooms... 
-[2022-Aug-19 01:03:37] [info] Num rooms: 42
-[2022-Aug-19 01:03:38] [info] Num meshes: 244
-[2022-Aug-19 01:03:38] [info] Num animations: 615
-[2022-Aug-19 01:03:38] [info] Num models: 48
-[2022-Aug-19 01:03:38] [info] Initializing objects...
-[2022-Aug-19 01:03:38] [info] Num statics: 23
-[2022-Aug-19 01:03:38] [info] Num sprites: 152
-[2022-Aug-19 01:03:38] [info] Num sprite sequences: 20
-[2022-Aug-19 01:03:38] [info] Num cameras: 0
-[2022-Aug-19 01:03:38] [info] Num sinks: 0
-[2022-Aug-19 01:03:38] [info] Num sound sources: 0
-[2022-Aug-19 01:03:38] [info] Num boxes: 100
-[2022-Aug-19 01:03:38] [info] Num overlaps: 506
-[2022-Aug-19 01:03:38] [info] Num anim textures: 2
-[2022-Aug-19 01:03:38] [info] Num items: 31
-[2022-Aug-19 01:03:38] [info] Num AI objects: 0
-[2022-Aug-19 01:03:38] [info] Num level sets: 1
-[2022-Aug-19 01:03:38] [info] Loading samples... 
-[2022-Aug-19 01:03:38] [info] Sound map size: 4096
-[2022-Aug-19 01:03:38] [info] Initializing level...
-[2022-Aug-19 01:03:38] [info] Preparing renderer...
-[2022-Aug-19 01:03:38] [info] Level loading complete.
-[2022-Aug-19 01:03:38] [warning] Non present effect: 150
-[2022-Aug-19 01:03:38] [info] Playing soundtrack 'Audio\104.wav': success
+[2022-Aug-20 16:57:22] [info] Starting TombEngine version 1.0.1
+[2022-Aug-20 16:57:22] [info] Creating DX11 renderer device...
+[2022-Aug-20 16:57:22] [info] Initializing DX11...
+[2022-Aug-20 16:57:28] [info] Initializing BASS sound device: success
+[2022-Aug-20 16:57:28] [info] Initializing FX plugin: success
+[2022-Aug-20 16:57:28] [info] Starting 3D mixdown: success
+[2022-Aug-20 16:57:28] [info] Attaching environmental FX: success
+[2022-Aug-20 16:57:28] [info] Attaching compressor: success
+[2022-Aug-20 16:57:28] [info] Initializing input system...
+[2022-Aug-20 16:57:28] [info] Starting GameMain...
+[2022-Aug-20 16:57:30] [info] Loading level file...
+[2022-Aug-20 16:57:30] [info] Loading level file: Data\settomb.ten
+[2022-Aug-20 16:57:30] [info] Level compiler version: 1.5.2
+[2022-Aug-20 16:57:30] [info] Loading textures... 
+[2022-Aug-20 16:57:30] [info] Num room textures: 1
+[2022-Aug-20 16:57:30] [info] Num object textures: 1
+[2022-Aug-20 16:57:30] [info] Num static textures: 1
+[2022-Aug-20 16:57:30] [info] Num anim textures: 2
+[2022-Aug-20 16:57:30] [info] Num sprite textures: 152
+[2022-Aug-20 16:57:30] [info] Loading rooms... 
+[2022-Aug-20 16:57:30] [info] Num rooms: 169
+[2022-Aug-20 16:57:33] [info] Num meshes: 904
+[2022-Aug-20 16:57:33] [info] Num animations: 1425
+[2022-Aug-20 16:57:33] [info] Num models: 172
+[2022-Aug-20 16:57:33] [info] Initializing objects...
+[2022-Aug-20 16:57:33] [info] Num statics: 18
+[2022-Aug-20 16:57:33] [info] Num sprites: 152
+[2022-Aug-20 16:57:33] [info] Num sprite sequences: 20
+[2022-Aug-20 16:57:33] [info] Num cameras: 6
+[2022-Aug-20 16:57:33] [info] Num sinks: 0
+[2022-Aug-20 16:57:33] [info] Num sound sources: 0
+[2022-Aug-20 16:57:33] [info] Num boxes: 646
+[2022-Aug-20 16:57:33] [info] Num overlaps: 2490
+[2022-Aug-20 16:57:33] [info] Num anim textures: 2
+[2022-Aug-20 16:57:33] [info] Num items: 151
+[2022-Aug-20 16:57:33] [info] Num AI objects: 17
+[2022-Aug-20 16:57:33] [info] Num level sets: 1
+[2022-Aug-20 16:57:33] [info] Loading samples... 
+[2022-Aug-20 16:57:33] [info] Sound map size: 4096
+[2022-Aug-20 16:57:33] [info] Initializing level...
+[2022-Aug-20 16:57:33] [info] Preparing renderer...
+[2022-Aug-20 16:57:33] [info] Level loading complete.
+[2022-Aug-20 16:57:34] [info] Playing soundtrack 'Audio\107.wav': success

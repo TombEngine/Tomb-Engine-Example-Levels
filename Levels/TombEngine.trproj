@@ -42,10 +42,5 @@
 			<FolderPath>$(ProjectDirectory)\Levels\city</FolderPath>
 			<SpecificFile>city_TombEngine.prj2</SpecificFile>
 		</ProjectLevel>
-		<ProjectLevel>
-			<Name>The Base</Name>
-			<FolderPath>$(ProjectDirectory)\Levels\dock</FolderPath>
-			<SpecificFile>$(LatestFile)</SpecificFile>
-		</ProjectLevel>
 	</Levels>
 </Project>
