@@ -33,7 +33,6 @@ LevelFuncs.OnControlPhase= function(dt)
             CutsceneStart = GetMoveableByName("Cut1StartPos")
             Cut1StartPos = CutsceneStart:GetPosition()
             Cut1StartRot = CutsceneStart:GetRotation()
-            print(Cut1StartPos)
         --Camera
                 --shot1init
                     shot1target=GetMoveableByName("Cut1StartPos")
@@ -59,7 +58,8 @@ LevelFuncs.ClawCutStart = function()
             player:SetPosition(Cut1StartPos)
             player:SetRotation(Cut1StartRot)
             shot1target:Enable()
-        --CraneWorkerAnim
+    --CraneWorkerAnim
         CraneWorker:SetAnim(1)
+        CraneWorker:SetRotation(Cut1StartRot)
         end
 end
