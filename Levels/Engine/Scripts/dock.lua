@@ -39,89 +39,122 @@ LevelFuncs.OnControlPhase= function(dt)
         playerRoot,
         playerRoom
         = MyLaraInfo.LaraInfo()
+
     --Cutscene 1
-        --[[CraneWorker
-            CraneWorker = GetMoveableByName("CraneWorker")
-            CutsceneStart = GetMoveableByName("Cut1StartPos")
-            Cut1StartPos = CutsceneStart:GetPosition()
-            Cut1StartRot = CutsceneStart:GetRotation()
-        --Camera
-                --shot1init
-                    shot1target=GetMoveableByName("Cut1StartPos")
-                    shot1targetCheck = shot1target:GetStatus()
-                    shot1targetPos = player:GetJointPosition(0)
-            -- Shot 1
-            if shot1targetCheck == 1 
-                then
-                    shot1target:SetPosition(shot1targetPos)             
-            end
--- Lara Attacking Crane Worker
 
-LevelFuncs.Cut1_Start = function()
-    PlayAudioTrack("xa14_joby1", false)
-    --debug
-        print(playerPos,playerRot,playerCurrentAnim )
-        print(CraneWorkerOCB)
-    --CutStart
-        --LaraAnim
-            CutsceneStart:Enable()
-            player:SetAnim(565)
-            player:SetRoom(105)
-            player:SetPosition(Cut1StartPos)
-            player:SetRotation(Cut1StartRot)
-            shot1target:Enable()
-    --CraneWorkerAnim
+
+
+
+
+
+
+
+
+LevelFuncs.Cut1Init = function()
+        --CraneWorker
+        CraneWorker = GetMoveableByName("CraneWorker")
+        CraneWorkerAnim = CraneWorker:GetAnim()
         CraneWorker:SetAnim(1)
-        CraneWorker:SetRotation(Cut1StartRot)
-        end
 end
-]]
 
+LevelFuncs.Cut1Anims =function()
+local CraneWorkerAnimFrame = CraneWorker:GetFrame()
+print (CraneWorkerAnimFrame)
+--Lara Animation Switch Depending On CraneWorker Anim Frame...
+if CraneWorkerAnimFrame == 1
+    then
+    cut1_1()
+        elseif CraneWorkerAnimFrame == 120 
+            then
+                cut1_2()                        
+if CraneWorkerAnimFrame == 450 
+    then
+        cut1_3()                        
+            end
+    end
+end
 
-
-LevelFuncs.Cut1_1 = function() 
+    function cut1_1()
     local Cut1_StartPos = GetMoveableByName("Cut1_1pos")
     local Cut1_StartPos2 = Cut1_StartPos:GetPosition()
     local Cut1_StartRoom = Cut1_StartPos:GetRoom()
     local Cut1_StartRot = Cut1_StartPos:GetRotation()
-        Cut1_StartPos:Enable()
-
         player:SetPosition(Cut1_StartPos2)
         player:SetAnim(LaraAnim.Cut1_1)
         player:SetRoom(Cut1_StartRoom)
         player:SetRotation(Cut1_StartRot)
-end
-LevelFuncs.Cut1_2 = function()
+    end
+
+function cut1_2()
     local Cut1_2pos = GetMoveableByName("Cut1_2pos")
     local Cut1_2pos2 = Cut1_2pos:GetPosition()
     local Cut1_2Room = Cut1_2pos:GetRoom()
     local Cut1_2Rot = Cut1_2pos:GetRotation()
-    Cut1_2pos:Enable()
-   
-           player:SetPosition(Cut1_2pos2)
-           player:SetAnim(LaraAnim.Cut1_2)
-           player:SetRoom(Cut1_2Room)
-           player:SetRotation(Cut1_2Rot) 
+        Cut1_2pos:Enable()   
+            player:SetPosition(Cut1_2pos2)
+            player:SetAnim(LaraAnim.Cut1_2)
+            player:SetRoom(Cut1_2Room)
+            player:SetRotation(Cut1_2Rot)
+end
 
-    end
-end
-LevelFuncs.Cut1_3 = function()
+function cut1_3()
     local Cut1_3pos = GetMoveableByName("Cut1_3pos")
-    Cut1_3pos:Enable() 
+    local Cut1_3pos2 = Cut1_3pos:GetPosition()
+    local Cut1_3Room = Cut1_3pos:GetRoom()
+    local Cut1_3Rot = Cut1_3pos:GetRotation()
+        Cut1_3pos:Enable()   
+            player:SetPosition(Cut1_3pos2)
+            player:SetAnim(LaraAnim.Cut1_3)
+            player:SetRoom(Cut1_3Room)
+            player:SetRotation(Cut1_3Rot)
 end
-LevelFuncs.Cut1_4 = function()
+
+function cut1_4()
     local Cut1_4pos = GetMoveableByName("Cut1_4pos")
-    Cut1_4pos:Enable() 
+    local Cut1_4pos2 = Cut1_4pos:GetPosition()
+    local Cut1_4Room = Cut1_4pos:GetRoom()
+    local Cut1_4Rot = Cut1_4pos:GetRotation()
+        Cut1_4pos:Enable()
+            player:SetPosition(Cut1_4pos2)
+            player:SetAnim(LaraAnim.Cut1_4)
+            player:SetRoom(Cut1_4Room)
+            player:SetRotation(Cut1_4Rot)
 end
-LevelFuncs.Cut1_5 = function()
+
+function cut1_5()
     local Cut1_5pos = GetMoveableByName("Cut1_5pos")
-    Cut1_5pos:Enable() 
+    local Cut1_5pos2 = Cut1_5pos:GetPosition()
+    local Cut1_5Room = Cut1_5pos:GetRoom()
+    local Cut1_5Rot = Cut1_5pos:GetRotation()
+        Cut1_5pos:Enable()   
+            player:SetPosition(Cut1_5pos2)
+            player:SetAnim(LaraAnim.Cut1_5)
+            player:SetRoom(Cut1_5Room)
+            player:SetRotation(Cut1_5Rot)
 end
-LevelFuncs.Cut1_6 = function()
+
+function cut1_6()
     local Cut1_6pos = GetMoveableByName("Cut1_6pos")
-    Cut1_6pos:Enable() 
+    local Cut1_6pos2 = Cut1_6pos:GetPosition()
+    local Cut1_6Room = Cut1_6pos:GetRoom()
+    local Cut1_6Rot = Cut1_6pos:GetRotation()
+        Cut1_6pos:Enable()   
+            player:SetPosition(Cut1_6pos2)
+            player:SetAnim(LaraAnim.Cut1_6)
+            player:SetRoom(Cut1_6Room)
+            player:SetRotation(Cut1_6Rot)
 end
-LevelFuncs.Cut1_7 = function()
+
+function cut1_7()
     local Cut1_7pos = GetMoveableByName("Cut1_7pos")
-    Cut1_7pos:Enable()
+    local Cut1_7pos2 = Cut1_7pos:GetPosition()
+    local Cut1_7Room = Cut1_7pos:GetRoom()
+    local Cut1_7Rot = Cut1_7pos:GetRotation()
+        Cut1_7pos:Enable()   
+            player:SetPosition(Cut1_7pos2)
+            player:SetAnim(LaraAnim.Cut1_7)
+            player:SetRoom(Cut1_7Room)
+            player:SetRotation(Cut1_7Rot)
+end
+
 end
