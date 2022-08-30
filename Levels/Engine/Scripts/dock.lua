@@ -40,40 +40,6 @@ LevelFuncs.OnControlPhase= function(dt)
         playerRoom
         = MyLaraInfo.LaraInfo()
 
-    --Cutscene 1
-
-
-
-
-
-
-
-
-
-LevelFuncs.Cut1Init = function()
-        --CraneWorker
-        CraneWorker = GetMoveableByName("CraneWorker")
-        CraneWorkerAnim = CraneWorker:GetAnim()
-        CraneWorker:SetAnim(1)
-end
-
-LevelFuncs.Cut1Anims =function()
-local CraneWorkerAnimFrame = CraneWorker:GetFrame()
-print (CraneWorkerAnimFrame)
---Lara Animation Switch Depending On CraneWorker Anim Frame...
-if CraneWorkerAnimFrame == 1
-    then
-    cut1_1()
-        elseif CraneWorkerAnimFrame == 120 
-            then
-                cut1_2()                        
-if CraneWorkerAnimFrame == 450 
-    then
-        cut1_3()                        
-            end
-    end
-end
-
     function cut1_1()
     local Cut1_StartPos = GetMoveableByName("Cut1_1pos")
     local Cut1_StartPos2 = Cut1_StartPos:GetPosition()
@@ -156,5 +122,52 @@ function cut1_7()
             player:SetRoom(Cut1_7Room)
             player:SetRotation(Cut1_7Rot)
 end
+    --Cutscene 1
+
+    LevelFuncs.Cut1Init = function()
+        --CraneWorker
+        CraneWorker = GetMoveableByName("CraneWorker")
+        CraneWorkerAnim = CraneWorker:GetAnim()
+        CraneWorker:SetAnim(1)
+        FadeIn(2)
+end
+
+LevelFuncs.Cut1Anims =function()
+local CraneWorkerAnimFrame = CraneWorker:GetFrame()
+--Lara Animation Switch Depending On CraneWorker Anim Frame...
+    if CraneWorkerAnimFrame == 1
+        then
+        cut1_1()
+        PlayAudioTrack("xa14_joby1",false)
+        end
+    if CraneWorkerAnimFrame == 120 
+        then
+            cut1_2()                        
+                    end
+    end
+    if playerCurrentAnim == LaraAnim.Cut1_4 then
+        cut1_4()
+    elseif playerCurrentAnim ==LaraAnim.Cut1_5 then
+        cut1_5()
+    elseif playerCurrentAnim ==LaraAnim.Cut1_6 then
+        cut1_6()
+    elseif playerCurrentAnim ==LaraAnim.Cut1_7 then
+        cut1_7()    
+    end
+end
+
+LevelFuncs.Movenull = function()
+    local Cut1_2pos = GetMoveableByName("Cut1_2pos")
+        local Cut1_2pos2 = Cut1_2pos:GetPosition()
+        local Cut1_2Room = Cut1_2pos:GetRoom()
+        local Cut1_2Rot = Cut1_2pos:GetRotation()
+    local Cut1_4pos = GetMoveableByName("Cut1_4pos")
+        local Cut1_4pos2 = Cut1_4pos:GetPosition()
+        local Cut1_4Room = Cut1_4pos:GetRoom()
+        local Cut1_4Rot = Cut1_4pos:GetRotation()
+    Cut1_4pos:SetPosition(Cut1_2pos2)
+        Cut1_4pos:SetRoom(Cut1_2Room)
+        Cut1_4pos:SetRotation(Cut1_2Rot)
+        Cut1_4pos:Enable()
 
 end
