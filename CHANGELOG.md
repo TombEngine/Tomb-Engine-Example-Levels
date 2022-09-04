@@ -1,16 +1,14 @@
-Changelog
+# Changelog
 
-===================================
-Title
-===================================
+## Title
+
 * Added distance fog to simulate the original TR4 look.
 * Fixed flyby so it doesn't loop the first section. This was broken and has been broken since 2000.
 * Title flyby music fixed. Previously it would start in a random place.
 * Fix static mesh colours.
 
-===================================
-Tomb of Set
-===================================
+## Tomb of Set
+
 * Dynamic shadows
 * Added distance fog
 * Changed all statics except the light rays to the "dynamic" lighting model in Wadtool
@@ -21,26 +19,13 @@ Tomb of Set
 * Removed extra mesh from Eye of Horus.
 * Changed texture blend mode on the light mesh from screen -> additive
 
-===================================
-Temple of Karnak
-===================================
 
+## Temple of Karnak
 
-===================================
-Cleopatra's Palaces
-===================================
+## Cleopatra's Palaces
 
+## Catacombs
 
-===================================
-Catacombs
-===================================
+## City Of The Dead
 
-
-===================================
-City Of The Dead
-===================================
-
-
-===================================
-Angkor Wat
-===================================
+## Angkor Wat
