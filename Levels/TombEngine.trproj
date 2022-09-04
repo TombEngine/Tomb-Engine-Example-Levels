@@ -42,5 +42,10 @@
 			<FolderPath>$(ProjectDirectory)\Levels\city</FolderPath>
 			<SpecificFile>city_TombEngine.prj2</SpecificFile>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>angkor wat</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\angkor wat</FolderPath>
+			<SpecificFile>angkor_TombEngine.prj2</SpecificFile>
+		</ProjectLevel>
 	</Levels>
 </Project>

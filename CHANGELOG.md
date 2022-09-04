@@ -29,3 +29,6 @@
 ## City Of The Dead
 
 ## Angkor Wat
+
+* Replaced Teeth spikes with their new OCB (20 > 0)
+* Changed all statics except the light rays to the "dynamic" lighting model in Wadtool
