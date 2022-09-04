@@ -1326,7 +1326,7 @@ local strings = {
 	catacombs ={
 			"Catacombs"
 	},
-	LDN1 = {
+	LondonCut = {
 			"TR3 RoofStop Cutscene"
 	},
 	BaCartouche1 ={
