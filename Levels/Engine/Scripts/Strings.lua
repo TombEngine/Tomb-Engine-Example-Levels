@@ -1326,6 +1326,9 @@ local strings = {
 	catacombs ={
 			"Catacombs"
 	},
+	LDN1 = {
+			"TR3 RoofStop Cutscene"
+	},
 	BaCartouche1 ={
 		"Cartouche Piece 1 "
 	},
