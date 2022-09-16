@@ -47,6 +47,7 @@ Flow.AddLevel(title);
 				-1,
 				ItemAction.USE
 			),
+
 			InventoryItem.new(
 				"BaCartouche2", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM3_COMBO2, --Name in Constants.lua
@@ -57,6 +58,7 @@ Flow.AddLevel(title);
 				-1,
 				ItemAction.USE
 			),
+
 			InventoryItem.new(
 				"BaCartouche", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM3, --Name in Constants.lua
@@ -67,6 +69,7 @@ Flow.AddLevel(title);
 				-1,
 				ItemAction.USE
 			),
+
 			InventoryItem.new(
 				"eye1", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
@@ -75,8 +78,9 @@ Flow.AddLevel(title);
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				2,
-				ItemAction.Combine
+				ItemAction.USE
 			),
+
 			InventoryItem.new(
 				"eye2", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM1_COMBO2, --Name in Constants.lua
@@ -85,8 +89,9 @@ Flow.AddLevel(title);
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				2,
-				ItemAction.Combine
+				ItemAction.USE
 			),
+
 			InventoryItem.new(
 				"eye", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM1, --Name in Constants.lua
@@ -97,6 +102,7 @@ Flow.AddLevel(title);
 				2,
 				ItemAction.USE
 			),
+
 			InventoryItem.new(
 				"sands", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM2, --Name in Constants.lua
@@ -107,6 +113,7 @@ Flow.AddLevel(title);
 				-1,
 				ItemAction.USE
 			),
+
 			InventoryItem.new(
 				"gkey", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM7, --Name in Constants.lua
@@ -117,6 +124,7 @@ Flow.AddLevel(title);
 				-1,
 				ItemAction.USE
 			),
+			
 			InventoryItem.new(
 				"RaCartouche", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM4, --Name in Constants.lua

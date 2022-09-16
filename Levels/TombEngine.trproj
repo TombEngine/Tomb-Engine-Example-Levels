@@ -45,7 +45,7 @@
 		<ProjectLevel>
 			<Name>angkor wat</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\angkor wat</FolderPath>
-			<SpecificFile>angkor_TombEngine.prj2</SpecificFile>
+			<SpecificFile>angkor_TombEngineVONCROY_TRIGGERNEW_1.prj2</SpecificFile>
 		</ProjectLevel>
 	</Levels>
 </Project>
