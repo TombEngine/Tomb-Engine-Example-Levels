@@ -9,7 +9,7 @@
 		title.levelFile = "Data\\title.ten";
 		title.scriptFile = "Scripts\\title.lua";
 		title.loadScreenFile = "Screens\\rome.jpg";
-		title.fog = Flow.Fog.new(Color.new(5,5,5), 15,20)
+		title.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		title.horizon=true
 
 Flow.AddLevel(title);
@@ -23,7 +23,7 @@ Flow.AddLevel(title);
 		settomb.loadScreenFile = "Screens\\rome.jpg";
 		settomb.horizon = false;
 		settomb.farView = 20
-		settomb.fog = Flow.Fog.new(Color.new(5,5,5), 10,20)
+		settomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		settomb.objects = {	
 			InventoryItem.new(
 				"BaCartouche1", --Name in Strings.lua 
@@ -128,6 +128,7 @@ Flow.AddLevel(settomb);
 		karnak.loadScreenFile = "Screens\\rome.jpg";
 		karnak.horizon = true
 		karnak.farView = 20
+		karnak.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		karnak.layer1 = Flow.SkyLayer.new(Color.new(128,96,64), 7)
 			karnak.objects = {	
 			InventoryItem.new(
@@ -230,6 +231,7 @@ Flow.AddLevel(karnak);
 	coastal.levelFile = "Data\\coastal.ten";
 	coastal.loadScreenFile = "Screens\\rome.jpg";
 	coastal.horizon = true
+	coastal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 	coastal.layer1 = Flow.SkyLayer.new(Color.new(128,128,128),-8)
 		coastal.objects = {	
 		InventoryItem.new(
@@ -263,6 +265,7 @@ Flow.AddLevel(coastal);
 	catacomb.levelFile = "Data\\catacombs.ten";
 	catacomb.loadScreenFile = "Screens\\rome.jpg";
 	catacomb.horizon = false
+	catacomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 	catacomb.farView = 20
 		catacomb.objects = {	
 		InventoryItem.new(
@@ -407,6 +410,7 @@ Flow.AddLevel(catacomb);
 	cleopal.loadScreenFile = "Screens\\rome.jpg";
 	cleopal.horizon = false
 	cleopal.farView = 20
+	cleopal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		cleopal.objects = {	
 		InventoryItem.new(
 			"pguard", --Name in Strings.lua 
@@ -540,6 +544,7 @@ Flow.AddLevel(cleopal);
 	city.horizon = true
 	city.layer1 = Flow.SkyLayer.new(Color.new(56,72,8),16)
 	city.farView = 20
+	city.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		city.objects = {	
 		InventoryItem.new(
 			"nitro1", --Name in Strings.lua 
