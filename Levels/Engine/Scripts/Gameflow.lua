@@ -1,15 +1,3 @@
--- Place in this LUA script all the levels of your game
--- Title is mandatory and must be the first level
-
-local Flow = TEN.Flow
-local Level = Flow.Level
-local Color = TEN.Color
-local Rotation = TEN.Rotation
-local InventoryItem = Flow.InventoryItem
-local ObjID = TEN.Objects.ObjID
-local RotationAxis = Flow.RotationAxis
-local ItemAction = Flow.ItemAction
-
 -- Title level
 	Flow.SetIntroImagePath("Screens\\Main.png")
 	Flow.SetTitleScreenImagePath("Screens\\Title.png")
@@ -34,9 +22,9 @@ Flow.AddLevel(title);
 		settomb.levelFile = "Data\\settomb.ten";
 		settomb.loadScreenFile = "Screens\\rome.jpg";
 		settomb.horizon = false;
-		settomb.farView = 25
-		settomb.fog = Flow.Fog.new(Color.new(5,5,5), 15,20)
-			settomb.objects = {	
+		settomb.farView = 20
+		settomb.fog = Flow.Fog.new(Color.new(5,5,5), 10,20)
+		settomb.objects = {	
 			InventoryItem.new(
 				"BaCartouche1", --Name in Strings.lua 
 				ObjID.PUZZLE_ITEM3_COMBO1, --Name in Constants.lua
@@ -140,7 +128,6 @@ Flow.AddLevel(settomb);
 		karnak.loadScreenFile = "Screens\\rome.jpg";
 		karnak.horizon = true
 		karnak.farView = 20
-		karnak.laraType = 2
 		karnak.layer1 = Flow.SkyLayer.new(Color.new(128,96,64), 7)
 			karnak.objects = {	
 			InventoryItem.new(
