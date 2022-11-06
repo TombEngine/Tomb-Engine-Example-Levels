@@ -34,6 +34,7 @@
 * Added new rooms to the outdoor section in Coastal Ruins to hide "The End of The World" better.
 * Replaced All Teeth Spikes with their new OCB
 * Added flickering lights to the inside of the "Egyptian Adventure" exhibit (it is abandoned after all?)
+* Added a nasty surprise for the fake mummy...
 ## City Of The Dead
 * Added distance fog
 
