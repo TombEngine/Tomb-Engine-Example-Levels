@@ -1,6 +1,6 @@
 -- Title level
 	Flow.SetIntroImagePath("Screens\\Main.png")
-	Flow.SetTitleScreenImagePath("Screens\\Title.png")
+	Flow.SetTitleScreenImagePath("Screens\\Main.png")
 
 
 		title = Level.new();
@@ -8,7 +8,7 @@
 		--title.ambientTrack = "104";
 		title.levelFile = "Data\\title.ten";
 		title.scriptFile = "Scripts\\title.lua";
-		title.loadScreenFile = "Screens\\rome.jpg";
+		title.loadScreenFile = "Screens\\title.png";
 		title.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		title.horizon=true
 
@@ -20,7 +20,7 @@ Flow.AddLevel(title);
 		settomb.scriptFile = "Scripts\\settomb.lua";
 		settomb.ambientTrack = "107";
 		settomb.levelFile = "Data\\settomb.ten";
-		settomb.loadScreenFile = "Screens\\rome.jpg";
+		settomb.loadScreenFile = "Screens\\settomb.png";
 		settomb.horizon = false;
 		settomb.farView = 20
 		settomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
@@ -125,7 +125,7 @@ Flow.AddLevel(settomb);
 		karnak.scriptFile = "Scripts\\karnak.lua";
 		karnak.ambientTrack = "110";
 		karnak.levelFile = "Data\\karnak.ten";
-		karnak.loadScreenFile = "Screens\\rome.jpg";
+		karnak.loadScreenFile = "Screens\\karnak.png";
 		karnak.horizon = true
 		karnak.farView = 20
 		karnak.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
@@ -229,7 +229,7 @@ Flow.AddLevel(karnak);
 	coastal.scriptFile = "Scripts\\coastal.lua";
 	coastal.ambientTrack = "110";
 	coastal.levelFile = "Data\\coastal.ten";
-	coastal.loadScreenFile = "Screens\\rome.jpg";
+	coastal.loadScreenFile = "Screens\\coastal.png";
 	coastal.horizon = true
 	coastal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 	coastal.layer1 = Flow.SkyLayer.new(Color.new(128,128,128),-8)
@@ -263,7 +263,7 @@ Flow.AddLevel(coastal);
 	catacomb.scriptFile = "Scripts\\catacomb.lua";
 	catacomb.ambientTrack = "1080";
 	catacomb.levelFile = "Data\\catacombs.ten";
-	catacomb.loadScreenFile = "Screens\\rome.jpg";
+	catacomb.loadScreenFile = "Screens\\catacombs.png";
 	catacomb.horizon = false
 	catacomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 	catacomb.farView = 20
@@ -407,7 +407,7 @@ Flow.AddLevel(catacomb);
 	cleopal.scriptFile = "Scripts\\cleopal.lua";
 	cleopal.ambientTrack = "1080";
 	cleopal.levelFile = "Data\\cleopal.ten";
-	cleopal.loadScreenFile = "Screens\\rome.jpg";
+	cleopal.loadScreenFile = "Screens\\cleopal.png";
 	cleopal.horizon = false
 	cleopal.farView = 20
 	cleopal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
@@ -540,7 +540,7 @@ Flow.AddLevel(cleopal);
 	city.scriptFile = "Scripts\\city.lua";
 	city.ambientTrack = "102";
 	city.levelFile = "Data\\city.ten";
-	city.loadScreenFile = "Screens\\rome.jpg";
+	city.loadScreenFile = "Screens\\city.png";
 	city.horizon = true
 	city.layer1 = Flow.SkyLayer.new(Color.new(56,72,8),16)
 	city.farView = 20
