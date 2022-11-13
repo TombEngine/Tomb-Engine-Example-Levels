@@ -673,7 +673,7 @@ guard = Level.new()
 
 guard.nameKey = "guard"
 guard.scriptFile = "Scripts\\guard.lua"
-guard.ambientTrack = "110"
+guard.ambientTrack = "107"
 guard.horizon = false
 guard.levelFile = "Data\\guard.ten"
 guard.loadScreenFile = "Screens\\rome.jpg"
@@ -684,9 +684,133 @@ library = Level.new()
 
 library.nameKey = "library"
 library.scriptFile = "Scripts\\library.lua"
-library.ambientTrack = "110"
+library.ambientTrack = "108"
 library.horizon = false
 library.levelFile = "Data\\library.ten"
 library.loadScreenFile = "Screens\\rome.jpg"
+library.fog = Flow.Fog.new(Color.new(30,0,0),5,20)
+library.objects = {	
+		InventoryItem.new(
+			"pguard", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM5, --Name in Constants.lua
+			0,--yOffset
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"handle", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM5_COMBO1, --Name in Constants.lua
+			0, --yOffset (negative values move item up)
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"hath", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM5_COMBO2, --Name in Constants.lua
+			0,
+			1,
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"specs", --Name in Strings.lua 
+			ObjID.PICKUP_ITEM2, --Name in Constants.lua
+			50,
+			1,
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			2,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"horseG", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM6, --Name in Constants.lua
+			50,
+			0.5,
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			2,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"pknot", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM10, --Name in Constants.lua
+			50,
+			0.5,
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			2,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"ppillar", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM11, --Name in Constants.lua
+			0,--yOffset
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"beetleb", --Name in Strings.lua 
+			ObjID.PICKUP_ITEM1, --Name in Constants.lua
+			0,--yOffset
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"beetle", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM12, --Name in Constants.lua
+			0,--yOffset
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"beetle", --Name in Strings.lua 
+			ObjID.KEY_ITEM1, --Name in Constants.lua
+			0,--yOffset
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"beetle", --Name in Strings.lua 
+			ObjID.KEY_ITEM10, --Name in Constants.lua
+			0,--yOffset
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+		InventoryItem.new(
+			"music", --Name in Strings.lua 
+			ObjID.PUZZLE_ITEM2, --Name in Constants.lua
+			0,--yOffset
+			1, -- Scale
+			Rotation.new(0, 0, 0),
+			RotationAxis.Y,
+			-1,
+			ItemAction.USE
+		),
+
+}
 
 Flow.AddLevel(library)
