@@ -38,3 +38,5 @@
 ## City Of The Dead
 * Added distance fog
 
+## Guardian of Semerkhet
+* Added 13th November 2022
