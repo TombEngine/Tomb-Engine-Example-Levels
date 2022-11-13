@@ -47,5 +47,10 @@
 			<FolderPath>$(ProjectDirectory)\Levels\guard</FolderPath>
 			<SpecificFile>$(LatestFile)</SpecificFile>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>library</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\library</FolderPath>
+			<SpecificFile>$(LatestFile)</SpecificFile>
+		</ProjectLevel>
 	</Levels>
 </Project>

@@ -679,3 +679,14 @@ guard.levelFile = "Data\\guard.ten"
 guard.loadScreenFile = "Screens\\rome.jpg"
 
 Flow.AddLevel(guard);
+
+library = Level.new()
+
+library.nameKey = "library"
+library.scriptFile = "Scripts\\library.lua"
+library.ambientTrack = "110"
+library.horizon = false
+library.levelFile = "Data\\library.ten"
+library.loadScreenFile = "Screens\\rome.jpg"
+
+Flow.AddLevel(library)

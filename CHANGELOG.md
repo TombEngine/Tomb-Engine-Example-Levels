@@ -40,3 +40,6 @@
 
 ## Guardian of Semerkhet
 * Added 13th November 2022
+
+## The Lost Library
+* Added 13th November 2022
