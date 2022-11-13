@@ -43,3 +43,4 @@
 
 ## The Lost Library
 * Added 13th November 2022
+* Added footstep sounds 

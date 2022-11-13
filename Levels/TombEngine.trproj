@@ -45,12 +45,12 @@
 		<ProjectLevel>
 			<Name>guard</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\guard</FolderPath>
-			<SpecificFile>$(LatestFile)</SpecificFile>
+			<SpecificFile>guard_TombEngine.prj2</SpecificFile>
 		</ProjectLevel>
 		<ProjectLevel>
 			<Name>library</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\library</FolderPath>
-			<SpecificFile>$(LatestFile)</SpecificFile>
+			<SpecificFile>library_TombEngine.prj2</SpecificFile>
 		</ProjectLevel>
 	</Levels>
 </Project>
