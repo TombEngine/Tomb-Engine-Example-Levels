@@ -2,11 +2,13 @@ Version 1.6.1
 =============
 
 Tomb Editor:
- * Fix exception when selecting animation sets with unsupported animation type.
+ * Add SwapMoveableMesh, RunLuaScript and RunConditionalLuaScript node functions.
+ * Use shatter attribute in trcatalog.xml to apply static shatter property in TEN.
+ * Fix exception when selecting animated textures with unsupported animation type.
  * Fix exception when pushing Ctrl+V in newly opened node editor.
+ * Fix objects occasionally not doing drag-n-drop into node editor.
  * Fix level script functions not parsing properly in some cases.
  * Fix sound info chance value packing for TR1-TR3.
- * Add RunLuaScript and RunConditionalLuaScript node functions.
  
 WadTool:
  * Added missing state names for the new Lara's TEN animations.
@@ -16,7 +18,6 @@ WadTool:
 TombIDE:
  * Updated PLAY.exe for new game projects.
  * Updated Tomb1Main preset to 2.11.
-
 
 Version 1.6
 ===========
