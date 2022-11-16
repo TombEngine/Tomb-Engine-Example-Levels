@@ -38,3 +38,9 @@
 ## City Of The Dead
 * Added distance fog
 
+## Guardian of Semerkhet
+* Added 13th November 2022
+
+## The Lost Library
+* Added 13th November 2022
+* Added footstep sounds 
