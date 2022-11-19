@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Name>Tomb Engine BETA</Name>
 	<GameVersion>TombEngine</GameVersion>
@@ -46,6 +46,16 @@
 			<Name>The Base</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\dock</FolderPath>
 			<SpecificFile>$(LatestFile)</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>guard</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\guard</FolderPath>
+			<SpecificFile>guard_TombEngine.prj2</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>library</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\library</FolderPath>
+			<SpecificFile>library_TombEngine.prj2</SpecificFile>
 		</ProjectLevel>
 	</Levels>
 </Project>

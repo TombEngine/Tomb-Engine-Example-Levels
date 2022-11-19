@@ -1,0 +1,149 @@
+Version 1.0.3
+=============
+
+* Add ledge jumps (Lara object must be updated with new animations to make it work).
+* Add GetMoveablesBySlot and GetStaticsBySlot script commands to select groups of items.
+* Add FlipMap and PlayFlyBy script commands and node functions.
+* Allow any object slot to be used as a meshswap.
+* Add FlyCheat option to gameflow script for disabling dozy mode.
+* Add SetNumberOfSecrets option to gameflow script to set overall amount of secrets.
+* Add OCB 1 for rollingball to make it silent.
+* Customize waterfall mist colour and OCB (XXYY, where XX is width, and YY is size).
+* Implement sprite instancing to speed up rendering.
+* Enable dynamic lights for swarm enemies (beetles, rats and bats).
+* Re-enable underwater caustics.
+* Increase amount of maximum secrets per level from 8 to 32.
+* Improve game and inventory input handling.
+* Adjust sprint jump timing.
+* Fix going into inventory and load/save dialogs during fade-ins and fade-outs.
+* Fix savegames not preserving save number and game timer.
+* Fix dodgy weapon lock angle constraints.
+* Fix wrong shotgun ammo pickup amount.
+* Fix shotgun using 6 units of ammo with each shot.
+* Fix rocket explosions near statics.
+* Fix TR3 monkey level crash.
+* Fix occasional ejections when landing on a slope.
+* Fix occasional ejections when climbing up on a ledge under a slope.
+* Fix pushables not being pushable on top of bridges and other pushables.
+* Fix pushables having incorrect collision when bounding box is bigger than 1 sector.
+* Fix grabbing narrow ledges below ceilings.
+* Fix slow centaur projectile velocity.
+* Fix search animations - allow chest and shelf animations to play properly.
+* Fix sarcophagus and its item pickup.
+* Fix SAS_DRAG_BLOKE object interaction.
+* Fix underwater door and double doors continuing to be interactable after opening.
+* Fix underwater door being interactable when underwater switch is on the same square.
+* Fix ability to turn when aligning to an object while standing.
+* Fix left arm lock while picking up an item with a flare in hand.
+* Fix potential crashes when exiting game.
+* Fix secret soundtrack (which filename number should be the last) not playing.
+* Fix distance fog not applying properly to additive and subtractive surfaces.
+* Fix swarm enemies and projectiles occasionally drawn using incorrect meshes.
+* Fix single-hand weapons not having a sound on draw and undraw.
+* Fix waterfall mist - it can now be disabled with antitrigger.
+* Fix underwater lever pull animation playing after interacting with underwater ceiling switch.
+* Fix Killer statue not triggering.
+
+Lua API changes:
+* A new class has been added, LaraObject, for Lara-specific functions. The built-in "Lara" variable now uses this class.
+* SetOnFire and GetOnFire have been added to LaraObject.
+* Raised the maximum value on Moveable.SetHP to 32767 (its internal numeric maximum).
+
+
+Version 1.0.2
+=============
+
+* Removing Pistols with TakeItem and SetItemCount now works correctly.
+* Vec3s can now be saved and loaded in LevelVars and GameVars.
+* Support volume triggers made with node editor.
+* Adjust max turn rate of idle state.
+* Align Lara on slopes when crouching, crawling, and dying.
+* Better slope alignment for large, flat enemies (i.e. big scorpion and crocodile).
+* Lock turn rate when automatically aligning Lara to objects.
+* Don't play Lara alignment animations if the interacted object is too close.
+* Allow vertical pole mounts only when facing one directly.
+* Allow vertical pole mounts while turning, walking, or running.
+* Update monkey swing 180 turn animation.
+* Update backward monkey swing animations.
+* Added standing 180 turn. Activated with WALK+ROLL on dry ground, automatic when in wade-height water or swamp.
+* Added crouch turn and crawl turn animations.
+* Added new switch OCBs:
+  - 0 for wall switch
+  - 1 for small wall switch
+  - 2 for small button
+  - 3 for big button
+  - 4 for giant button (sequence switch)
+  - 5 for valve turn
+  - 6 for hole switch
+  - any other OCBs play corresponding switch on anim or OCB+1 switch off anim.
+  
+* Fix incorrect pole mounting.
+* Fix zeroed forward velocity upon landing.
+* Fix incorrect behaviour when falling on statics from the top after monkeyswing.
+* Fix missing animcommand calls on first animation frame.
+* Fix 1-frame turn rate delays.
+* Fix young Lara second ponytail rendering.
+* Fix occasional leave event calls when moving closer to volumes.
+* Fix incorrect viewport size in windowed mode.
+* Fix late landing animation dispatch in rare cases.
+* Fix Lara's subway train death so that she no longer slides slowly after the animation has finished.
+* Fix horseman's axe attack using his left foot as the damaging joint.
+* Fix stargate blades needlessly pushing the player around while hardly doing any damage.
+* Fix weapon hotkeys and add missing crossbow hotkey.
+
+Lua API changes:
+
+* Util.ShortenTENCalls no longer needs to be called; it is now automatic.
+* Flow.InvID has been removed; any function taking a pickup (e.g. GiveItem) now takes an Objects.ObjID instead.
+* Added Enable, Disable, GetActive, Get/SetSolid functions for static meshes.
+* Added FadeOutComplete, StopAudioTrack and StopAudioTracks functions.
+* Account for objects in HasLineOfSight tests.
+* Timer.lua, EventSequence.lua and Util.lua have been moved to a subfolder, Engine.
+* LevelFuncs can now contain tables as well as functions. These tables can contain functions and other tables, and so forth.
+* Moveable functions SetOnHit, SetOnKilled, SetOnCollidedWithObject and SetOnCollidedWithRoom no longer take strings, and instead take function objects themselves.
+* EventSequence and Timer no longer require you to call Timer.UpdateAll in OnControlPhase.
+* TEN.Logic.AddCallback and TEN.Logic.RemoveCallback have been added.
+* GiveItem, TakeItem, and SetItemCount have been reworked (e.g. SetItemCount with a value of -1 can give infinite ammo/consumables).
+
+Version 1.0.1
+=============
+
+* Added antialiasing support.
+* Added static mesh scaling support.
+* Added free rotation for teeth spikes instead of using OCB codes.
+* Fix some issues with shimmying between diagonal ledges and walls.
+* Fix rope transparency.
+* Fix objects disappearing under certain angles at the edges of the screen.
+* Fix incorrect polerope and jumpswitch grabbing.
+* Fix camera behaviour with pushable blocks.
+* Fix minecart unduck on inclines.
+* Fix quadbike dismount with jump key and allow to shoot big gun with action key.
+* Fix static meshes having wrong colors on savegame reload.
+* Fix rollingball incorrectly killing Lara in water and in jump.
+* Fix resurfacing on underwater death.
+* Fix water to ladder animation not activating in all cases.
+* Fix ripples not appearing on water connections higher than room bottom.
+* Fix several problems with ropes (stumbling, rope length, etc).
+* Fix several problems with teeth spikes.
+* Fix falling through twoblock platform on room number change.
+* Fix falling block breaking too early if placed on a vertical portal.
+* Fix crashes when loading image files are missing.
+* Disable trigger check for puzzle holes.
+* Clear locusts and other swarm enemies on level reload.
+* Enhance cobra AI and fix targeting.
+* Fully decompile HAMMER object from TR4.
+* Prevent title music audio from starting in a random place.
+* Update harpoon speed on room change.
+* Enable second sky layer rendering.
+* Preserve inventory and flare on level jumps.
+* Timer.Create now lets you choose the units to display remaining time.
+* Fatal script errors now boot you to the title (it will crash if the title itself has these errors).
+* SetFarView has been removed, and Flow.Level.farView is now uncapped.
+* DisplayString text will now be cleared when a level is exited or reloaded.
+* EventSequence.lua has been added and documented.
+
+
+Version 1.0
+===========
+
+First beta release.

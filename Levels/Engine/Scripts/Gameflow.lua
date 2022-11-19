@@ -1,19 +1,6 @@
--- Place in this LUA script all the levels of your game
--- Title is mandatory and must be the first level
-
-local Flow = TEN.Flow
-local Level = Flow.Level
-local Color = TEN.Color
-local Rotation = TEN.Rotation
-local InventoryItem = Flow.InventoryItem
-local InvID = Flow.InvID
-local RotationAxis = Flow.RotationAxis
-local ItemAction = Flow.ItemAction
-local Fog = Flow.Fog 
-
 -- Title level
 	Flow.SetIntroImagePath("Screens\\Main.png")
-	Flow.SetTitleScreenImagePath("Screens\\Title.png")
+	Flow.SetTitleScreenImagePath("Screens\\Main.png")
 
 
 		title = Level.new();
@@ -21,8 +8,8 @@ local Fog = Flow.Fog
 		--title.ambientTrack = "104";
 		title.levelFile = "Data\\title.ten";
 		title.scriptFile = "Scripts\\title.lua";
-		title.loadScreenFile = "Screens\\rome.jpg";
-		title.fog = Flow.Fog.new(Color.new(5,5,5), 15,20)
+		title.loadScreenFile = "Screens\\title.png";
+		title.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		title.horizon=true
 
 Flow.AddLevel(title);
@@ -33,14 +20,14 @@ Flow.AddLevel(title);
 		settomb.scriptFile = "Scripts\\settomb.lua";
 		settomb.ambientTrack = "107";
 		settomb.levelFile = "Data\\settomb.ten";
-		settomb.loadScreenFile = "Screens\\rome.jpg";
+		settomb.loadScreenFile = "Screens\\settomb.png";
 		settomb.horizon = false;
-		settomb.farView = 25
-		settomb.fog = Flow.Fog.new(Color.new(5,5,5), 15,20)
-			settomb.objects = {	
+		settomb.farView = 20
+		settomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
+		settomb.objects = {	
 			InventoryItem.new(
 				"BaCartouche1", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM3_COMBO1, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM3_COMBO1, --Name in Constants.lua
 				0,--yOffset
 				1, -- Scale
 				Rotation.new(0, 0, 0),
@@ -50,7 +37,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"BaCartouche2", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM3_COMBO2, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM3_COMBO2, --Name in Constants.lua
 				0, --yOffset (negative values move item up)
 				1, -- Scale
 				Rotation.new(0, 0, 0),
@@ -60,7 +47,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"BaCartouche", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM3, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM3, --Name in Constants.lua
 				0,
 				1,
 				Rotation.new(0, 0, 0),
@@ -70,7 +57,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"eye1", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
 				50,
 				0.5,
 				Rotation.new(0, 0, 0),
@@ -80,7 +67,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"eye2", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM1_COMBO2, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM1_COMBO2, --Name in Constants.lua
 				50,
 				0.5,
 				Rotation.new(0, 0, 0),
@@ -90,7 +77,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"eye", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM1, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM1, --Name in Constants.lua
 				50,
 				0.5,
 				Rotation.new(0, 0, 0),
@@ -100,7 +87,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"sands", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM2, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM2, --Name in Constants.lua
 				0,--yOffset
 				1, -- Scale
 				Rotation.new(0, 0, 0),
@@ -110,7 +97,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"gkey", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM7, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM7, --Name in Constants.lua
 				0,--yOffset
 				1, -- Scale
 				Rotation.new(0, 0, 0),
@@ -120,7 +107,7 @@ Flow.AddLevel(title);
 			),
 			InventoryItem.new(
 				"RaCartouche", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM4, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM4, --Name in Constants.lua
 				0,--yOffset
 				0.5, -- Scale
 				Rotation.new(0, 0, 0),
@@ -138,14 +125,15 @@ Flow.AddLevel(settomb);
 		karnak.scriptFile = "Scripts\\karnak.lua";
 		karnak.ambientTrack = "110";
 		karnak.levelFile = "Data\\karnak.ten";
-		karnak.loadScreenFile = "Screens\\rome.jpg";
+		karnak.loadScreenFile = "Screens\\karnak.png";
 		karnak.horizon = true
 		karnak.farView = 20
+		karnak.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		karnak.layer1 = Flow.SkyLayer.new(Color.new(128,96,64), 7)
 			karnak.objects = {	
 			InventoryItem.new(
 				"jar1", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM2, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM2, --Name in Constants.lua
 				0,--yOffset
 				1, -- Scale
 				Rotation.new(0, 0, 0),
@@ -155,7 +143,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"jar2", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM3, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM3, --Name in Constants.lua
 				0, --yOffset (negative values move item up)
 				1, -- Scale
 				Rotation.new(0, 0, 0),
@@ -165,7 +153,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"sunT", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM1, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM1, --Name in Constants.lua
 				0,
 				1,
 				Rotation.new(0, 0, 0),
@@ -175,7 +163,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"sunD", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
 				50,
 				1,
 				Rotation.new(0, 0, 0),
@@ -185,7 +173,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"sunG", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM1_COMBO2, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM1_COMBO2, --Name in Constants.lua
 				50,
 				0.5,
 				Rotation.new(0, 0, 0),
@@ -195,7 +183,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"vraeus", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM5, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM5, --Name in Constants.lua
 				50,
 				0.5,
 				Rotation.new(0, 0, 0),
@@ -205,7 +193,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"pguard", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM7, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM7, --Name in Constants.lua
 				0,--yOffset
 				1, -- Scale
 				Rotation.new(0, 0, 0),
@@ -215,7 +203,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"hkey", --Name in Strings.lua 
-				InvID.KEY_ITEM2, --Name in Constants.lua
+				ObjID.KEY_ITEM2, --Name in Constants.lua
 				-50,--yOffset
 				0.5, -- Scale
 				Rotation.new(90,90, 0),
@@ -225,7 +213,7 @@ Flow.AddLevel(settomb);
 			),
 			InventoryItem.new(
 				"horseG", --Name in Strings.lua 
-				InvID.PUZZLE_ITEM6, --Name in Constants.lua
+				ObjID.PUZZLE_ITEM6, --Name in Constants.lua
 				50,
 				0.5,
 				Rotation.new(0, 0, 0),
@@ -241,13 +229,14 @@ Flow.AddLevel(karnak);
 	coastal.scriptFile = "Scripts\\coastal.lua";
 	coastal.ambientTrack = "110";
 	coastal.levelFile = "Data\\coastal.ten";
-	coastal.loadScreenFile = "Screens\\rome.jpg";
+	coastal.loadScreenFile = "Screens\\coastal.png";
 	coastal.horizon = true
+	coastal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 	coastal.layer1 = Flow.SkyLayer.new(Color.new(128,128,128),-8)
 		coastal.objects = {	
 		InventoryItem.new(
 			"token", --Name in Strings.lua 
-			InvID.KEY_ITEM1, --Name in Constants.lua
+			ObjID.KEY_ITEM1, --Name in Constants.lua
 			-50,--yOffset
 			1.5, -- Scale
 			Rotation.new(0, 0, 0),
@@ -257,7 +246,7 @@ Flow.AddLevel(karnak);
 		),
 		InventoryItem.new(
 			"gate1", --Name in Strings.lua 
-			InvID.KEY_ITEM10, --Name in Constants.lua
+			ObjID.KEY_ITEM10, --Name in Constants.lua
 			-50,--yOffset
 			1.5, -- Scale
 			Rotation.new(0, 0, 0),
@@ -274,13 +263,14 @@ Flow.AddLevel(coastal);
 	catacomb.scriptFile = "Scripts\\catacomb.lua";
 	catacomb.ambientTrack = "1080";
 	catacomb.levelFile = "Data\\catacombs.ten";
-	catacomb.loadScreenFile = "Screens\\rome.jpg";
+	catacomb.loadScreenFile = "Screens\\catacombs.png";
 	catacomb.horizon = false
+	catacomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 	catacomb.farView = 20
 		catacomb.objects = {	
 		InventoryItem.new(
 			"pguard", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM5, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -290,7 +280,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"handle", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5_COMBO1, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM5_COMBO1, --Name in Constants.lua
 			0, --yOffset (negative values move item up)
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -300,7 +290,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"hath", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5_COMBO2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM5_COMBO2, --Name in Constants.lua
 			0,
 			1,
 			Rotation.new(0, 0, 0),
@@ -310,7 +300,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"star", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM3, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM3, --Name in Constants.lua
 			50,
 			1,
 			Rotation.new(0, 0, 0),
@@ -320,7 +310,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"horseG", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM6, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM6, --Name in Constants.lua
 			50,
 			0.5,
 			Rotation.new(0, 0, 0),
@@ -330,7 +320,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"pknot", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM10, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM10, --Name in Constants.lua
 			50,
 			0.5,
 			Rotation.new(0, 0, 0),
@@ -340,7 +330,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"ppillar", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM11, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM11, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -350,7 +340,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"beetleb", --Name in Strings.lua 
-			InvID.PICKUP_ITEM1, --Name in Constants.lua
+			ObjID.PICKUP_ITEM1, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -360,7 +350,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"beetle", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM12, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM12, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -370,7 +360,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"token", --Name in Strings.lua 
-			InvID.KEY_ITEM1, --Name in Constants.lua
+			ObjID.KEY_ITEM1, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -380,7 +370,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"gate1", --Name in Strings.lua 
-			InvID.KEY_ITEM10, --Name in Constants.lua
+			ObjID.KEY_ITEM10, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -390,7 +380,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"trident", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM1, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM1, --Name in Constants.lua
 			50,
 			0.5,
 			Rotation.new(0, 0, 0),
@@ -400,7 +390,7 @@ Flow.AddLevel(coastal);
 		),
 		InventoryItem.new(
 			"music", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM2, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -417,13 +407,14 @@ Flow.AddLevel(catacomb);
 	cleopal.scriptFile = "Scripts\\cleopal.lua";
 	cleopal.ambientTrack = "1080";
 	cleopal.levelFile = "Data\\cleopal.ten";
-	cleopal.loadScreenFile = "Screens\\rome.jpg";
+	cleopal.loadScreenFile = "Screens\\cleopal.png";
 	cleopal.horizon = false
 	cleopal.farView = 20
+	cleopal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		cleopal.objects = {	
 		InventoryItem.new(
 			"pguard", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM5, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -433,7 +424,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"handle", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5_COMBO1, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM5_COMBO1, --Name in Constants.lua
 			0, --yOffset (negative values move item up)
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -443,7 +434,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"hath", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5_COMBO2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM5_COMBO2, --Name in Constants.lua
 			0,
 			1,
 			Rotation.new(0, 0, 0),
@@ -453,7 +444,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"specs", --Name in Strings.lua 
-			InvID.PICKUP_ITEM2, --Name in Constants.lua
+			ObjID.PICKUP_ITEM2, --Name in Constants.lua
 			50,
 			1,
 			Rotation.new(0, 0, 0),
@@ -463,7 +454,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"horseG", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM6, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM6, --Name in Constants.lua
 			50,
 			0.5,
 			Rotation.new(0, 0, 0),
@@ -473,7 +464,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"pknot", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM10, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM10, --Name in Constants.lua
 			50,
 			0.5,
 			Rotation.new(0, 0, 0),
@@ -483,7 +474,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"ppillar", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM11, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM11, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -493,7 +484,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"beetleb", --Name in Strings.lua 
-			InvID.PICKUP_ITEM1, --Name in Constants.lua
+			ObjID.PICKUP_ITEM1, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -503,7 +494,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"beetle", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM12, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM12, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -513,7 +504,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"beetle", --Name in Strings.lua 
-			InvID.KEY_ITEM1, --Name in Constants.lua
+			ObjID.KEY_ITEM1, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -523,7 +514,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"beetle", --Name in Strings.lua 
-			InvID.KEY_ITEM10, --Name in Constants.lua
+			ObjID.KEY_ITEM10, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -533,7 +524,7 @@ Flow.AddLevel(catacomb);
 		),
 		InventoryItem.new(
 			"music", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM2, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -549,14 +540,15 @@ Flow.AddLevel(cleopal);
 	city.scriptFile = "Scripts\\city.lua";
 	city.ambientTrack = "102";
 	city.levelFile = "Data\\city.ten";
-	city.loadScreenFile = "Screens\\rome.jpg";
+	city.loadScreenFile = "Screens\\city.png";
 	city.horizon = true
 	city.layer1 = Flow.SkyLayer.new(Color.new(56,72,8),16)
 	city.farView = 20
+	city.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		city.objects = {	
 		InventoryItem.new(
 			"nitro1", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM1, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM1, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -566,7 +558,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"cjack", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM2, --Name in Constants.lua
 			-25, --yOffset (negative values move item up)
 			1, -- Scale
 			Rotation.new(0, 0, 90),
@@ -576,7 +568,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"roofK", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM4, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM4, --Name in Constants.lua
 			0,
 			1,
 			Rotation.new(-45, 180, 90),
@@ -586,7 +578,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"code1", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM5, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM5, --Name in Constants.lua
 			50,
 			1,
 			Rotation.new(-90, 0, 90),
@@ -596,7 +588,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"mine", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM8, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM8, --Name in Constants.lua
 			50,
 			0.5,
 			Rotation.new(0, 0, 0),
@@ -606,7 +598,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"valve1", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM1_COMBO1, --Name in Constants.lua
 			50,
 			0.5,
 			Rotation.new(0, 0, 0),
@@ -616,7 +608,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"ppillar", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM11, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM11, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -626,7 +618,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"nitro2", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM1_COMBO2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM1_COMBO2, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -636,7 +628,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"cjackb", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM2_COMBO1, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM2_COMBO1, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -646,7 +638,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"chandle", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM2_COMBO2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM2_COMBO2, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -656,7 +648,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"mine1", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM8_COMBO1, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM8_COMBO1, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 0),
@@ -666,7 +658,7 @@ Flow.AddLevel(cleopal);
 		),
 		InventoryItem.new(
 			"mine2", --Name in Strings.lua 
-			InvID.PUZZLE_ITEM8_COMBO2, --Name in Constants.lua
+			ObjID.PUZZLE_ITEM8_COMBO2, --Name in Constants.lua
 			0,--yOffset
 			1, -- Scale
 			Rotation.new(0, 0, 90),
@@ -676,34 +668,35 @@ Flow.AddLevel(cleopal);
 		),
 	}
 Flow.AddLevel(city);	
------[[]]----angkor Level Block
-	--angkor = Level.new();
 
-	--angkor.nameKey = "angkor";
-	--angkor.scriptFile = "Scripts\\angkor.lua";
-	--angkor.ambientTrack = "110";
-	--angkor.levelFile = "Data\\angkor.ten";
-	--angkor.loadScreenFile = "Screens\\rome.jpg";
-	--angkor.horizon = true
-	--angkor.farView = 20
-	--angkor.laraType = Young
-	--angkor.layer1 = Flow.SkyLayer.new(Color.new(160,160,192),7)
-	--angkor.objects = {	
-		--InventoryItem.new(
-			--"goldskull", --Name in Strings.lua 
-			--InvID.PUZZLE_ITEM1, --Name in Constants.lua
-			--0,--yOffset
-			--1, -- Scale
-			--Rotation.new(0, 0, 90),
-			--RotationAxis.Y,
-			---1,
-			--ItemAction.EXAMINE
-		--),	
---Flow.AddLevel(angkor);	
----dock Level Block
-	dock = Level.new();
+guard = Level.new()
 
-	dock.nameKey = "dock";
+guard.nameKey = "guard"
+guard.scriptFile = "Scripts\\guard.lua"
+guard.ambientTrack = "107"
+guard.horizon = false
+guard.levelFile = "Data\\guard.ten"
+guard.loadScreenFile = "Screens\\rome.jpg"
+
+Flow.AddLevel(guard);
+
+library = Level.new()
+
+	LDN1.nameKey = "LDN1";
+	LDN1.scriptFile = "Scripts\\LDN1.lua";
+	--LDN1.ambientTrack = "73_Old_Smokey";
+	LDN1.levelFile = "Data\\LDN1.ten";
+	LDN1.loadScreenFile = "Screens\\rome.jpg";
+	LDN1.horizon = true
+	LDN1.layer1 = Flow.SkyLayer.new(Color.new(0,0,0), 7)
+	LDN1.weather = 1
+	LDN1.weatherStrength = 2
+	LDN1.fog = Flow.Fog.new(Color.new(0,0,0), 1,10)
+	
+Flow.AddLevel(LDN1);	
+--]]
+
+dock.nameKey = "dock";
 	dock.scriptFile = "Scripts\\dock.lua";
 	dock.ambientTrack = "xa17_A_Industry";
 	dock.levelFile = "Data\\dock.ten";
