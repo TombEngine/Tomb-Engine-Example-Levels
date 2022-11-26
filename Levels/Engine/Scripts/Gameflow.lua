@@ -1,6 +1,7 @@
 -- Title level
 	Flow.SetIntroImagePath("Screens\\Main.png")
 	Flow.SetTitleScreenImagePath("Screens\\Main.png")
+	Flow.EnableMassPickup(true)
 
 
 		title = Level.new();
@@ -63,7 +64,7 @@ Flow.AddLevel(title);
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				2,
-				ItemAction.Combine
+				ItemAction.USE
 			),
 			InventoryItem.new(
 				"eye2", --Name in Strings.lua 
@@ -73,7 +74,7 @@ Flow.AddLevel(title);
 				Rotation.new(0, 0, 0),
 				RotationAxis.Y,
 				2,
-				ItemAction.Combine
+				ItemAction.USE
 			),
 			InventoryItem.new(
 				"eye", --Name in Strings.lua 
