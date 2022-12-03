@@ -26,8 +26,11 @@
 
 ## Cleopatra's Palaces
 * Added distance fog
+
 ## Catacombs
 * Added distance fog
+* Added in missing light ray objects and adjusted lighting.
+
 ## Costal Ruins
 * Added distance fog
 * Deleted Room 105 - Used in TR4 Hub Area : Unused in TRLE version
@@ -35,6 +38,7 @@
 * Replaced All Teeth Spikes with their new OCB
 * Added flickering lights to the inside of the "Egyptian Adventure" exhibit (it is abandoned after all?)
 * Added a nasty surprise for the fake mummy...
+
 ## City Of The Dead
 * Added distance fog
 
@@ -43,4 +47,4 @@
 
 ## The Lost Library
 * Added 13th November 2022
-* Added footstep sounds 
+* Added footstep sounds .
