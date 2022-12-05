@@ -14,6 +14,7 @@ anims.crawlspaceSwandive = true
 anims.monkeyAutoJump = false
 anims.overhangClimb = false
 anims.slideExtended = false
-anims.sprintJump = false
+anims.sprintJump = true
 anims.pose = true
+anims.ledgeJumps = true
 Flow.SetAnimations(anims)
