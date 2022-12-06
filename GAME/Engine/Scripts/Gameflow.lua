@@ -46,8 +46,8 @@
 	karnak.levelFile = "Data\\karnak.ten";
 	karnak.loadScreenFile = "Screens\\karnak.png";
 	karnak.horizon = true
-	karnak.farView = 20
-	karnak.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
+	karnak.farView = 80
+	karnak.fog = Flow.Fog.new(Color.new(255,225,225),5,80)
 	karnak.layer1 = Flow.SkyLayer.new(Color.new(128,96,64), 7)
 	karnak.objects = {	
 		
