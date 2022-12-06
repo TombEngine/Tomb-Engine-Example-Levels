@@ -48,3 +48,7 @@
 ## The Lost Library
 * Added 13th November 2022
 * Added footstep sounds .
+
+## Adiitional Credits
+
+## PoYu - Tomb4 Classic Outfit. Some fixes done by Stranger1992 to the mesh and holsters to adapt for TEN. 
