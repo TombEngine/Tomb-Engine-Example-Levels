@@ -2,12 +2,13 @@
 	Flow.SetIntroImagePath("Screens\\Main.png")
 	Flow.SetTitleScreenImagePath("Screens\\Main.png")
 	Flow.EnableMassPickup(true)
-	Flow.EnableFlyCheat(false)
+	Flow.EnableFlyCheat(true)
+	Flow.EnableLaraInTitle(true)
 
 --Title Level Block
 		title = Level.new();
 
-		--title.ambientTrack = "104";
+		title.ambientTrack = "104";
 		title.levelFile = "Data\\title.ten" ;
 		title.scriptFile = "Scripts\\title.lua" ;
 		title.loadScreenFile = "Screens\\title.png" ;

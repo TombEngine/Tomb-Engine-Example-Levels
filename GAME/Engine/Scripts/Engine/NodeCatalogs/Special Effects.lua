@@ -29,7 +29,7 @@ LevelFuncs.Engine.Node.MoveableParticleEmitter = function(
     poison
 )
 
-    local pos = GetMoveableByName(moveable):GetPosition()
+    local pos = GetName(moveable):GetPosition()
     local blendID = LevelFuncs.Engine.Node.GetBlendMode(blendMode)
 
     TEN.Effects.EmitParticle(
@@ -83,7 +83,7 @@ LevelFuncs.Engine.Node.MeshParticleEmitter=function(
 	poison
 	)
 
-	local pos = GetMoveableByName(moveable):GetJointPosition(meshnum)
+	local pos = GetName(moveable):GetJointPosition(meshnum)
 	local blendID = LevelFuncs.Engine.Node.GetBlendMode(blendMode)
 
 
@@ -120,7 +120,7 @@ end
 --!Arguments "NewLine, Numerical, 100, [-32000 | 32000], Lifetime (in seconds)"
 --!Arguments "NewLine, Boolean, 50, Add damage?", "Boolean, 50, Add poison?"
 
-LevelFuncs.Engine.Node.MoveableParticleEmitter = function(
+LevelFuncs.Engine.Node.MoveableParticleEmitter = function (
     static, 
     velocity, 
     spriteID, 
@@ -136,7 +136,7 @@ LevelFuncs.Engine.Node.MoveableParticleEmitter = function(
     poison
 )
 
-    local pos = GetStaticByName(static):GetPosition()
+    local pos = TEN.Objects.GetName(static):GetPosition()
     local blendID = LevelFuncs.Engine.Node.GetBlendMode(blendMode)
 
     TEN.Effects.EmitParticle(
@@ -325,8 +325,7 @@ LevelFuncs.Engine.Node.DynamicLightStaticMesh = function(
 	soundeffect
 	)
 
-		local static = GetStaticByName(static)
-		local staticpos = static:GetPosition()
+		local staticpos = TEN.Objects.GetName(static):GetPosition()
 	
 		if randomcheck == false
 		then
