@@ -23,6 +23,9 @@
 
 ## Temple of Karnak
 * Added distance fog
+* Added footstep sounds
+* Added distance fog.
+* Added re-created Jeep crash cutscene originally in the retail Tomb Raider 4 game.
 
 ## Cleopatra's Palaces
 * Added distance fog
