@@ -1,8 +1,106 @@
+Version 1.0.4
+=============
+
+* Add generic assignable effects for moveables - fire, sparks, smoke and laser / electric ignite.
+* Add ability to burn enemies with FLAME_EMITTER_1 and death blocks.
+* Remove TRC remnant which added HK to inventory if pistols weren't available.
+* Automatically align pickups to floor surface.
+* Fix legacy pickup triggers not working in certain cases.
+* Fix crawl pickup not actually doing any pickups.
+* Fix demigod and harpy shooting in incorrect directions.
+* Fix lasersight always displaying with HK, revolver and crossbow.
+* Fix rapid ammo spending in HK lasersight mode.
+* Fix incorrect string IDs for item combine, HK and revolver with lasersight.
+* Fix puzzle holes not swapping to puzzle done objects.
+* Fix several collision and sound source issues in flipped rooms.
+* Fix several pushable sound and object collision bugs.
+* Fix original bug with incorrect climb up behaviour on ladders under sloped ceilings.
+* Fix TR1 centaur bubble targeting.
+* Fix classic rollingball and big rollingball not behaving properly.
+* Fix caustics not turning off in display settings.
+* Fix windowed mode not using real resolution when DPI scaling is active.
+* Fix control lock not working in flyby sequences.
+* Fix empty inventory when using build and play feature in TE.
+* Fix several incorrect FOV reset issues.
+* Changed default shatter sound to TR4_SMASH_ROCK (ie: Tomb4 default).
+
+Lua API changes:
+* Add Flow.EnableMassPickup option in Gameflow.lua to enable/disable mass pickup.
+* Add level secrets property to display level-specific secret count.
+* Add new Moveable functions: GetEffect, SetEffect and SetCustomEffect (for colored fire).
+* Fix action key script functions not fully working in some cases.
+
+Version 1.0.3
+=============
+
+* Add ledge jumps (Lara object must be updated with new animations to make it work).
+* Allow any object slot to be used as a meshswap.
+* Add OCB 1 for rollingball to make it silent.
+* Customize waterfall mist colour and OCB (XXYY, where XX is width, and YY is size).
+* Implement HK shooting modes from TR5.
+* Implement sprite instancing to speed up rendering.
+* Enable dynamic lights for swarm enemies (beetles, rats and bats).
+* Re-enable underwater caustics.
+* Increase amount of maximum secrets per level from 8 to 32.
+* Improve game and inventory input handling.
+* Adjust sprint jump timing.
+* Backport DAMOCLES_SWORD from TR1.
+* Fix going into inventory and load/save dialogs during fade-ins and fade-outs.
+* Fix savegames not preserving save number and game timer.
+* Fix dodgy weapon lock angle constraints.
+* Fix wrong shotgun ammo pickup amount.
+* Fix shotgun using 6 units of ammo with each shot.
+* Fix rocket explosions near statics.
+* Fix explosive crossbow bolts not damaging player.
+* Fix poisoned crossbow bolts not damaging enemies.
+* Fix TR3 monkey level crash.
+* Fix occasional ejections when landing on a slope.
+* Fix occasional ejections when climbing up on a ledge under a slope.
+* Fix pushables not being pushable on top of bridges and other pushables.
+* Fix pushables having incorrect collision when bounding box is bigger than 1 sector.
+* Fix grabbing narrow ledges below ceilings.
+* Fix slow centaur projectile velocity.
+* Fix search animations - allow chest and shelf animations to play properly.
+* Fix sarcophagus and its item pickup.
+* Fix underwater door and double doors continuing to be interactable after opening.
+* Fix underwater door being interactable when underwater switch is on the same square.
+* Fix ability to turn when aligning to an object while standing.
+* Fix left arm lock while picking up an item with a flare in hand.
+* Fix potential crashes when exiting game.
+* Fix secret soundtrack (which filename number should be the last) not playing.
+* Fix distance fog not applying properly to additive and subtractive surfaces.
+* Fix swarm enemies and projectiles occasionally drawn using incorrect meshes.
+* Fix single-hand weapons not having a sound on draw and undraw.
+* Fix waterfall mist - it can now be disabled with antitrigger.
+* Fix underwater lever pull animation playing after interacting with underwater ceiling switch.
+* Fix SAS_DRAG_BLOKE object interaction.
+* Fix KILLER_STATUE not triggering.
+
+Lua API changes:
+* A new class has been added, LaraObject, for Lara-specific functions. The built-in "Lara" variable now uses this class.
+* Add functions for Lara object:
+  - GetPoison / SetPoison
+  - GetAir / SetAir
+  - GetOnFire / SetOnFire
+  - GetSprintEnergy / SetSprintEnergy
+  - GetWet / SetWet
+  - GetWeaponType / SetWeaponType
+  - UndrawWeapon
+  - GetAmmoCount
+  - GetHandStatus
+  - ThrowAwayTorch
+  
+* Add FlipMap and PlayFlyBy script commands and node functions.
+* Add GetMoveablesBySlot and GetStaticsBySlot script commands to select groups of items.
+* Add FlyCheat option to gameflow script for disabling dozy mode.
+* Add SetTotalSecretCount option to gameflow script to set overall amount of secrets.
+* Raised the maximum value on Moveable.SetHP to 32767 (its internal numeric maximum).
+
 Version 1.0.2
 =============
 
-* Removing Pistols with TakeItem and SetItemCount now works correctly.
-* Vec3s can now be saved and loaded in LevelVars and GameVars.
+* Fix removing Pistols with TakeItem and SetItemCount.
+* Allow saving and loading of Vec3s in LevelVars and GameVars.
 * Support volume triggers made with node editor.
 * Adjust max turn rate of idle state.
 * Align Lara on slopes when crouching, crawling, and dying.
@@ -39,18 +137,18 @@ Version 1.0.2
 * Fix weapon hotkeys and add missing crossbow hotkey.
 
 Lua API changes:
-
 * Util.ShortenTENCalls no longer needs to be called; it is now automatic for both level scripts and Gameflow.lua.
 * Flow.InvID has been removed; any function taking a pickup (e.g. GiveItem) now takes an Objects.ObjID instead.
-* Added Enable, Disable, GetActive, Get/SetSolid functions for static meshes.
-* Added FadeOutComplete, StopAudioTrack and StopAudioTracks functions.
+* Add Enable, Disable, GetActive, Get/SetSolid functions for static meshes.
+* Add FadeOutComplete, StopAudioTrack and StopAudioTracks functions.
 * Account for objects in HasLineOfSight tests.
-* Timer.lua, EventSequence.lua and Util.lua have been moved to a subfolder, Engine.
+* Move Timer.lua, EventSequence.lua and Util.lua to a subfolder named "Engine".
 * LevelFuncs can now contain tables as well as functions. These tables can contain functions and other tables, and so forth.
 * Moveable functions SetOnHit, SetOnKilled, SetOnCollidedWithObject and SetOnCollidedWithRoom no longer take strings, and instead take function objects themselves.
-* EventSequence and Timer no longer require you to call Timer.UpdateAll in OnControlPhase.
-* TEN.Logic.AddCallback and TEN.Logic.RemoveCallback have been added.
-* GiveItem, TakeItem, and SetItemCount have been reworked (e.g. SetItemCount with a value of -1 can give infinite ammo/consumables).
+* Don't require EventSequence and Timer to call Timer.UpdateAll in OnControlPhase.
+* Add TEN.Logic.AddCallback and TEN.Logic.RemoveCallback.
+* Rework GiveItem, TakeItem, and SetItemCount (e.g. SetItemCount with a value of -1 can give infinite ammo/consumables).
+
 
 Version 1.0.1
 =============

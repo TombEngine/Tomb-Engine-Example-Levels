@@ -1,0 +1,51 @@
+[2022-Dec-07 00:16:04] [info] Starting TombEngine version 1.0.3
+[2022-Dec-07 00:16:04] [info] Creating DX11 renderer device...
+[2022-Dec-07 00:16:04] [info] Initializing DX11...
+[2022-Dec-07 00:16:11] [info] Initializing BASS sound device: success
+[2022-Dec-07 00:16:11] [info] Initializing FX plugin: success
+[2022-Dec-07 00:16:11] [info] Starting 3D mixdown: success
+[2022-Dec-07 00:16:11] [info] Attaching environmental FX: success
+[2022-Dec-07 00:16:11] [info] Attaching compressor: success
+[2022-Dec-07 00:16:11] [info] Initializing input system...
+[2022-Dec-07 00:16:11] [info] Starting GameMain...
+[2022-Dec-07 00:16:13] [info] Loading level file...
+[2022-Dec-07 00:16:13] [info] Loading level file: Data\karnak.ten
+[2022-Dec-07 00:16:14] [info] Level compiler version: 1.6.1
+[2022-Dec-07 00:16:14] [info] Loading textures... 
+[2022-Dec-07 00:16:14] [info] Num room textures: 1
+[2022-Dec-07 00:16:14] [info] Num object textures: 1
+[2022-Dec-07 00:16:14] [info] Num static textures: 1
+[2022-Dec-07 00:16:14] [info] Num anim textures: 2
+[2022-Dec-07 00:16:14] [info] Num sprite textures: 152
+[2022-Dec-07 00:16:14] [info] Loading rooms... 
+[2022-Dec-07 00:16:14] [info] Num rooms: 127
+[2022-Dec-07 00:16:16] [info] Num meshes: 665
+[2022-Dec-07 00:16:16] [info] Num animations: 882
+[2022-Dec-07 00:16:16] [info] Num models: 134
+[2022-Dec-07 00:16:16] [info] Initializing objects...
+[2022-Dec-07 00:16:16] [info] Num statics: 22
+[2022-Dec-07 00:16:16] [info] Num sprites: 152
+[2022-Dec-07 00:16:16] [info] Num sprite sequences: 20
+[2022-Dec-07 00:16:16] [info] Num cameras: 6
+[2022-Dec-07 00:16:16] [info] Num sinks: 8
+[2022-Dec-07 00:16:16] [info] Num sound sources: 23
+[2022-Dec-07 00:16:16] [info] Num boxes: 777
+[2022-Dec-07 00:16:16] [info] Num overlaps: 5483
+[2022-Dec-07 00:16:16] [info] Num anim textures: 2
+[2022-Dec-07 00:16:16] [info] Num items: 101
+[2022-Dec-07 00:16:16] [info] Num AI objects: 0
+[2022-Dec-07 00:16:16] [info] Num level sets: 3
+[2022-Dec-07 00:16:16] [info] Loading samples... 
+[2022-Dec-07 00:16:16] [info] Sound map size: 4096
+[2022-Dec-07 00:16:16] [info] Initializing level...
+[2022-Dec-07 00:16:16] [info] Preparing renderer...
+[2022-Dec-07 00:16:16] [info] Level loading complete.
+[2022-Dec-07 00:16:17] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
+[2022-Dec-07 00:16:17] [info] Playing soundtrack 'Audio\110.wav': success
+[2022-Dec-07 00:16:17] [info] Loading node scripts...
+[2022-Dec-07 00:16:17] [info] 13 node catalogs were found and loaded.
+[2022-Dec-07 00:16:17] [info] 3 node scripts were found and loaded.
+[2022-Dec-07 00:16:17] [info] Playing soundtrack 'Audio\086_jeepA.wav': success
+[2022-Dec-07 00:16:17] [warning] Non present effect: 1050
+[2022-Dec-07 00:16:44] [info] Shutting down BASS...
+[2022-Dec-07 00:16:44] [info] Cleaning up and exiting...
