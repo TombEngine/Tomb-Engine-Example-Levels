@@ -52,5 +52,10 @@
 			<FolderPath>$(ProjectDirectory)\Levels\library</FolderPath>
 			<SpecificFile>library_TombEngine.prj2</SpecificFile>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>angkor wat</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\angkor wat</FolderPath>
+			<SpecificFile>angkor_TombEngine_beforetriggeremoval.prj2</SpecificFile>
+		</ProjectLevel>
 	</Levels>
 </Project>
