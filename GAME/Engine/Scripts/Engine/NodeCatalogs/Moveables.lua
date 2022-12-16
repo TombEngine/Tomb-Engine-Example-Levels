@@ -315,7 +315,7 @@ end
 -- !Section "Moveable parameters"
 -- !Description "Set given moveable rotation."
 -- !Arguments "Enumeration, [ Change | Set ], 25, Change adds/subtracts given value while Set forces it."
--- !Arguments "Numerical, [ 0 | 360 | 2 | 1 | 5 ], 15, Rotation value to define", "NewLine, Moveables"
+-- !Arguments "Numerical, [ -360 | 360 | 2 | 1 | 5 ], 15, Rotation value to define", "NewLine, Moveables"
 
 LevelFuncs.Engine.Node.SetMoveableRotation = function(operation, value, moveableName)
 
@@ -323,19 +323,31 @@ LevelFuncs.Engine.Node.SetMoveableRotation = function(operation, value, moveable
 	local rotation = moveable:GetRotation();
 
 	if (operation == 0) then
-		local rot = rotation.y + value
-		if (rot > 360) then
-			rotation.y = rot - 360
-		elseif (rot < 0) then
-			rotation.y = 360 + rot
-		else
-			rotation.y = rotation.y + value
-		end
+		rotation.y = LevelFuncs.Engine.Node.WrapRotation(rotation.y, value)
 	else
 		rotation.y = value
 	end
 
 	moveable:SetRotation(rotation)
+end
+
+-- !Name "Move moveable to another moveable"
+-- !Section "Moveable parameters"
+-- !Description "Moves moveable to a position of another moveable."
+-- !Arguments "25, Boolean, With rotation"
+-- !Arguments "NewLine, Moveables, Moveable to move"
+-- !Arguments "NewLine, Moveables, Moveable to get position and rotation from"
+
+LevelFuncs.Engine.Node.SetMoveablePositionToAnotherMoveable = function(rotate, destMoveable, srcMoveable)
+
+	local src = TEN.Objects.GetMoveableByName(srcMoveable)
+	local dest = TEN.Objects.GetMoveableByName(destMoveable)
+
+	dest:SetPosition(src:GetPosition())
+
+	if (rotate == true) then
+		dest:SetRotation(src:GetRotation())
+	end
 end
 
 -- !Name "Set moveable colour"
