@@ -1,469 +1,441 @@
-[2023-Jan-14 02:16:43] [info] Starting TombEngine version 1.0.6
-[2023-Jan-14 02:16:43] [info] Creating DX11 renderer device...
-[2023-Jan-14 02:16:43] [info] Initializing DX11...
-[2023-Jan-14 02:16:50] [error] Initializing BASS sound device: error #23
-[2023-Jan-14 02:16:50] [info] Initializing input system...
-[2023-Jan-14 02:16:50] [info] Starting GameMain...
-[2023-Jan-14 02:16:52] [info] DoTitle
-[2023-Jan-14 02:16:52] [info] Loading level file...
-[2023-Jan-14 02:16:52] [info] Loading level file: Data\title.ten
-[2023-Jan-14 02:16:52] [info] Level compiler version: 1.6.4
-[2023-Jan-14 02:16:52] [info] Loading textures... 
-[2023-Jan-14 02:16:52] [info] Num room textures: 1
-[2023-Jan-14 02:16:52] [info] Num object textures: 1
-[2023-Jan-14 02:16:52] [info] Num static textures: 1
-[2023-Jan-14 02:16:52] [info] Num anim textures: 2
-[2023-Jan-14 02:16:52] [info] Num sprite textures: 152
-[2023-Jan-14 02:16:52] [info] Loading rooms... 
-[2023-Jan-14 02:16:52] [info] Num rooms: 42
-[2023-Jan-14 02:16:53] [info] Num meshes: 572
-[2023-Jan-14 02:16:53] [info] Num animations: 737
-[2023-Jan-14 02:16:53] [info] Num models: 102
-[2023-Jan-14 02:16:53] [info] Initializing objects...
-[2023-Jan-14 02:16:53] [info] Num statics: 23
-[2023-Jan-14 02:16:53] [info] Num sprites: 152
-[2023-Jan-14 02:16:53] [info] Num sprite sequences: 20
-[2023-Jan-14 02:16:53] [info] Num cameras: 0
-[2023-Jan-14 02:16:53] [info] Num sinks: 0
-[2023-Jan-14 02:16:53] [info] Num sound sources: 0
-[2023-Jan-14 02:16:53] [info] Num boxes: 104
-[2023-Jan-14 02:16:53] [info] Num overlaps: 540
-[2023-Jan-14 02:16:53] [info] Num anim textures: 2
-[2023-Jan-14 02:16:53] [info] Num items: 34
-[2023-Jan-14 02:16:53] [info] Num AI objects: 0
-[2023-Jan-14 02:16:53] [info] Num level sets: 1
-[2023-Jan-14 02:16:53] [info] Loading samples... 
-[2023-Jan-14 02:16:53] [info] Sound map size: 4096
-[2023-Jan-14 02:16:53] [error] Error loading sample 0
-[2023-Jan-14 02:16:53] [error] Error loading sample 1
-[2023-Jan-14 02:16:53] [error] Error loading sample 2
-[2023-Jan-14 02:16:53] [error] Error loading sample 3
-[2023-Jan-14 02:16:53] [info] Initializing level...
-[2023-Jan-14 02:16:53] [info] Preparing renderer...
-[2023-Jan-14 02:16:54] [info] Level loading complete.
-[2023-Jan-14 02:16:54] [error] Opening soundtrack 'Audio\104.wav': error #8
-[2023-Jan-14 02:16:54] [info] Loading node scripts...
-[2023-Jan-14 02:16:54] [info] 14 node catalogs were found and loaded.
-[2023-Jan-14 02:16:54] [info] 1 node scripts were found and loaded.
-[2023-Jan-14 02:16:54] [info] Starting new level.
-[2023-Jan-14 02:16:57] [info] DoLevel
-[2023-Jan-14 02:16:57] [info] Loading level file...
-[2023-Jan-14 02:16:57] [info] Loading level file: Data\coastal.ten
-[2023-Jan-14 02:16:58] [info] Level compiler version: 1.6.4
-[2023-Jan-14 02:16:58] [info] Loading textures... 
-[2023-Jan-14 02:16:58] [info] Num room textures: 1
-[2023-Jan-14 02:16:58] [info] Num object textures: 1
-[2023-Jan-14 02:16:58] [info] Num static textures: 1
-[2023-Jan-14 02:16:58] [info] Num anim textures: 15
-[2023-Jan-14 02:16:58] [info] Num sprite textures: 152
-[2023-Jan-14 02:16:58] [info] Loading rooms... 
-[2023-Jan-14 02:16:58] [info] Num rooms: 175
-[2023-Jan-14 02:17:01] [info] Num meshes: 728
-[2023-Jan-14 02:17:01] [info] Num animations: 863
-[2023-Jan-14 02:17:01] [info] Num models: 140
-[2023-Jan-14 02:17:01] [info] Initializing objects...
-[2023-Jan-14 02:17:01] [info] Num statics: 24
-[2023-Jan-14 02:17:01] [info] Num sprites: 152
-[2023-Jan-14 02:17:01] [info] Num sprite sequences: 20
-[2023-Jan-14 02:17:01] [info] Num cameras: 0
-[2023-Jan-14 02:17:01] [info] Num sinks: 5
-[2023-Jan-14 02:17:01] [info] Num sound sources: 17
-[2023-Jan-14 02:17:01] [info] Num boxes: 981
-[2023-Jan-14 02:17:01] [info] Num overlaps: 4771
-[2023-Jan-14 02:17:01] [info] Num anim textures: 15
-[2023-Jan-14 02:17:01] [info] Num items: 110
-[2023-Jan-14 02:17:01] [info] Num AI objects: 0
-[2023-Jan-14 02:17:01] [info] Num level sets: 5
-[2023-Jan-14 02:17:01] [info] Loading samples... 
-[2023-Jan-14 02:17:01] [info] Sound map size: 4096
-[2023-Jan-14 02:17:01] [error] Error loading sample 0
-[2023-Jan-14 02:17:01] [error] Error loading sample 1
-[2023-Jan-14 02:17:01] [error] Error loading sample 2
-[2023-Jan-14 02:17:01] [error] Error loading sample 3
-[2023-Jan-14 02:17:01] [error] Error loading sample 4
-[2023-Jan-14 02:17:01] [error] Error loading sample 5
-[2023-Jan-14 02:17:01] [error] Error loading sample 6
-[2023-Jan-14 02:17:01] [error] Error loading sample 7
-[2023-Jan-14 02:17:01] [error] Error loading sample 8
-[2023-Jan-14 02:17:01] [error] Error loading sample 9
-[2023-Jan-14 02:17:01] [error] Error loading sample 10
-[2023-Jan-14 02:17:01] [error] Error loading sample 11
-[2023-Jan-14 02:17:01] [error] Error loading sample 12
-[2023-Jan-14 02:17:01] [error] Error loading sample 13
-[2023-Jan-14 02:17:01] [error] Error loading sample 14
-[2023-Jan-14 02:17:01] [error] Error loading sample 15
-[2023-Jan-14 02:17:01] [error] Error loading sample 16
-[2023-Jan-14 02:17:01] [error] Error loading sample 17
-[2023-Jan-14 02:17:01] [error] Error loading sample 18
-[2023-Jan-14 02:17:01] [error] Error loading sample 19
-[2023-Jan-14 02:17:01] [error] Error loading sample 20
-[2023-Jan-14 02:17:01] [error] Error loading sample 21
-[2023-Jan-14 02:17:01] [error] Error loading sample 22
-[2023-Jan-14 02:17:01] [error] Error loading sample 23
-[2023-Jan-14 02:17:01] [error] Error loading sample 24
-[2023-Jan-14 02:17:01] [error] Error loading sample 25
-[2023-Jan-14 02:17:01] [error] Error loading sample 26
-[2023-Jan-14 02:17:01] [error] Error loading sample 27
-[2023-Jan-14 02:17:01] [error] Error loading sample 28
-[2023-Jan-14 02:17:01] [error] Error loading sample 29
-[2023-Jan-14 02:17:01] [error] Error loading sample 30
-[2023-Jan-14 02:17:01] [error] Error loading sample 31
-[2023-Jan-14 02:17:01] [error] Error loading sample 32
-[2023-Jan-14 02:17:01] [error] Error loading sample 33
-[2023-Jan-14 02:17:01] [error] Error loading sample 34
-[2023-Jan-14 02:17:01] [error] Error loading sample 35
-[2023-Jan-14 02:17:01] [error] Error loading sample 36
-[2023-Jan-14 02:17:01] [error] Error loading sample 37
-[2023-Jan-14 02:17:01] [error] Error loading sample 38
-[2023-Jan-14 02:17:01] [error] Error loading sample 39
-[2023-Jan-14 02:17:01] [error] Error loading sample 40
-[2023-Jan-14 02:17:01] [error] Error loading sample 41
-[2023-Jan-14 02:17:01] [error] Error loading sample 42
-[2023-Jan-14 02:17:01] [error] Error loading sample 43
-[2023-Jan-14 02:17:01] [error] Error loading sample 44
-[2023-Jan-14 02:17:01] [error] Error loading sample 45
-[2023-Jan-14 02:17:01] [error] Error loading sample 46
-[2023-Jan-14 02:17:01] [error] Error loading sample 47
-[2023-Jan-14 02:17:01] [error] Error loading sample 48
-[2023-Jan-14 02:17:01] [error] Error loading sample 49
-[2023-Jan-14 02:17:01] [error] Error loading sample 50
-[2023-Jan-14 02:17:01] [error] Error loading sample 51
-[2023-Jan-14 02:17:01] [error] Error loading sample 52
-[2023-Jan-14 02:17:01] [error] Error loading sample 53
-[2023-Jan-14 02:17:01] [error] Error loading sample 54
-[2023-Jan-14 02:17:01] [error] Error loading sample 55
-[2023-Jan-14 02:17:01] [error] Error loading sample 56
-[2023-Jan-14 02:17:01] [error] Error loading sample 57
-[2023-Jan-14 02:17:01] [error] Error loading sample 58
-[2023-Jan-14 02:17:01] [error] Error loading sample 59
-[2023-Jan-14 02:17:01] [error] Error loading sample 60
-[2023-Jan-14 02:17:01] [error] Error loading sample 61
-[2023-Jan-14 02:17:01] [error] Error loading sample 62
-[2023-Jan-14 02:17:01] [error] Error loading sample 63
-[2023-Jan-14 02:17:01] [error] Error loading sample 64
-[2023-Jan-14 02:17:01] [error] Error loading sample 65
-[2023-Jan-14 02:17:01] [error] Error loading sample 66
-[2023-Jan-14 02:17:01] [error] Error loading sample 67
-[2023-Jan-14 02:17:01] [error] Error loading sample 68
-[2023-Jan-14 02:17:01] [error] Error loading sample 69
-[2023-Jan-14 02:17:01] [error] Error loading sample 70
-[2023-Jan-14 02:17:01] [error] Error loading sample 71
-[2023-Jan-14 02:17:01] [error] Error loading sample 72
-[2023-Jan-14 02:17:01] [error] Error loading sample 73
-[2023-Jan-14 02:17:01] [error] Error loading sample 74
-[2023-Jan-14 02:17:01] [error] Error loading sample 75
-[2023-Jan-14 02:17:01] [error] Error loading sample 76
-[2023-Jan-14 02:17:01] [error] Error loading sample 77
-[2023-Jan-14 02:17:01] [error] Error loading sample 78
-[2023-Jan-14 02:17:01] [error] Error loading sample 79
-[2023-Jan-14 02:17:01] [error] Error loading sample 80
-[2023-Jan-14 02:17:01] [error] Error loading sample 81
-[2023-Jan-14 02:17:01] [error] Error loading sample 82
-[2023-Jan-14 02:17:01] [error] Error loading sample 83
-[2023-Jan-14 02:17:01] [error] Error loading sample 84
-[2023-Jan-14 02:17:01] [error] Error loading sample 85
-[2023-Jan-14 02:17:01] [error] Error loading sample 86
-[2023-Jan-14 02:17:01] [error] Error loading sample 87
-[2023-Jan-14 02:17:01] [error] Error loading sample 88
-[2023-Jan-14 02:17:01] [error] Error loading sample 89
-[2023-Jan-14 02:17:01] [error] Error loading sample 90
-[2023-Jan-14 02:17:01] [error] Error loading sample 91
-[2023-Jan-14 02:17:01] [error] Error loading sample 92
-[2023-Jan-14 02:17:01] [error] Error loading sample 93
-[2023-Jan-14 02:17:01] [error] Error loading sample 94
-[2023-Jan-14 02:17:01] [error] Error loading sample 95
-[2023-Jan-14 02:17:01] [error] Error loading sample 96
-[2023-Jan-14 02:17:01] [error] Error loading sample 97
-[2023-Jan-14 02:17:01] [error] Error loading sample 98
-[2023-Jan-14 02:17:01] [error] Error loading sample 99
-[2023-Jan-14 02:17:01] [error] Error loading sample 100
-[2023-Jan-14 02:17:01] [error] Error loading sample 101
-[2023-Jan-14 02:17:01] [error] Error loading sample 102
-[2023-Jan-14 02:17:01] [error] Error loading sample 103
-[2023-Jan-14 02:17:01] [error] Error loading sample 104
-[2023-Jan-14 02:17:01] [error] Error loading sample 105
-[2023-Jan-14 02:17:01] [error] Error loading sample 106
-[2023-Jan-14 02:17:01] [error] Error loading sample 107
-[2023-Jan-14 02:17:01] [error] Error loading sample 108
-[2023-Jan-14 02:17:01] [error] Error loading sample 109
-[2023-Jan-14 02:17:01] [error] Error loading sample 110
-[2023-Jan-14 02:17:01] [error] Error loading sample 111
-[2023-Jan-14 02:17:01] [error] Error loading sample 112
-[2023-Jan-14 02:17:01] [error] Error loading sample 113
-[2023-Jan-14 02:17:01] [error] Error loading sample 114
-[2023-Jan-14 02:17:01] [error] Error loading sample 115
-[2023-Jan-14 02:17:01] [error] Error loading sample 116
-[2023-Jan-14 02:17:01] [error] Error loading sample 117
-[2023-Jan-14 02:17:01] [error] Error loading sample 118
-[2023-Jan-14 02:17:01] [error] Error loading sample 119
-[2023-Jan-14 02:17:01] [error] Error loading sample 120
-[2023-Jan-14 02:17:01] [error] Error loading sample 121
-[2023-Jan-14 02:17:01] [error] Error loading sample 122
-[2023-Jan-14 02:17:01] [error] Error loading sample 123
-[2023-Jan-14 02:17:01] [error] Error loading sample 124
-[2023-Jan-14 02:17:01] [error] Error loading sample 125
-[2023-Jan-14 02:17:01] [error] Error loading sample 126
-[2023-Jan-14 02:17:01] [error] Error loading sample 127
-[2023-Jan-14 02:17:01] [error] Error loading sample 128
-[2023-Jan-14 02:17:01] [error] Error loading sample 129
-[2023-Jan-14 02:17:01] [error] Error loading sample 130
-[2023-Jan-14 02:17:01] [error] Error loading sample 131
-[2023-Jan-14 02:17:01] [error] Error loading sample 132
-[2023-Jan-14 02:17:01] [error] Error loading sample 133
-[2023-Jan-14 02:17:01] [error] Error loading sample 134
-[2023-Jan-14 02:17:01] [error] Error loading sample 135
-[2023-Jan-14 02:17:01] [error] Error loading sample 136
-[2023-Jan-14 02:17:01] [error] Error loading sample 137
-[2023-Jan-14 02:17:01] [error] Error loading sample 138
-[2023-Jan-14 02:17:01] [error] Error loading sample 139
-[2023-Jan-14 02:17:01] [error] Error loading sample 140
-[2023-Jan-14 02:17:01] [error] Error loading sample 141
-[2023-Jan-14 02:17:01] [error] Error loading sample 142
-[2023-Jan-14 02:17:01] [error] Error loading sample 143
-[2023-Jan-14 02:17:01] [error] Error loading sample 144
-[2023-Jan-14 02:17:01] [error] Error loading sample 145
-[2023-Jan-14 02:17:01] [error] Error loading sample 146
-[2023-Jan-14 02:17:01] [error] Error loading sample 147
-[2023-Jan-14 02:17:01] [error] Error loading sample 148
-[2023-Jan-14 02:17:01] [error] Error loading sample 149
-[2023-Jan-14 02:17:01] [error] Error loading sample 150
-[2023-Jan-14 02:17:01] [error] Error loading sample 151
-[2023-Jan-14 02:17:01] [error] Error loading sample 152
-[2023-Jan-14 02:17:01] [error] Error loading sample 153
-[2023-Jan-14 02:17:01] [error] Error loading sample 154
-[2023-Jan-14 02:17:01] [error] Error loading sample 155
-[2023-Jan-14 02:17:01] [error] Error loading sample 156
-[2023-Jan-14 02:17:01] [error] Error loading sample 157
-[2023-Jan-14 02:17:01] [error] Error loading sample 158
-[2023-Jan-14 02:17:01] [error] Error loading sample 159
-[2023-Jan-14 02:17:01] [error] Error loading sample 160
-[2023-Jan-14 02:17:01] [error] Error loading sample 161
-[2023-Jan-14 02:17:01] [error] Error loading sample 162
-[2023-Jan-14 02:17:01] [error] Error loading sample 163
-[2023-Jan-14 02:17:01] [error] Error loading sample 164
-[2023-Jan-14 02:17:01] [error] Error loading sample 165
-[2023-Jan-14 02:17:01] [error] Error loading sample 166
-[2023-Jan-14 02:17:01] [error] Error loading sample 167
-[2023-Jan-14 02:17:01] [error] Error loading sample 168
-[2023-Jan-14 02:17:01] [error] Error loading sample 169
-[2023-Jan-14 02:17:01] [error] Error loading sample 170
-[2023-Jan-14 02:17:01] [error] Error loading sample 171
-[2023-Jan-14 02:17:01] [error] Error loading sample 172
-[2023-Jan-14 02:17:01] [error] Error loading sample 173
-[2023-Jan-14 02:17:01] [error] Error loading sample 174
-[2023-Jan-14 02:17:01] [error] Error loading sample 175
-[2023-Jan-14 02:17:01] [error] Error loading sample 176
-[2023-Jan-14 02:17:01] [error] Error loading sample 177
-[2023-Jan-14 02:17:01] [error] Error loading sample 178
-[2023-Jan-14 02:17:01] [error] Error loading sample 179
-[2023-Jan-14 02:17:01] [error] Error loading sample 180
-[2023-Jan-14 02:17:01] [error] Error loading sample 181
-[2023-Jan-14 02:17:01] [error] Error loading sample 182
-[2023-Jan-14 02:17:01] [error] Error loading sample 183
-[2023-Jan-14 02:17:01] [error] Error loading sample 184
-[2023-Jan-14 02:17:01] [error] Error loading sample 185
-[2023-Jan-14 02:17:01] [error] Error loading sample 186
-[2023-Jan-14 02:17:01] [error] Error loading sample 187
-[2023-Jan-14 02:17:01] [error] Error loading sample 188
-[2023-Jan-14 02:17:01] [error] Error loading sample 189
-[2023-Jan-14 02:17:01] [error] Error loading sample 190
-[2023-Jan-14 02:17:01] [error] Error loading sample 191
-[2023-Jan-14 02:17:01] [error] Error loading sample 192
-[2023-Jan-14 02:17:01] [error] Error loading sample 193
-[2023-Jan-14 02:17:01] [error] Error loading sample 194
-[2023-Jan-14 02:17:01] [error] Error loading sample 195
-[2023-Jan-14 02:17:01] [error] Error loading sample 196
-[2023-Jan-14 02:17:01] [error] Error loading sample 197
-[2023-Jan-14 02:17:01] [error] Error loading sample 198
-[2023-Jan-14 02:17:01] [error] Error loading sample 199
-[2023-Jan-14 02:17:01] [error] Error loading sample 200
-[2023-Jan-14 02:17:01] [error] Error loading sample 201
-[2023-Jan-14 02:17:01] [error] Error loading sample 202
-[2023-Jan-14 02:17:01] [error] Error loading sample 203
-[2023-Jan-14 02:17:01] [error] Error loading sample 204
-[2023-Jan-14 02:17:01] [error] Error loading sample 205
-[2023-Jan-14 02:17:01] [error] Error loading sample 206
-[2023-Jan-14 02:17:01] [error] Error loading sample 207
-[2023-Jan-14 02:17:01] [error] Error loading sample 208
-[2023-Jan-14 02:17:01] [error] Error loading sample 209
-[2023-Jan-14 02:17:01] [error] Error loading sample 210
-[2023-Jan-14 02:17:01] [error] Error loading sample 211
-[2023-Jan-14 02:17:01] [error] Error loading sample 212
-[2023-Jan-14 02:17:01] [error] Error loading sample 213
-[2023-Jan-14 02:17:01] [error] Error loading sample 214
-[2023-Jan-14 02:17:01] [error] Error loading sample 215
-[2023-Jan-14 02:17:01] [error] Error loading sample 216
-[2023-Jan-14 02:17:01] [error] Error loading sample 217
-[2023-Jan-14 02:17:01] [error] Error loading sample 218
-[2023-Jan-14 02:17:01] [error] Error loading sample 219
-[2023-Jan-14 02:17:01] [error] Error loading sample 220
-[2023-Jan-14 02:17:01] [error] Error loading sample 221
-[2023-Jan-14 02:17:01] [error] Error loading sample 222
-[2023-Jan-14 02:17:01] [error] Error loading sample 223
-[2023-Jan-14 02:17:01] [error] Error loading sample 224
-[2023-Jan-14 02:17:01] [error] Error loading sample 225
-[2023-Jan-14 02:17:01] [error] Error loading sample 226
-[2023-Jan-14 02:17:01] [error] Error loading sample 227
-[2023-Jan-14 02:17:01] [error] Error loading sample 228
-[2023-Jan-14 02:17:01] [error] Error loading sample 229
-[2023-Jan-14 02:17:01] [error] Error loading sample 230
-[2023-Jan-14 02:17:01] [error] Error loading sample 231
-[2023-Jan-14 02:17:01] [error] Error loading sample 232
-[2023-Jan-14 02:17:01] [error] Error loading sample 233
-[2023-Jan-14 02:17:01] [error] Error loading sample 234
-[2023-Jan-14 02:17:01] [error] Error loading sample 235
-[2023-Jan-14 02:17:01] [error] Error loading sample 236
-[2023-Jan-14 02:17:01] [error] Error loading sample 237
-[2023-Jan-14 02:17:01] [error] Error loading sample 238
-[2023-Jan-14 02:17:01] [error] Error loading sample 239
-[2023-Jan-14 02:17:01] [error] Error loading sample 240
-[2023-Jan-14 02:17:01] [error] Error loading sample 241
-[2023-Jan-14 02:17:01] [error] Error loading sample 242
-[2023-Jan-14 02:17:01] [error] Error loading sample 243
-[2023-Jan-14 02:17:01] [error] Error loading sample 244
-[2023-Jan-14 02:17:01] [error] Error loading sample 245
-[2023-Jan-14 02:17:01] [error] Error loading sample 246
-[2023-Jan-14 02:17:01] [error] Error loading sample 247
-[2023-Jan-14 02:17:01] [error] Error loading sample 248
-[2023-Jan-14 02:17:01] [error] Error loading sample 249
-[2023-Jan-14 02:17:01] [error] Error loading sample 250
-[2023-Jan-14 02:17:01] [error] Error loading sample 251
-[2023-Jan-14 02:17:01] [error] Error loading sample 252
-[2023-Jan-14 02:17:01] [error] Error loading sample 253
-[2023-Jan-14 02:17:01] [error] Error loading sample 254
-[2023-Jan-14 02:17:01] [error] Error loading sample 255
-[2023-Jan-14 02:17:01] [error] Error loading sample 256
-[2023-Jan-14 02:17:01] [error] Error loading sample 257
-[2023-Jan-14 02:17:01] [error] Error loading sample 258
-[2023-Jan-14 02:17:01] [error] Error loading sample 259
-[2023-Jan-14 02:17:01] [error] Error loading sample 260
-[2023-Jan-14 02:17:01] [error] Error loading sample 261
-[2023-Jan-14 02:17:01] [error] Error loading sample 262
-[2023-Jan-14 02:17:01] [error] Error loading sample 263
-[2023-Jan-14 02:17:01] [error] Error loading sample 264
-[2023-Jan-14 02:17:01] [error] Error loading sample 265
-[2023-Jan-14 02:17:01] [error] Error loading sample 266
-[2023-Jan-14 02:17:01] [error] Error loading sample 267
-[2023-Jan-14 02:17:01] [error] Error loading sample 268
-[2023-Jan-14 02:17:01] [error] Error loading sample 269
-[2023-Jan-14 02:17:01] [error] Error loading sample 270
-[2023-Jan-14 02:17:01] [error] Error loading sample 271
-[2023-Jan-14 02:17:01] [error] Error loading sample 272
-[2023-Jan-14 02:17:01] [error] Error loading sample 273
-[2023-Jan-14 02:17:01] [error] Error loading sample 274
-[2023-Jan-14 02:17:01] [error] Error loading sample 275
-[2023-Jan-14 02:17:01] [error] Error loading sample 276
-[2023-Jan-14 02:17:01] [error] Error loading sample 277
-[2023-Jan-14 02:17:01] [error] Error loading sample 278
-[2023-Jan-14 02:17:01] [error] Error loading sample 279
-[2023-Jan-14 02:17:01] [error] Error loading sample 280
-[2023-Jan-14 02:17:01] [error] Error loading sample 281
-[2023-Jan-14 02:17:01] [error] Error loading sample 282
-[2023-Jan-14 02:17:01] [error] Error loading sample 283
-[2023-Jan-14 02:17:01] [error] Error loading sample 284
-[2023-Jan-14 02:17:01] [error] Error loading sample 285
-[2023-Jan-14 02:17:01] [error] Error loading sample 286
-[2023-Jan-14 02:17:01] [error] Error loading sample 287
-[2023-Jan-14 02:17:01] [error] Error loading sample 288
-[2023-Jan-14 02:17:01] [error] Error loading sample 289
-[2023-Jan-14 02:17:01] [error] Error loading sample 290
-[2023-Jan-14 02:17:01] [error] Error loading sample 291
-[2023-Jan-14 02:17:01] [error] Error loading sample 292
-[2023-Jan-14 02:17:01] [error] Error loading sample 293
-[2023-Jan-14 02:17:01] [error] Error loading sample 294
-[2023-Jan-14 02:17:01] [error] Error loading sample 295
-[2023-Jan-14 02:17:01] [error] Error loading sample 296
-[2023-Jan-14 02:17:01] [error] Error loading sample 297
-[2023-Jan-14 02:17:01] [error] Error loading sample 298
-[2023-Jan-14 02:17:01] [error] Error loading sample 299
-[2023-Jan-14 02:17:01] [error] Error loading sample 300
-[2023-Jan-14 02:17:01] [error] Error loading sample 301
-[2023-Jan-14 02:17:01] [error] Error loading sample 302
-[2023-Jan-14 02:17:01] [error] Error loading sample 303
-[2023-Jan-14 02:17:01] [error] Error loading sample 304
-[2023-Jan-14 02:17:01] [error] Error loading sample 305
-[2023-Jan-14 02:17:01] [error] Error loading sample 306
-[2023-Jan-14 02:17:01] [error] Error loading sample 307
-[2023-Jan-14 02:17:01] [error] Error loading sample 308
-[2023-Jan-14 02:17:01] [error] Error loading sample 309
-[2023-Jan-14 02:17:01] [error] Error loading sample 310
-[2023-Jan-14 02:17:01] [error] Error loading sample 311
-[2023-Jan-14 02:17:01] [error] Error loading sample 312
-[2023-Jan-14 02:17:01] [error] Error loading sample 313
-[2023-Jan-14 02:17:01] [error] Error loading sample 314
-[2023-Jan-14 02:17:01] [error] Error loading sample 315
-[2023-Jan-14 02:17:01] [error] Error loading sample 316
-[2023-Jan-14 02:17:01] [error] Error loading sample 317
-[2023-Jan-14 02:17:01] [error] Error loading sample 318
-[2023-Jan-14 02:17:01] [error] Error loading sample 319
-[2023-Jan-14 02:17:01] [error] Error loading sample 320
-[2023-Jan-14 02:17:01] [error] Error loading sample 321
-[2023-Jan-14 02:17:01] [error] Error loading sample 322
-[2023-Jan-14 02:17:01] [error] Error loading sample 323
-[2023-Jan-14 02:17:01] [error] Error loading sample 324
-[2023-Jan-14 02:17:01] [error] Error loading sample 325
-[2023-Jan-14 02:17:01] [error] Error loading sample 326
-[2023-Jan-14 02:17:01] [error] Error loading sample 327
-[2023-Jan-14 02:17:01] [error] Error loading sample 328
-[2023-Jan-14 02:17:01] [error] Error loading sample 329
-[2023-Jan-14 02:17:01] [error] Error loading sample 330
-[2023-Jan-14 02:17:01] [error] Error loading sample 331
-[2023-Jan-14 02:17:01] [error] Error loading sample 332
-[2023-Jan-14 02:17:01] [error] Error loading sample 333
-[2023-Jan-14 02:17:01] [error] Error loading sample 334
-[2023-Jan-14 02:17:01] [error] Error loading sample 335
-[2023-Jan-14 02:17:01] [error] Error loading sample 336
-[2023-Jan-14 02:17:01] [error] Error loading sample 337
-[2023-Jan-14 02:17:01] [error] Error loading sample 338
-[2023-Jan-14 02:17:01] [error] Error loading sample 339
-[2023-Jan-14 02:17:01] [error] Error loading sample 340
-[2023-Jan-14 02:17:01] [error] Error loading sample 341
-[2023-Jan-14 02:17:01] [error] Error loading sample 342
-[2023-Jan-14 02:17:01] [error] Error loading sample 343
-[2023-Jan-14 02:17:01] [error] Error loading sample 344
-[2023-Jan-14 02:17:01] [error] Error loading sample 345
-[2023-Jan-14 02:17:01] [error] Error loading sample 346
-[2023-Jan-14 02:17:01] [error] Error loading sample 347
-[2023-Jan-14 02:17:01] [error] Error loading sample 348
-[2023-Jan-14 02:17:01] [error] Error loading sample 349
-[2023-Jan-14 02:17:01] [error] Error loading sample 350
-[2023-Jan-14 02:17:01] [error] Error loading sample 351
-[2023-Jan-14 02:17:01] [error] Error loading sample 352
-[2023-Jan-14 02:17:01] [error] Error loading sample 353
-[2023-Jan-14 02:17:01] [error] Error loading sample 354
-[2023-Jan-14 02:17:01] [error] Error loading sample 355
-[2023-Jan-14 02:17:01] [error] Error loading sample 356
-[2023-Jan-14 02:17:01] [error] Error loading sample 357
-[2023-Jan-14 02:17:01] [error] Error loading sample 358
-[2023-Jan-14 02:17:01] [error] Error loading sample 359
-[2023-Jan-14 02:17:01] [error] Error loading sample 360
-[2023-Jan-14 02:17:01] [error] Error loading sample 361
-[2023-Jan-14 02:17:01] [error] Error loading sample 362
-[2023-Jan-14 02:17:01] [error] Error loading sample 363
-[2023-Jan-14 02:17:01] [error] Error loading sample 364
-[2023-Jan-14 02:17:01] [error] Error loading sample 365
-[2023-Jan-14 02:17:01] [error] Error loading sample 366
-[2023-Jan-14 02:17:01] [error] Error loading sample 367
-[2023-Jan-14 02:17:01] [error] Error loading sample 368
-[2023-Jan-14 02:17:01] [error] Error loading sample 369
-[2023-Jan-14 02:17:01] [error] Error loading sample 370
-[2023-Jan-14 02:17:01] [error] Error loading sample 371
-[2023-Jan-14 02:17:01] [error] Error loading sample 372
-[2023-Jan-14 02:17:01] [error] Error loading sample 373
-[2023-Jan-14 02:17:01] [error] Error loading sample 374
-[2023-Jan-14 02:17:01] [info] Initializing level...
-[2023-Jan-14 02:17:01] [info] Preparing renderer...
-[2023-Jan-14 02:17:02] [info] Level loading complete.
-[2023-Jan-14 02:17:02] [error] Opening soundtrack 'Audio\110.wav': error #8
-[2023-Jan-14 02:17:02] [info] Loading node scripts...
-[2023-Jan-14 02:17:02] [info] 14 node catalogs were found and loaded.
-[2023-Jan-14 02:17:02] [info] 6 node scripts were found and loaded.
-[2023-Jan-14 02:17:02] [info] Starting new game.
-[2023-Jan-14 02:17:12] [info] Suspending game thread
-[2023-Jan-14 02:17:15] [info] Resuming game thread
-[2023-Jan-14 02:17:22] [info] Suspending game thread
-[2023-Jan-14 02:37:31] [info] Resuming game thread
-[2023-Jan-14 02:37:34] [info] Suspending game thread
-[2023-Jan-14 02:43:21] [info] Resuming game thread
-[2023-Jan-14 02:43:23] [info] Shutting down BASS...
-[2023-Jan-14 02:43:23] [info] Cleaning up and exiting...
+[2023-Jan-30 10:38:14] [info] Starting TombEngine version 1.0.6
+[2023-Jan-30 10:38:15] [info] Creating DX11 renderer device...
+[2023-Jan-30 10:38:15] [info] Initializing DX11...
+[2023-Jan-30 10:38:21] [info] Initializing BASS sound device: success
+[2023-Jan-30 10:38:21] [info] Initializing FX plugin: success
+[2023-Jan-30 10:38:21] [info] Starting 3D mixdown: success
+[2023-Jan-30 10:38:21] [info] Attaching environmental FX: success
+[2023-Jan-30 10:38:21] [info] Attaching compressor: success
+[2023-Jan-30 10:38:21] [info] Initializing input system...
+[2023-Jan-30 10:38:22] [info] Starting GameMain...
+[2023-Jan-30 10:38:23] [info] DoTitle
+[2023-Jan-30 10:38:23] [info] Loading level file...
+[2023-Jan-30 10:38:23] [info] Loading level file: Data\title.ten
+[2023-Jan-30 10:38:24] [info] Level compiler version: 1.6.4
+[2023-Jan-30 10:38:24] [info] Loading textures... 
+[2023-Jan-30 10:38:24] [info] Num room textures: 1
+[2023-Jan-30 10:38:24] [info] Num object textures: 1
+[2023-Jan-30 10:38:24] [info] Num static textures: 1
+[2023-Jan-30 10:38:24] [info] Num anim textures: 2
+[2023-Jan-30 10:38:24] [info] Num sprite textures: 140
+[2023-Jan-30 10:38:24] [info] Loading rooms... 
+[2023-Jan-30 10:38:24] [info] Num rooms: 42
+[2023-Jan-30 10:38:24] [info] Num meshes: 572
+[2023-Jan-30 10:38:24] [info] Num animations: 737
+[2023-Jan-30 10:38:24] [info] Num models: 102
+[2023-Jan-30 10:38:24] [info] Initializing objects...
+[2023-Jan-30 10:38:24] [info] Num statics: 23
+[2023-Jan-30 10:38:24] [info] Num sprites: 140
+[2023-Jan-30 10:38:24] [info] Num sprite sequences: 20
+[2023-Jan-30 10:38:24] [info] Num cameras: 0
+[2023-Jan-30 10:38:24] [info] Num sinks: 0
+[2023-Jan-30 10:38:24] [info] Num sound sources: 0
+[2023-Jan-30 10:38:24] [info] Num boxes: 104
+[2023-Jan-30 10:38:24] [info] Num overlaps: 540
+[2023-Jan-30 10:38:24] [info] Num zone groups: 5
+[2023-Jan-30 10:38:24] [info] Num anim textures: 2
+[2023-Jan-30 10:38:24] [info] Num items: 34
+[2023-Jan-30 10:38:24] [info] Num AI objects: 0
+[2023-Jan-30 10:38:24] [info] Num event sets: 1
+[2023-Jan-30 10:38:24] [info] Loading samples... 
+[2023-Jan-30 10:38:24] [info] Sound map size: 4096
+[2023-Jan-30 10:38:24] [info] Num sample infos: 4
+[2023-Jan-30 10:38:24] [info] Num samples: 4
+[2023-Jan-30 10:38:24] [info] Initializing level...
+[2023-Jan-30 10:38:24] [info] Preparing renderer...
+[2023-Jan-30 10:38:24] [info] Allocated renderer object memory.
+[2023-Jan-30 10:38:24] [info] Generated 2 animated textures.
+[2023-Jan-30 10:38:24] [info] Generated 2 animated texture sets.
+[2023-Jan-30 10:38:25] [info] Generated 1 room texture atlases.
+[2023-Jan-30 10:38:25] [info] Generated 1 moveable texture atlases.
+[2023-Jan-30 10:38:25] [info] Generated 1 static mesh texture atlases.
+[2023-Jan-30 10:38:25] [info] Generated 140 sprite atlases.
+[2023-Jan-30 10:38:25] [info] Loaded sky texture.
+[2023-Jan-30 10:38:25] [info] Loaded total 16893 room vertices.
+[2023-Jan-30 10:38:25] [info] Preparing room data...
+[2023-Jan-30 10:38:25] [info] Preparing object data...
+[2023-Jan-30 10:38:25] [info] Preparing static mesh data...
+[2023-Jan-30 10:38:25] [info] Preparing sprite data...
+[2023-Jan-30 10:38:25] [info] Level loading complete.
+[2023-Jan-30 10:38:25] [info] Loading level script...
+[2023-Jan-30 10:38:25] [info] Playing soundtrack 'Audio\104.wav': success
+[2023-Jan-30 10:38:25] [info] Loading node scripts...
+[2023-Jan-30 10:38:25] [info] 14 node catalogs were found and loaded.
+[2023-Jan-30 10:38:25] [info] 1 node scripts were found and loaded.
+[2023-Jan-30 10:38:25] [info] Starting new level.
+[2023-Jan-30 10:38:25] [warning] Non present effect: 150
+[2023-Jan-30 10:38:28] [info] DoLevel
+[2023-Jan-30 10:38:28] [info] Loading level file...
+[2023-Jan-30 10:38:28] [info] Loading level file: Data\karnak.ten
+[2023-Jan-30 10:38:29] [info] Level compiler version: 1.6.4
+[2023-Jan-30 10:38:29] [info] Loading textures... 
+[2023-Jan-30 10:38:29] [info] Num room textures: 1
+[2023-Jan-30 10:38:29] [info] Num object textures: 1
+[2023-Jan-30 10:38:29] [info] Num static textures: 1
+[2023-Jan-30 10:38:29] [info] Num anim textures: 2
+[2023-Jan-30 10:38:29] [info] Num sprite textures: 140
+[2023-Jan-30 10:38:29] [info] Loading rooms... 
+[2023-Jan-30 10:38:29] [info] Num rooms: 127
+[2023-Jan-30 10:38:29] [info] Num meshes: 665
+[2023-Jan-30 10:38:29] [info] Num animations: 882
+[2023-Jan-30 10:38:29] [info] Num models: 134
+[2023-Jan-30 10:38:29] [info] Initializing objects...
+[2023-Jan-30 10:38:29] [info] Num statics: 22
+[2023-Jan-30 10:38:29] [info] Num sprites: 140
+[2023-Jan-30 10:38:29] [info] Num sprite sequences: 20
+[2023-Jan-30 10:38:29] [info] Num cameras: 6
+[2023-Jan-30 10:38:29] [info] Num sinks: 8
+[2023-Jan-30 10:38:29] [info] Num sound sources: 23
+[2023-Jan-30 10:38:29] [info] Num boxes: 878
+[2023-Jan-30 10:38:29] [info] Num overlaps: 6172
+[2023-Jan-30 10:38:29] [info] Num zone groups: 5
+[2023-Jan-30 10:38:29] [info] Num anim textures: 2
+[2023-Jan-30 10:38:29] [info] Num items: 101
+[2023-Jan-30 10:38:29] [info] Num AI objects: 0
+[2023-Jan-30 10:38:29] [info] Num event sets: 3
+[2023-Jan-30 10:38:29] [info] Loading samples... 
+[2023-Jan-30 10:38:29] [info] Sound map size: 4096
+[2023-Jan-30 10:38:29] [info] Num sample infos: 196
+[2023-Jan-30 10:38:29] [info] Num samples: 236
+[2023-Jan-30 10:38:29] [info] Initializing level...
+[2023-Jan-30 10:38:29] [info] Preparing renderer...
+[2023-Jan-30 10:38:29] [info] Allocated renderer object memory.
+[2023-Jan-30 10:38:29] [info] Generated 2 animated textures.
+[2023-Jan-30 10:38:29] [info] Generated 2 animated texture sets.
+[2023-Jan-30 10:38:30] [info] Generated 1 room texture atlases.
+[2023-Jan-30 10:38:30] [info] Generated 1 moveable texture atlases.
+[2023-Jan-30 10:38:30] [info] Generated 1 static mesh texture atlases.
+[2023-Jan-30 10:38:30] [info] Generated 140 sprite atlases.
+[2023-Jan-30 10:38:30] [info] Loaded sky texture.
+[2023-Jan-30 10:38:30] [info] Loaded total 34450 room vertices.
+[2023-Jan-30 10:38:30] [info] Preparing room data...
+[2023-Jan-30 10:38:30] [info] Preparing object data...
+[2023-Jan-30 10:38:30] [info] Preparing static mesh data...
+[2023-Jan-30 10:38:30] [info] Preparing sprite data...
+[2023-Jan-30 10:38:30] [info] Level loading complete.
+[2023-Jan-30 10:38:30] [info] Loading level script...
+[2023-Jan-30 10:38:30] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
+[2023-Jan-30 10:38:30] [info] Playing soundtrack 'Audio\110.wav': success
+[2023-Jan-30 10:38:30] [info] Loading node scripts...
+[2023-Jan-30 10:38:30] [info] 14 node catalogs were found and loaded.
+[2023-Jan-30 10:38:30] [info] 3 node scripts were found and loaded.
+[2023-Jan-30 10:38:30] [info] Loading from savegame: Save//savegame.0
+[2023-Jan-30 10:38:40] [info] Suspending game thread
+[2023-Jan-30 10:38:43] [info] Resuming game thread
+[2023-Jan-30 10:38:56] [info] Playing soundtrack 'Audio\000.wav': success
+[2023-Jan-30 10:38:56] [warning] Non present effect: 27
+[2023-Jan-30 10:39:21] [info] Playing soundtrack 'Audio\107.wav': success
+[2023-Jan-30 10:39:29] [info] Suspending game thread
+[2023-Jan-30 10:39:30] [info] Resuming game thread
+[2023-Jan-30 10:39:32] [info] Suspending game thread
+[2023-Jan-30 10:39:42] [info] Resuming game thread
+[2023-Jan-30 10:39:58] [info] Saving to savegame: Save//savegame.1
+[2023-Jan-30 10:40:02] [info] Suspending game thread
+[2023-Jan-30 10:40:29] [info] Resuming game thread
+[2023-Jan-30 10:40:33] [info] DoLevel
+[2023-Jan-30 10:40:33] [info] Loading level file...
+[2023-Jan-30 10:40:33] [info] Loading level file: Data\karnak.ten
+[2023-Jan-30 10:40:34] [info] Level compiler version: 1.6.4
+[2023-Jan-30 10:40:34] [info] Loading textures... 
+[2023-Jan-30 10:40:34] [info] Num room textures: 1
+[2023-Jan-30 10:40:34] [info] Num object textures: 1
+[2023-Jan-30 10:40:34] [info] Num static textures: 1
+[2023-Jan-30 10:40:34] [info] Num anim textures: 2
+[2023-Jan-30 10:40:34] [info] Num sprite textures: 140
+[2023-Jan-30 10:40:34] [info] Loading rooms... 
+[2023-Jan-30 10:40:34] [info] Num rooms: 127
+[2023-Jan-30 10:40:34] [info] Num meshes: 665
+[2023-Jan-30 10:40:34] [info] Num animations: 882
+[2023-Jan-30 10:40:34] [info] Num models: 134
+[2023-Jan-30 10:40:34] [info] Initializing objects...
+[2023-Jan-30 10:40:34] [info] Num statics: 22
+[2023-Jan-30 10:40:34] [info] Num sprites: 140
+[2023-Jan-30 10:40:34] [info] Num sprite sequences: 20
+[2023-Jan-30 10:40:34] [info] Num cameras: 6
+[2023-Jan-30 10:40:34] [info] Num sinks: 8
+[2023-Jan-30 10:40:34] [info] Num sound sources: 23
+[2023-Jan-30 10:40:34] [info] Num boxes: 878
+[2023-Jan-30 10:40:34] [info] Num overlaps: 6172
+[2023-Jan-30 10:40:34] [info] Num zone groups: 5
+[2023-Jan-30 10:40:34] [info] Num anim textures: 2
+[2023-Jan-30 10:40:34] [info] Num items: 101
+[2023-Jan-30 10:40:34] [info] Num AI objects: 0
+[2023-Jan-30 10:40:34] [info] Num event sets: 3
+[2023-Jan-30 10:40:34] [info] Loading samples... 
+[2023-Jan-30 10:40:34] [info] Sound map size: 4096
+[2023-Jan-30 10:40:34] [info] Num sample infos: 197
+[2023-Jan-30 10:40:34] [info] Num samples: 239
+[2023-Jan-30 10:40:34] [info] Initializing level...
+[2023-Jan-30 10:40:34] [info] Preparing renderer...
+[2023-Jan-30 10:40:34] [info] Allocated renderer object memory.
+[2023-Jan-30 10:40:34] [info] Generated 2 animated textures.
+[2023-Jan-30 10:40:34] [info] Generated 2 animated texture sets.
+[2023-Jan-30 10:40:34] [info] Generated 1 room texture atlases.
+[2023-Jan-30 10:40:34] [info] Generated 1 moveable texture atlases.
+[2023-Jan-30 10:40:34] [info] Generated 1 static mesh texture atlases.
+[2023-Jan-30 10:40:34] [info] Generated 140 sprite atlases.
+[2023-Jan-30 10:40:34] [info] Loaded sky texture.
+[2023-Jan-30 10:40:34] [info] Loaded total 34450 room vertices.
+[2023-Jan-30 10:40:34] [info] Preparing room data...
+[2023-Jan-30 10:40:34] [info] Preparing object data...
+[2023-Jan-30 10:40:35] [info] Preparing static mesh data...
+[2023-Jan-30 10:40:35] [info] Preparing sprite data...
+[2023-Jan-30 10:40:35] [info] Level loading complete.
+[2023-Jan-30 10:40:35] [info] Loading level script...
+[2023-Jan-30 10:40:35] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
+[2023-Jan-30 10:40:35] [info] Playing soundtrack 'Audio\110.wav': success
+[2023-Jan-30 10:40:35] [info] Loading node scripts...
+[2023-Jan-30 10:40:35] [info] 14 node catalogs were found and loaded.
+[2023-Jan-30 10:40:35] [info] 3 node scripts were found and loaded.
+[2023-Jan-30 10:40:35] [info] Loading from savegame: Save//savegame.1
+[2023-Jan-30 10:40:35] [info] Playing soundtrack 'Audio\107.wav': success
+[2023-Jan-30 10:40:46] [info] DoLevel
+[2023-Jan-30 10:40:46] [info] Loading level file...
+[2023-Jan-30 10:40:46] [info] Loading level file: Data\karnak.ten
+[2023-Jan-30 10:40:46] [info] Level compiler version: 1.6.4
+[2023-Jan-30 10:40:46] [info] Loading textures... 
+[2023-Jan-30 10:40:46] [info] Num room textures: 1
+[2023-Jan-30 10:40:46] [info] Num object textures: 1
+[2023-Jan-30 10:40:46] [info] Num static textures: 1
+[2023-Jan-30 10:40:46] [info] Num anim textures: 2
+[2023-Jan-30 10:40:46] [info] Num sprite textures: 140
+[2023-Jan-30 10:40:46] [info] Loading rooms... 
+[2023-Jan-30 10:40:46] [info] Num rooms: 127
+[2023-Jan-30 10:40:46] [info] Num meshes: 665
+[2023-Jan-30 10:40:47] [info] Num animations: 882
+[2023-Jan-30 10:40:47] [info] Num models: 134
+[2023-Jan-30 10:40:47] [info] Initializing objects...
+[2023-Jan-30 10:40:47] [info] Num statics: 22
+[2023-Jan-30 10:40:47] [info] Num sprites: 140
+[2023-Jan-30 10:40:47] [info] Num sprite sequences: 20
+[2023-Jan-30 10:40:47] [info] Num cameras: 6
+[2023-Jan-30 10:40:47] [info] Num sinks: 8
+[2023-Jan-30 10:40:47] [info] Num sound sources: 23
+[2023-Jan-30 10:40:47] [info] Num boxes: 878
+[2023-Jan-30 10:40:47] [info] Num overlaps: 6172
+[2023-Jan-30 10:40:47] [info] Num zone groups: 5
+[2023-Jan-30 10:40:47] [info] Num anim textures: 2
+[2023-Jan-30 10:40:47] [info] Num items: 101
+[2023-Jan-30 10:40:47] [info] Num AI objects: 0
+[2023-Jan-30 10:40:47] [info] Num event sets: 3
+[2023-Jan-30 10:40:47] [info] Loading samples... 
+[2023-Jan-30 10:40:47] [info] Sound map size: 4096
+[2023-Jan-30 10:40:47] [info] Num sample infos: 197
+[2023-Jan-30 10:40:47] [info] Num samples: 239
+[2023-Jan-30 10:40:47] [info] Initializing level...
+[2023-Jan-30 10:40:47] [info] Preparing renderer...
+[2023-Jan-30 10:40:47] [info] Allocated renderer object memory.
+[2023-Jan-30 10:40:47] [info] Generated 2 animated textures.
+[2023-Jan-30 10:40:47] [info] Generated 2 animated texture sets.
+[2023-Jan-30 10:40:47] [info] Generated 1 room texture atlases.
+[2023-Jan-30 10:40:47] [info] Generated 1 moveable texture atlases.
+[2023-Jan-30 10:40:47] [info] Generated 1 static mesh texture atlases.
+[2023-Jan-30 10:40:47] [info] Generated 140 sprite atlases.
+[2023-Jan-30 10:40:47] [info] Loaded sky texture.
+[2023-Jan-30 10:40:47] [info] Loaded total 34450 room vertices.
+[2023-Jan-30 10:40:47] [info] Preparing room data...
+[2023-Jan-30 10:40:47] [info] Preparing object data...
+[2023-Jan-30 10:40:47] [info] Preparing static mesh data...
+[2023-Jan-30 10:40:47] [info] Preparing sprite data...
+[2023-Jan-30 10:40:47] [info] Level loading complete.
+[2023-Jan-30 10:40:48] [info] Loading level script...
+[2023-Jan-30 10:40:48] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
+[2023-Jan-30 10:40:48] [info] Playing soundtrack 'Audio\110.wav': success
+[2023-Jan-30 10:40:48] [info] Loading node scripts...
+[2023-Jan-30 10:40:48] [info] 14 node catalogs were found and loaded.
+[2023-Jan-30 10:40:48] [info] 3 node scripts were found and loaded.
+[2023-Jan-30 10:40:48] [info] Loading from savegame: Save//savegame.1
+[2023-Jan-30 10:40:48] [info] Playing soundtrack 'Audio\107.wav': success
+[2023-Jan-30 10:40:52] [info] Suspending game thread
+[2023-Jan-30 10:40:55] [info] Resuming game thread
+[2023-Jan-30 10:41:34] [info] Suspending game thread
+[2023-Jan-30 10:42:33] [info] Resuming game thread
+[2023-Jan-30 10:42:36] [info] DoLevel
+[2023-Jan-30 10:42:36] [info] Loading level file...
+[2023-Jan-30 10:42:36] [info] Loading level file: Data\karnak.ten
+[2023-Jan-30 10:42:37] [info] Level compiler version: 1.6.4
+[2023-Jan-30 10:42:37] [info] Loading textures... 
+[2023-Jan-30 10:42:37] [info] Num room textures: 1
+[2023-Jan-30 10:42:37] [info] Num object textures: 1
+[2023-Jan-30 10:42:37] [info] Num static textures: 1
+[2023-Jan-30 10:42:37] [info] Num anim textures: 2
+[2023-Jan-30 10:42:37] [info] Num sprite textures: 140
+[2023-Jan-30 10:42:37] [info] Loading rooms... 
+[2023-Jan-30 10:42:37] [info] Num rooms: 127
+[2023-Jan-30 10:42:37] [info] Num meshes: 665
+[2023-Jan-30 10:42:37] [info] Num animations: 882
+[2023-Jan-30 10:42:37] [info] Num models: 134
+[2023-Jan-30 10:42:37] [info] Initializing objects...
+[2023-Jan-30 10:42:37] [info] Num statics: 22
+[2023-Jan-30 10:42:37] [info] Num sprites: 140
+[2023-Jan-30 10:42:37] [info] Num sprite sequences: 20
+[2023-Jan-30 10:42:37] [info] Num cameras: 6
+[2023-Jan-30 10:42:37] [info] Num sinks: 8
+[2023-Jan-30 10:42:37] [info] Num sound sources: 23
+[2023-Jan-30 10:42:37] [info] Num boxes: 878
+[2023-Jan-30 10:42:37] [info] Num overlaps: 6172
+[2023-Jan-30 10:42:37] [info] Num zone groups: 5
+[2023-Jan-30 10:42:37] [info] Num anim textures: 2
+[2023-Jan-30 10:42:37] [info] Num items: 101
+[2023-Jan-30 10:42:37] [info] Num AI objects: 0
+[2023-Jan-30 10:42:37] [info] Num event sets: 3
+[2023-Jan-30 10:42:37] [info] Loading samples... 
+[2023-Jan-30 10:42:37] [info] Sound map size: 4096
+[2023-Jan-30 10:42:37] [info] Num sample infos: 193
+[2023-Jan-30 10:42:37] [info] Num samples: 232
+[2023-Jan-30 10:42:37] [info] Initializing level...
+[2023-Jan-30 10:42:37] [info] Preparing renderer...
+[2023-Jan-30 10:42:37] [info] Allocated renderer object memory.
+[2023-Jan-30 10:42:37] [info] Generated 2 animated textures.
+[2023-Jan-30 10:42:37] [info] Generated 2 animated texture sets.
+[2023-Jan-30 10:42:37] [info] Generated 1 room texture atlases.
+[2023-Jan-30 10:42:38] [info] Generated 1 moveable texture atlases.
+[2023-Jan-30 10:42:38] [info] Generated 1 static mesh texture atlases.
+[2023-Jan-30 10:42:38] [info] Generated 140 sprite atlases.
+[2023-Jan-30 10:42:38] [info] Loaded sky texture.
+[2023-Jan-30 10:42:38] [info] Loaded total 34450 room vertices.
+[2023-Jan-30 10:42:38] [info] Preparing room data...
+[2023-Jan-30 10:42:38] [info] Preparing object data...
+[2023-Jan-30 10:42:38] [info] Preparing static mesh data...
+[2023-Jan-30 10:42:38] [info] Preparing sprite data...
+[2023-Jan-30 10:42:38] [info] Level loading complete.
+[2023-Jan-30 10:42:38] [info] Loading level script...
+[2023-Jan-30 10:42:38] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
+[2023-Jan-30 10:42:38] [info] Playing soundtrack 'Audio\110.wav': success
+[2023-Jan-30 10:42:38] [info] Loading node scripts...
+[2023-Jan-30 10:42:38] [info] 14 node catalogs were found and loaded.
+[2023-Jan-30 10:42:38] [info] 3 node scripts were found and loaded.
+[2023-Jan-30 10:42:38] [info] Loading from savegame: Save//savegame.1
+[2023-Jan-30 10:42:38] [info] Playing soundtrack 'Audio\107.wav': success
+[2023-Jan-30 10:42:39] [info] Suspending game thread
+[2023-Jan-30 10:42:41] [info] Resuming game thread
+[2023-Jan-30 10:43:11] [info] Suspending game thread
+[2023-Jan-30 10:43:12] [info] Resuming game thread
+[2023-Jan-30 10:43:39] [info] Playing soundtrack 'Audio\110.wav': success
+[2023-Jan-30 10:44:05] [info] Suspending game thread
+[2023-Jan-30 10:44:06] [info] Resuming game thread
+[2023-Jan-30 10:44:37] [info] Hijacking sound effect slot 18
+[2023-Jan-30 10:44:37] [info] Hijacking sound effect slot 1
+[2023-Jan-30 10:44:42] [info] Suspending game thread
+[2023-Jan-30 10:44:43] [info] Resuming game thread
+[2023-Jan-30 10:45:20] [info] Saving to savegame: Save//savegame.2
+[2023-Jan-30 10:45:23] [info] Suspending game thread
+[2023-Jan-30 10:45:57] [info] Resuming game thread
+[2023-Jan-30 10:46:00] [info] DoLevel
+[2023-Jan-30 10:46:00] [info] Loading level file...
+[2023-Jan-30 10:46:00] [info] Loading level file: Data\karnak.ten
+[2023-Jan-30 10:46:01] [info] Level compiler version: 1.6.4
+[2023-Jan-30 10:46:01] [info] Loading textures... 
+[2023-Jan-30 10:46:01] [info] Num room textures: 1
+[2023-Jan-30 10:46:01] [info] Num object textures: 1
+[2023-Jan-30 10:46:01] [info] Num static textures: 1
+[2023-Jan-30 10:46:01] [info] Num anim textures: 2
+[2023-Jan-30 10:46:01] [info] Num sprite textures: 140
+[2023-Jan-30 10:46:01] [info] Loading rooms... 
+[2023-Jan-30 10:46:01] [info] Num rooms: 127
+[2023-Jan-30 10:46:01] [info] Num meshes: 665
+[2023-Jan-30 10:46:01] [info] Num animations: 882
+[2023-Jan-30 10:46:01] [info] Num models: 134
+[2023-Jan-30 10:46:01] [info] Initializing objects...
+[2023-Jan-30 10:46:01] [info] Num statics: 22
+[2023-Jan-30 10:46:01] [info] Num sprites: 140
+[2023-Jan-30 10:46:01] [info] Num sprite sequences: 20
+[2023-Jan-30 10:46:01] [info] Num cameras: 6
+[2023-Jan-30 10:46:01] [info] Num sinks: 8
+[2023-Jan-30 10:46:01] [info] Num sound sources: 23
+[2023-Jan-30 10:46:01] [info] Num boxes: 878
+[2023-Jan-30 10:46:01] [info] Num overlaps: 6172
+[2023-Jan-30 10:46:01] [info] Num zone groups: 5
+[2023-Jan-30 10:46:01] [info] Num anim textures: 2
+[2023-Jan-30 10:46:01] [info] Num items: 101
+[2023-Jan-30 10:46:01] [info] Num AI objects: 0
+[2023-Jan-30 10:46:01] [info] Num event sets: 3
+[2023-Jan-30 10:46:01] [info] Loading samples... 
+[2023-Jan-30 10:46:01] [info] Sound map size: 4096
+[2023-Jan-30 10:46:01] [info] Num sample infos: 196
+[2023-Jan-30 10:46:01] [info] Num samples: 233
+[2023-Jan-30 10:46:01] [info] Initializing level...
+[2023-Jan-30 10:46:01] [info] Preparing renderer...
+[2023-Jan-30 10:46:01] [info] Allocated renderer object memory.
+[2023-Jan-30 10:46:01] [info] Generated 2 animated textures.
+[2023-Jan-30 10:46:01] [info] Generated 2 animated texture sets.
+[2023-Jan-30 10:46:02] [info] Generated 1 room texture atlases.
+[2023-Jan-30 10:46:02] [info] Generated 1 moveable texture atlases.
+[2023-Jan-30 10:46:02] [info] Generated 1 static mesh texture atlases.
+[2023-Jan-30 10:46:02] [info] Generated 140 sprite atlases.
+[2023-Jan-30 10:46:02] [info] Loaded sky texture.
+[2023-Jan-30 10:46:02] [info] Loaded total 34450 room vertices.
+[2023-Jan-30 10:46:02] [info] Preparing room data...
+[2023-Jan-30 10:46:02] [info] Preparing object data...
+[2023-Jan-30 10:46:02] [info] Preparing static mesh data...
+[2023-Jan-30 10:46:02] [info] Preparing sprite data...
+[2023-Jan-30 10:46:02] [info] Level loading complete.
+[2023-Jan-30 10:46:03] [info] Loading level script...
+[2023-Jan-30 10:46:03] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
+[2023-Jan-30 10:46:03] [info] Playing soundtrack 'Audio\110.wav': success
+[2023-Jan-30 10:46:03] [info] Loading node scripts...
+[2023-Jan-30 10:46:03] [info] 14 node catalogs were found and loaded.
+[2023-Jan-30 10:46:03] [info] 3 node scripts were found and loaded.
+[2023-Jan-30 10:46:03] [info] Loading from savegame: Save//savegame.2
+[2023-Jan-30 10:46:03] [info] Suspending game thread
+[2023-Jan-30 10:46:07] [info] Resuming game thread
+[2023-Jan-30 10:46:56] [info] Suspending game thread
+[2023-Jan-30 10:47:08] [info] Resuming game thread
+[2023-Jan-30 10:47:09] [info] DoTitle
+[2023-Jan-30 10:47:09] [info] Loading level file...
+[2023-Jan-30 10:47:09] [info] Loading level file: Data\title.ten
+[2023-Jan-30 10:47:10] [info] Level compiler version: 1.6.4
+[2023-Jan-30 10:47:10] [info] Loading textures... 
+[2023-Jan-30 10:47:10] [info] Num room textures: 1
+[2023-Jan-30 10:47:10] [info] Num object textures: 1
+[2023-Jan-30 10:47:10] [info] Num static textures: 1
+[2023-Jan-30 10:47:10] [info] Num anim textures: 2
+[2023-Jan-30 10:47:10] [info] Num sprite textures: 140
+[2023-Jan-30 10:47:10] [info] Loading rooms... 
+[2023-Jan-30 10:47:10] [info] Num rooms: 42
+[2023-Jan-30 10:47:10] [info] Num meshes: 572
+[2023-Jan-30 10:47:10] [info] Num animations: 737
+[2023-Jan-30 10:47:10] [info] Num models: 102
+[2023-Jan-30 10:47:10] [info] Initializing objects...
+[2023-Jan-30 10:47:10] [info] Num statics: 23
+[2023-Jan-30 10:47:10] [info] Num sprites: 140
+[2023-Jan-30 10:47:10] [info] Num sprite sequences: 20
+[2023-Jan-30 10:47:10] [info] Num cameras: 0
+[2023-Jan-30 10:47:10] [info] Num sinks: 0
+[2023-Jan-30 10:47:10] [info] Num sound sources: 0
+[2023-Jan-30 10:47:10] [info] Num boxes: 104
+[2023-Jan-30 10:47:10] [info] Num overlaps: 540
+[2023-Jan-30 10:47:10] [info] Num zone groups: 5
+[2023-Jan-30 10:47:10] [info] Num anim textures: 2
+[2023-Jan-30 10:47:10] [info] Num items: 34
+[2023-Jan-30 10:47:10] [info] Num AI objects: 0
+[2023-Jan-30 10:47:10] [info] Num event sets: 1
+[2023-Jan-30 10:47:10] [info] Loading samples... 
+[2023-Jan-30 10:47:10] [info] Sound map size: 4096
+[2023-Jan-30 10:47:10] [info] Num sample infos: 4
+[2023-Jan-30 10:47:10] [info] Num samples: 4
+[2023-Jan-30 10:47:10] [info] Initializing level...
+[2023-Jan-30 10:47:10] [info] Preparing renderer...
+[2023-Jan-30 10:47:10] [info] Allocated renderer object memory.
+[2023-Jan-30 10:47:10] [info] Generated 2 animated textures.
+[2023-Jan-30 10:47:10] [info] Generated 2 animated texture sets.
+[2023-Jan-30 10:47:10] [info] Generated 1 room texture atlases.
+[2023-Jan-30 10:47:10] [info] Generated 1 moveable texture atlases.
+[2023-Jan-30 10:47:11] [info] Generated 1 static mesh texture atlases.
+[2023-Jan-30 10:47:11] [info] Generated 140 sprite atlases.
+[2023-Jan-30 10:47:11] [info] Loaded sky texture.
+[2023-Jan-30 10:47:11] [info] Loaded total 16893 room vertices.
+[2023-Jan-30 10:47:11] [info] Preparing room data...
+[2023-Jan-30 10:47:11] [info] Preparing object data...
+[2023-Jan-30 10:47:11] [info] Preparing static mesh data...
+[2023-Jan-30 10:47:11] [info] Preparing sprite data...
+[2023-Jan-30 10:47:11] [info] Level loading complete.
+[2023-Jan-30 10:47:11] [info] Loading level script...
+[2023-Jan-30 10:47:11] [info] Playing soundtrack 'Audio\104.wav': success
+[2023-Jan-30 10:47:11] [info] Loading node scripts...
+[2023-Jan-30 10:47:11] [info] 14 node catalogs were found and loaded.
+[2023-Jan-30 10:47:11] [info] 1 node scripts were found and loaded.
+[2023-Jan-30 10:47:11] [info] Starting new level.
+[2023-Jan-30 10:47:11] [warning] Non present effect: 150
+[2023-Jan-30 10:47:13] [info] Shutting down BASS...
+[2023-Jan-30 10:47:13] [info] Cleaning up and exiting...
