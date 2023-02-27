@@ -1,441 +1,135 @@
-[2023-Jan-30 10:38:14] [info] Starting TombEngine version 1.0.6
-[2023-Jan-30 10:38:15] [info] Creating DX11 renderer device...
-[2023-Jan-30 10:38:15] [info] Initializing DX11...
-[2023-Jan-30 10:38:21] [info] Initializing BASS sound device: success
-[2023-Jan-30 10:38:21] [info] Initializing FX plugin: success
-[2023-Jan-30 10:38:21] [info] Starting 3D mixdown: success
-[2023-Jan-30 10:38:21] [info] Attaching environmental FX: success
-[2023-Jan-30 10:38:21] [info] Attaching compressor: success
-[2023-Jan-30 10:38:21] [info] Initializing input system...
-[2023-Jan-30 10:38:22] [info] Starting GameMain...
-[2023-Jan-30 10:38:23] [info] DoTitle
-[2023-Jan-30 10:38:23] [info] Loading level file...
-[2023-Jan-30 10:38:23] [info] Loading level file: Data\title.ten
-[2023-Jan-30 10:38:24] [info] Level compiler version: 1.6.4
-[2023-Jan-30 10:38:24] [info] Loading textures... 
-[2023-Jan-30 10:38:24] [info] Num room textures: 1
-[2023-Jan-30 10:38:24] [info] Num object textures: 1
-[2023-Jan-30 10:38:24] [info] Num static textures: 1
-[2023-Jan-30 10:38:24] [info] Num anim textures: 2
-[2023-Jan-30 10:38:24] [info] Num sprite textures: 140
-[2023-Jan-30 10:38:24] [info] Loading rooms... 
-[2023-Jan-30 10:38:24] [info] Num rooms: 42
-[2023-Jan-30 10:38:24] [info] Num meshes: 572
-[2023-Jan-30 10:38:24] [info] Num animations: 737
-[2023-Jan-30 10:38:24] [info] Num models: 102
-[2023-Jan-30 10:38:24] [info] Initializing objects...
-[2023-Jan-30 10:38:24] [info] Num statics: 23
-[2023-Jan-30 10:38:24] [info] Num sprites: 140
-[2023-Jan-30 10:38:24] [info] Num sprite sequences: 20
-[2023-Jan-30 10:38:24] [info] Num cameras: 0
-[2023-Jan-30 10:38:24] [info] Num sinks: 0
-[2023-Jan-30 10:38:24] [info] Num sound sources: 0
-[2023-Jan-30 10:38:24] [info] Num boxes: 104
-[2023-Jan-30 10:38:24] [info] Num overlaps: 540
-[2023-Jan-30 10:38:24] [info] Num zone groups: 5
-[2023-Jan-30 10:38:24] [info] Num anim textures: 2
-[2023-Jan-30 10:38:24] [info] Num items: 34
-[2023-Jan-30 10:38:24] [info] Num AI objects: 0
-[2023-Jan-30 10:38:24] [info] Num event sets: 1
-[2023-Jan-30 10:38:24] [info] Loading samples... 
-[2023-Jan-30 10:38:24] [info] Sound map size: 4096
-[2023-Jan-30 10:38:24] [info] Num sample infos: 4
-[2023-Jan-30 10:38:24] [info] Num samples: 4
-[2023-Jan-30 10:38:24] [info] Initializing level...
-[2023-Jan-30 10:38:24] [info] Preparing renderer...
-[2023-Jan-30 10:38:24] [info] Allocated renderer object memory.
-[2023-Jan-30 10:38:24] [info] Generated 2 animated textures.
-[2023-Jan-30 10:38:24] [info] Generated 2 animated texture sets.
-[2023-Jan-30 10:38:25] [info] Generated 1 room texture atlases.
-[2023-Jan-30 10:38:25] [info] Generated 1 moveable texture atlases.
-[2023-Jan-30 10:38:25] [info] Generated 1 static mesh texture atlases.
-[2023-Jan-30 10:38:25] [info] Generated 140 sprite atlases.
-[2023-Jan-30 10:38:25] [info] Loaded sky texture.
-[2023-Jan-30 10:38:25] [info] Loaded total 16893 room vertices.
-[2023-Jan-30 10:38:25] [info] Preparing room data...
-[2023-Jan-30 10:38:25] [info] Preparing object data...
-[2023-Jan-30 10:38:25] [info] Preparing static mesh data...
-[2023-Jan-30 10:38:25] [info] Preparing sprite data...
-[2023-Jan-30 10:38:25] [info] Level loading complete.
-[2023-Jan-30 10:38:25] [info] Loading level script...
-[2023-Jan-30 10:38:25] [info] Playing soundtrack 'Audio\104.wav': success
-[2023-Jan-30 10:38:25] [info] Loading node scripts...
-[2023-Jan-30 10:38:25] [info] 14 node catalogs were found and loaded.
-[2023-Jan-30 10:38:25] [info] 1 node scripts were found and loaded.
-[2023-Jan-30 10:38:25] [info] Starting new level.
-[2023-Jan-30 10:38:25] [warning] Non present effect: 150
-[2023-Jan-30 10:38:28] [info] DoLevel
-[2023-Jan-30 10:38:28] [info] Loading level file...
-[2023-Jan-30 10:38:28] [info] Loading level file: Data\karnak.ten
-[2023-Jan-30 10:38:29] [info] Level compiler version: 1.6.4
-[2023-Jan-30 10:38:29] [info] Loading textures... 
-[2023-Jan-30 10:38:29] [info] Num room textures: 1
-[2023-Jan-30 10:38:29] [info] Num object textures: 1
-[2023-Jan-30 10:38:29] [info] Num static textures: 1
-[2023-Jan-30 10:38:29] [info] Num anim textures: 2
-[2023-Jan-30 10:38:29] [info] Num sprite textures: 140
-[2023-Jan-30 10:38:29] [info] Loading rooms... 
-[2023-Jan-30 10:38:29] [info] Num rooms: 127
-[2023-Jan-30 10:38:29] [info] Num meshes: 665
-[2023-Jan-30 10:38:29] [info] Num animations: 882
-[2023-Jan-30 10:38:29] [info] Num models: 134
-[2023-Jan-30 10:38:29] [info] Initializing objects...
-[2023-Jan-30 10:38:29] [info] Num statics: 22
-[2023-Jan-30 10:38:29] [info] Num sprites: 140
-[2023-Jan-30 10:38:29] [info] Num sprite sequences: 20
-[2023-Jan-30 10:38:29] [info] Num cameras: 6
-[2023-Jan-30 10:38:29] [info] Num sinks: 8
-[2023-Jan-30 10:38:29] [info] Num sound sources: 23
-[2023-Jan-30 10:38:29] [info] Num boxes: 878
-[2023-Jan-30 10:38:29] [info] Num overlaps: 6172
-[2023-Jan-30 10:38:29] [info] Num zone groups: 5
-[2023-Jan-30 10:38:29] [info] Num anim textures: 2
-[2023-Jan-30 10:38:29] [info] Num items: 101
-[2023-Jan-30 10:38:29] [info] Num AI objects: 0
-[2023-Jan-30 10:38:29] [info] Num event sets: 3
-[2023-Jan-30 10:38:29] [info] Loading samples... 
-[2023-Jan-30 10:38:29] [info] Sound map size: 4096
-[2023-Jan-30 10:38:29] [info] Num sample infos: 196
-[2023-Jan-30 10:38:29] [info] Num samples: 236
-[2023-Jan-30 10:38:29] [info] Initializing level...
-[2023-Jan-30 10:38:29] [info] Preparing renderer...
-[2023-Jan-30 10:38:29] [info] Allocated renderer object memory.
-[2023-Jan-30 10:38:29] [info] Generated 2 animated textures.
-[2023-Jan-30 10:38:29] [info] Generated 2 animated texture sets.
-[2023-Jan-30 10:38:30] [info] Generated 1 room texture atlases.
-[2023-Jan-30 10:38:30] [info] Generated 1 moveable texture atlases.
-[2023-Jan-30 10:38:30] [info] Generated 1 static mesh texture atlases.
-[2023-Jan-30 10:38:30] [info] Generated 140 sprite atlases.
-[2023-Jan-30 10:38:30] [info] Loaded sky texture.
-[2023-Jan-30 10:38:30] [info] Loaded total 34450 room vertices.
-[2023-Jan-30 10:38:30] [info] Preparing room data...
-[2023-Jan-30 10:38:30] [info] Preparing object data...
-[2023-Jan-30 10:38:30] [info] Preparing static mesh data...
-[2023-Jan-30 10:38:30] [info] Preparing sprite data...
-[2023-Jan-30 10:38:30] [info] Level loading complete.
-[2023-Jan-30 10:38:30] [info] Loading level script...
-[2023-Jan-30 10:38:30] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
-[2023-Jan-30 10:38:30] [info] Playing soundtrack 'Audio\110.wav': success
-[2023-Jan-30 10:38:30] [info] Loading node scripts...
-[2023-Jan-30 10:38:30] [info] 14 node catalogs were found and loaded.
-[2023-Jan-30 10:38:30] [info] 3 node scripts were found and loaded.
-[2023-Jan-30 10:38:30] [info] Loading from savegame: Save//savegame.0
-[2023-Jan-30 10:38:40] [info] Suspending game thread
-[2023-Jan-30 10:38:43] [info] Resuming game thread
-[2023-Jan-30 10:38:56] [info] Playing soundtrack 'Audio\000.wav': success
-[2023-Jan-30 10:38:56] [warning] Non present effect: 27
-[2023-Jan-30 10:39:21] [info] Playing soundtrack 'Audio\107.wav': success
-[2023-Jan-30 10:39:29] [info] Suspending game thread
-[2023-Jan-30 10:39:30] [info] Resuming game thread
-[2023-Jan-30 10:39:32] [info] Suspending game thread
-[2023-Jan-30 10:39:42] [info] Resuming game thread
-[2023-Jan-30 10:39:58] [info] Saving to savegame: Save//savegame.1
-[2023-Jan-30 10:40:02] [info] Suspending game thread
-[2023-Jan-30 10:40:29] [info] Resuming game thread
-[2023-Jan-30 10:40:33] [info] DoLevel
-[2023-Jan-30 10:40:33] [info] Loading level file...
-[2023-Jan-30 10:40:33] [info] Loading level file: Data\karnak.ten
-[2023-Jan-30 10:40:34] [info] Level compiler version: 1.6.4
-[2023-Jan-30 10:40:34] [info] Loading textures... 
-[2023-Jan-30 10:40:34] [info] Num room textures: 1
-[2023-Jan-30 10:40:34] [info] Num object textures: 1
-[2023-Jan-30 10:40:34] [info] Num static textures: 1
-[2023-Jan-30 10:40:34] [info] Num anim textures: 2
-[2023-Jan-30 10:40:34] [info] Num sprite textures: 140
-[2023-Jan-30 10:40:34] [info] Loading rooms... 
-[2023-Jan-30 10:40:34] [info] Num rooms: 127
-[2023-Jan-30 10:40:34] [info] Num meshes: 665
-[2023-Jan-30 10:40:34] [info] Num animations: 882
-[2023-Jan-30 10:40:34] [info] Num models: 134
-[2023-Jan-30 10:40:34] [info] Initializing objects...
-[2023-Jan-30 10:40:34] [info] Num statics: 22
-[2023-Jan-30 10:40:34] [info] Num sprites: 140
-[2023-Jan-30 10:40:34] [info] Num sprite sequences: 20
-[2023-Jan-30 10:40:34] [info] Num cameras: 6
-[2023-Jan-30 10:40:34] [info] Num sinks: 8
-[2023-Jan-30 10:40:34] [info] Num sound sources: 23
-[2023-Jan-30 10:40:34] [info] Num boxes: 878
-[2023-Jan-30 10:40:34] [info] Num overlaps: 6172
-[2023-Jan-30 10:40:34] [info] Num zone groups: 5
-[2023-Jan-30 10:40:34] [info] Num anim textures: 2
-[2023-Jan-30 10:40:34] [info] Num items: 101
-[2023-Jan-30 10:40:34] [info] Num AI objects: 0
-[2023-Jan-30 10:40:34] [info] Num event sets: 3
-[2023-Jan-30 10:40:34] [info] Loading samples... 
-[2023-Jan-30 10:40:34] [info] Sound map size: 4096
-[2023-Jan-30 10:40:34] [info] Num sample infos: 197
-[2023-Jan-30 10:40:34] [info] Num samples: 239
-[2023-Jan-30 10:40:34] [info] Initializing level...
-[2023-Jan-30 10:40:34] [info] Preparing renderer...
-[2023-Jan-30 10:40:34] [info] Allocated renderer object memory.
-[2023-Jan-30 10:40:34] [info] Generated 2 animated textures.
-[2023-Jan-30 10:40:34] [info] Generated 2 animated texture sets.
-[2023-Jan-30 10:40:34] [info] Generated 1 room texture atlases.
-[2023-Jan-30 10:40:34] [info] Generated 1 moveable texture atlases.
-[2023-Jan-30 10:40:34] [info] Generated 1 static mesh texture atlases.
-[2023-Jan-30 10:40:34] [info] Generated 140 sprite atlases.
-[2023-Jan-30 10:40:34] [info] Loaded sky texture.
-[2023-Jan-30 10:40:34] [info] Loaded total 34450 room vertices.
-[2023-Jan-30 10:40:34] [info] Preparing room data...
-[2023-Jan-30 10:40:34] [info] Preparing object data...
-[2023-Jan-30 10:40:35] [info] Preparing static mesh data...
-[2023-Jan-30 10:40:35] [info] Preparing sprite data...
-[2023-Jan-30 10:40:35] [info] Level loading complete.
-[2023-Jan-30 10:40:35] [info] Loading level script...
-[2023-Jan-30 10:40:35] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
-[2023-Jan-30 10:40:35] [info] Playing soundtrack 'Audio\110.wav': success
-[2023-Jan-30 10:40:35] [info] Loading node scripts...
-[2023-Jan-30 10:40:35] [info] 14 node catalogs were found and loaded.
-[2023-Jan-30 10:40:35] [info] 3 node scripts were found and loaded.
-[2023-Jan-30 10:40:35] [info] Loading from savegame: Save//savegame.1
-[2023-Jan-30 10:40:35] [info] Playing soundtrack 'Audio\107.wav': success
-[2023-Jan-30 10:40:46] [info] DoLevel
-[2023-Jan-30 10:40:46] [info] Loading level file...
-[2023-Jan-30 10:40:46] [info] Loading level file: Data\karnak.ten
-[2023-Jan-30 10:40:46] [info] Level compiler version: 1.6.4
-[2023-Jan-30 10:40:46] [info] Loading textures... 
-[2023-Jan-30 10:40:46] [info] Num room textures: 1
-[2023-Jan-30 10:40:46] [info] Num object textures: 1
-[2023-Jan-30 10:40:46] [info] Num static textures: 1
-[2023-Jan-30 10:40:46] [info] Num anim textures: 2
-[2023-Jan-30 10:40:46] [info] Num sprite textures: 140
-[2023-Jan-30 10:40:46] [info] Loading rooms... 
-[2023-Jan-30 10:40:46] [info] Num rooms: 127
-[2023-Jan-30 10:40:46] [info] Num meshes: 665
-[2023-Jan-30 10:40:47] [info] Num animations: 882
-[2023-Jan-30 10:40:47] [info] Num models: 134
-[2023-Jan-30 10:40:47] [info] Initializing objects...
-[2023-Jan-30 10:40:47] [info] Num statics: 22
-[2023-Jan-30 10:40:47] [info] Num sprites: 140
-[2023-Jan-30 10:40:47] [info] Num sprite sequences: 20
-[2023-Jan-30 10:40:47] [info] Num cameras: 6
-[2023-Jan-30 10:40:47] [info] Num sinks: 8
-[2023-Jan-30 10:40:47] [info] Num sound sources: 23
-[2023-Jan-30 10:40:47] [info] Num boxes: 878
-[2023-Jan-30 10:40:47] [info] Num overlaps: 6172
-[2023-Jan-30 10:40:47] [info] Num zone groups: 5
-[2023-Jan-30 10:40:47] [info] Num anim textures: 2
-[2023-Jan-30 10:40:47] [info] Num items: 101
-[2023-Jan-30 10:40:47] [info] Num AI objects: 0
-[2023-Jan-30 10:40:47] [info] Num event sets: 3
-[2023-Jan-30 10:40:47] [info] Loading samples... 
-[2023-Jan-30 10:40:47] [info] Sound map size: 4096
-[2023-Jan-30 10:40:47] [info] Num sample infos: 197
-[2023-Jan-30 10:40:47] [info] Num samples: 239
-[2023-Jan-30 10:40:47] [info] Initializing level...
-[2023-Jan-30 10:40:47] [info] Preparing renderer...
-[2023-Jan-30 10:40:47] [info] Allocated renderer object memory.
-[2023-Jan-30 10:40:47] [info] Generated 2 animated textures.
-[2023-Jan-30 10:40:47] [info] Generated 2 animated texture sets.
-[2023-Jan-30 10:40:47] [info] Generated 1 room texture atlases.
-[2023-Jan-30 10:40:47] [info] Generated 1 moveable texture atlases.
-[2023-Jan-30 10:40:47] [info] Generated 1 static mesh texture atlases.
-[2023-Jan-30 10:40:47] [info] Generated 140 sprite atlases.
-[2023-Jan-30 10:40:47] [info] Loaded sky texture.
-[2023-Jan-30 10:40:47] [info] Loaded total 34450 room vertices.
-[2023-Jan-30 10:40:47] [info] Preparing room data...
-[2023-Jan-30 10:40:47] [info] Preparing object data...
-[2023-Jan-30 10:40:47] [info] Preparing static mesh data...
-[2023-Jan-30 10:40:47] [info] Preparing sprite data...
-[2023-Jan-30 10:40:47] [info] Level loading complete.
-[2023-Jan-30 10:40:48] [info] Loading level script...
-[2023-Jan-30 10:40:48] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
-[2023-Jan-30 10:40:48] [info] Playing soundtrack 'Audio\110.wav': success
-[2023-Jan-30 10:40:48] [info] Loading node scripts...
-[2023-Jan-30 10:40:48] [info] 14 node catalogs were found and loaded.
-[2023-Jan-30 10:40:48] [info] 3 node scripts were found and loaded.
-[2023-Jan-30 10:40:48] [info] Loading from savegame: Save//savegame.1
-[2023-Jan-30 10:40:48] [info] Playing soundtrack 'Audio\107.wav': success
-[2023-Jan-30 10:40:52] [info] Suspending game thread
-[2023-Jan-30 10:40:55] [info] Resuming game thread
-[2023-Jan-30 10:41:34] [info] Suspending game thread
-[2023-Jan-30 10:42:33] [info] Resuming game thread
-[2023-Jan-30 10:42:36] [info] DoLevel
-[2023-Jan-30 10:42:36] [info] Loading level file...
-[2023-Jan-30 10:42:36] [info] Loading level file: Data\karnak.ten
-[2023-Jan-30 10:42:37] [info] Level compiler version: 1.6.4
-[2023-Jan-30 10:42:37] [info] Loading textures... 
-[2023-Jan-30 10:42:37] [info] Num room textures: 1
-[2023-Jan-30 10:42:37] [info] Num object textures: 1
-[2023-Jan-30 10:42:37] [info] Num static textures: 1
-[2023-Jan-30 10:42:37] [info] Num anim textures: 2
-[2023-Jan-30 10:42:37] [info] Num sprite textures: 140
-[2023-Jan-30 10:42:37] [info] Loading rooms... 
-[2023-Jan-30 10:42:37] [info] Num rooms: 127
-[2023-Jan-30 10:42:37] [info] Num meshes: 665
-[2023-Jan-30 10:42:37] [info] Num animations: 882
-[2023-Jan-30 10:42:37] [info] Num models: 134
-[2023-Jan-30 10:42:37] [info] Initializing objects...
-[2023-Jan-30 10:42:37] [info] Num statics: 22
-[2023-Jan-30 10:42:37] [info] Num sprites: 140
-[2023-Jan-30 10:42:37] [info] Num sprite sequences: 20
-[2023-Jan-30 10:42:37] [info] Num cameras: 6
-[2023-Jan-30 10:42:37] [info] Num sinks: 8
-[2023-Jan-30 10:42:37] [info] Num sound sources: 23
-[2023-Jan-30 10:42:37] [info] Num boxes: 878
-[2023-Jan-30 10:42:37] [info] Num overlaps: 6172
-[2023-Jan-30 10:42:37] [info] Num zone groups: 5
-[2023-Jan-30 10:42:37] [info] Num anim textures: 2
-[2023-Jan-30 10:42:37] [info] Num items: 101
-[2023-Jan-30 10:42:37] [info] Num AI objects: 0
-[2023-Jan-30 10:42:37] [info] Num event sets: 3
-[2023-Jan-30 10:42:37] [info] Loading samples... 
-[2023-Jan-30 10:42:37] [info] Sound map size: 4096
-[2023-Jan-30 10:42:37] [info] Num sample infos: 193
-[2023-Jan-30 10:42:37] [info] Num samples: 232
-[2023-Jan-30 10:42:37] [info] Initializing level...
-[2023-Jan-30 10:42:37] [info] Preparing renderer...
-[2023-Jan-30 10:42:37] [info] Allocated renderer object memory.
-[2023-Jan-30 10:42:37] [info] Generated 2 animated textures.
-[2023-Jan-30 10:42:37] [info] Generated 2 animated texture sets.
-[2023-Jan-30 10:42:37] [info] Generated 1 room texture atlases.
-[2023-Jan-30 10:42:38] [info] Generated 1 moveable texture atlases.
-[2023-Jan-30 10:42:38] [info] Generated 1 static mesh texture atlases.
-[2023-Jan-30 10:42:38] [info] Generated 140 sprite atlases.
-[2023-Jan-30 10:42:38] [info] Loaded sky texture.
-[2023-Jan-30 10:42:38] [info] Loaded total 34450 room vertices.
-[2023-Jan-30 10:42:38] [info] Preparing room data...
-[2023-Jan-30 10:42:38] [info] Preparing object data...
-[2023-Jan-30 10:42:38] [info] Preparing static mesh data...
-[2023-Jan-30 10:42:38] [info] Preparing sprite data...
-[2023-Jan-30 10:42:38] [info] Level loading complete.
-[2023-Jan-30 10:42:38] [info] Loading level script...
-[2023-Jan-30 10:42:38] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
-[2023-Jan-30 10:42:38] [info] Playing soundtrack 'Audio\110.wav': success
-[2023-Jan-30 10:42:38] [info] Loading node scripts...
-[2023-Jan-30 10:42:38] [info] 14 node catalogs were found and loaded.
-[2023-Jan-30 10:42:38] [info] 3 node scripts were found and loaded.
-[2023-Jan-30 10:42:38] [info] Loading from savegame: Save//savegame.1
-[2023-Jan-30 10:42:38] [info] Playing soundtrack 'Audio\107.wav': success
-[2023-Jan-30 10:42:39] [info] Suspending game thread
-[2023-Jan-30 10:42:41] [info] Resuming game thread
-[2023-Jan-30 10:43:11] [info] Suspending game thread
-[2023-Jan-30 10:43:12] [info] Resuming game thread
-[2023-Jan-30 10:43:39] [info] Playing soundtrack 'Audio\110.wav': success
-[2023-Jan-30 10:44:05] [info] Suspending game thread
-[2023-Jan-30 10:44:06] [info] Resuming game thread
-[2023-Jan-30 10:44:37] [info] Hijacking sound effect slot 18
-[2023-Jan-30 10:44:37] [info] Hijacking sound effect slot 1
-[2023-Jan-30 10:44:42] [info] Suspending game thread
-[2023-Jan-30 10:44:43] [info] Resuming game thread
-[2023-Jan-30 10:45:20] [info] Saving to savegame: Save//savegame.2
-[2023-Jan-30 10:45:23] [info] Suspending game thread
-[2023-Jan-30 10:45:57] [info] Resuming game thread
-[2023-Jan-30 10:46:00] [info] DoLevel
-[2023-Jan-30 10:46:00] [info] Loading level file...
-[2023-Jan-30 10:46:00] [info] Loading level file: Data\karnak.ten
-[2023-Jan-30 10:46:01] [info] Level compiler version: 1.6.4
-[2023-Jan-30 10:46:01] [info] Loading textures... 
-[2023-Jan-30 10:46:01] [info] Num room textures: 1
-[2023-Jan-30 10:46:01] [info] Num object textures: 1
-[2023-Jan-30 10:46:01] [info] Num static textures: 1
-[2023-Jan-30 10:46:01] [info] Num anim textures: 2
-[2023-Jan-30 10:46:01] [info] Num sprite textures: 140
-[2023-Jan-30 10:46:01] [info] Loading rooms... 
-[2023-Jan-30 10:46:01] [info] Num rooms: 127
-[2023-Jan-30 10:46:01] [info] Num meshes: 665
-[2023-Jan-30 10:46:01] [info] Num animations: 882
-[2023-Jan-30 10:46:01] [info] Num models: 134
-[2023-Jan-30 10:46:01] [info] Initializing objects...
-[2023-Jan-30 10:46:01] [info] Num statics: 22
-[2023-Jan-30 10:46:01] [info] Num sprites: 140
-[2023-Jan-30 10:46:01] [info] Num sprite sequences: 20
-[2023-Jan-30 10:46:01] [info] Num cameras: 6
-[2023-Jan-30 10:46:01] [info] Num sinks: 8
-[2023-Jan-30 10:46:01] [info] Num sound sources: 23
-[2023-Jan-30 10:46:01] [info] Num boxes: 878
-[2023-Jan-30 10:46:01] [info] Num overlaps: 6172
-[2023-Jan-30 10:46:01] [info] Num zone groups: 5
-[2023-Jan-30 10:46:01] [info] Num anim textures: 2
-[2023-Jan-30 10:46:01] [info] Num items: 101
-[2023-Jan-30 10:46:01] [info] Num AI objects: 0
-[2023-Jan-30 10:46:01] [info] Num event sets: 3
-[2023-Jan-30 10:46:01] [info] Loading samples... 
-[2023-Jan-30 10:46:01] [info] Sound map size: 4096
-[2023-Jan-30 10:46:01] [info] Num sample infos: 196
-[2023-Jan-30 10:46:01] [info] Num samples: 233
-[2023-Jan-30 10:46:01] [info] Initializing level...
-[2023-Jan-30 10:46:01] [info] Preparing renderer...
-[2023-Jan-30 10:46:01] [info] Allocated renderer object memory.
-[2023-Jan-30 10:46:01] [info] Generated 2 animated textures.
-[2023-Jan-30 10:46:01] [info] Generated 2 animated texture sets.
-[2023-Jan-30 10:46:02] [info] Generated 1 room texture atlases.
-[2023-Jan-30 10:46:02] [info] Generated 1 moveable texture atlases.
-[2023-Jan-30 10:46:02] [info] Generated 1 static mesh texture atlases.
-[2023-Jan-30 10:46:02] [info] Generated 140 sprite atlases.
-[2023-Jan-30 10:46:02] [info] Loaded sky texture.
-[2023-Jan-30 10:46:02] [info] Loaded total 34450 room vertices.
-[2023-Jan-30 10:46:02] [info] Preparing room data...
-[2023-Jan-30 10:46:02] [info] Preparing object data...
-[2023-Jan-30 10:46:02] [info] Preparing static mesh data...
-[2023-Jan-30 10:46:02] [info] Preparing sprite data...
-[2023-Jan-30 10:46:02] [info] Level loading complete.
-[2023-Jan-30 10:46:03] [info] Loading level script...
-[2023-Jan-30 10:46:03] [info] Level's script does not define callback LevelFuncs.OnStart. Defaulting to no LevelFuncs.OnStart behaviour.
-[2023-Jan-30 10:46:03] [info] Playing soundtrack 'Audio\110.wav': success
-[2023-Jan-30 10:46:03] [info] Loading node scripts...
-[2023-Jan-30 10:46:03] [info] 14 node catalogs were found and loaded.
-[2023-Jan-30 10:46:03] [info] 3 node scripts were found and loaded.
-[2023-Jan-30 10:46:03] [info] Loading from savegame: Save//savegame.2
-[2023-Jan-30 10:46:03] [info] Suspending game thread
-[2023-Jan-30 10:46:07] [info] Resuming game thread
-[2023-Jan-30 10:46:56] [info] Suspending game thread
-[2023-Jan-30 10:47:08] [info] Resuming game thread
-[2023-Jan-30 10:47:09] [info] DoTitle
-[2023-Jan-30 10:47:09] [info] Loading level file...
-[2023-Jan-30 10:47:09] [info] Loading level file: Data\title.ten
-[2023-Jan-30 10:47:10] [info] Level compiler version: 1.6.4
-[2023-Jan-30 10:47:10] [info] Loading textures... 
-[2023-Jan-30 10:47:10] [info] Num room textures: 1
-[2023-Jan-30 10:47:10] [info] Num object textures: 1
-[2023-Jan-30 10:47:10] [info] Num static textures: 1
-[2023-Jan-30 10:47:10] [info] Num anim textures: 2
-[2023-Jan-30 10:47:10] [info] Num sprite textures: 140
-[2023-Jan-30 10:47:10] [info] Loading rooms... 
-[2023-Jan-30 10:47:10] [info] Num rooms: 42
-[2023-Jan-30 10:47:10] [info] Num meshes: 572
-[2023-Jan-30 10:47:10] [info] Num animations: 737
-[2023-Jan-30 10:47:10] [info] Num models: 102
-[2023-Jan-30 10:47:10] [info] Initializing objects...
-[2023-Jan-30 10:47:10] [info] Num statics: 23
-[2023-Jan-30 10:47:10] [info] Num sprites: 140
-[2023-Jan-30 10:47:10] [info] Num sprite sequences: 20
-[2023-Jan-30 10:47:10] [info] Num cameras: 0
-[2023-Jan-30 10:47:10] [info] Num sinks: 0
-[2023-Jan-30 10:47:10] [info] Num sound sources: 0
-[2023-Jan-30 10:47:10] [info] Num boxes: 104
-[2023-Jan-30 10:47:10] [info] Num overlaps: 540
-[2023-Jan-30 10:47:10] [info] Num zone groups: 5
-[2023-Jan-30 10:47:10] [info] Num anim textures: 2
-[2023-Jan-30 10:47:10] [info] Num items: 34
-[2023-Jan-30 10:47:10] [info] Num AI objects: 0
-[2023-Jan-30 10:47:10] [info] Num event sets: 1
-[2023-Jan-30 10:47:10] [info] Loading samples... 
-[2023-Jan-30 10:47:10] [info] Sound map size: 4096
-[2023-Jan-30 10:47:10] [info] Num sample infos: 4
-[2023-Jan-30 10:47:10] [info] Num samples: 4
-[2023-Jan-30 10:47:10] [info] Initializing level...
-[2023-Jan-30 10:47:10] [info] Preparing renderer...
-[2023-Jan-30 10:47:10] [info] Allocated renderer object memory.
-[2023-Jan-30 10:47:10] [info] Generated 2 animated textures.
-[2023-Jan-30 10:47:10] [info] Generated 2 animated texture sets.
-[2023-Jan-30 10:47:10] [info] Generated 1 room texture atlases.
-[2023-Jan-30 10:47:10] [info] Generated 1 moveable texture atlases.
-[2023-Jan-30 10:47:11] [info] Generated 1 static mesh texture atlases.
-[2023-Jan-30 10:47:11] [info] Generated 140 sprite atlases.
-[2023-Jan-30 10:47:11] [info] Loaded sky texture.
-[2023-Jan-30 10:47:11] [info] Loaded total 16893 room vertices.
-[2023-Jan-30 10:47:11] [info] Preparing room data...
-[2023-Jan-30 10:47:11] [info] Preparing object data...
-[2023-Jan-30 10:47:11] [info] Preparing static mesh data...
-[2023-Jan-30 10:47:11] [info] Preparing sprite data...
-[2023-Jan-30 10:47:11] [info] Level loading complete.
-[2023-Jan-30 10:47:11] [info] Loading level script...
-[2023-Jan-30 10:47:11] [info] Playing soundtrack 'Audio\104.wav': success
-[2023-Jan-30 10:47:11] [info] Loading node scripts...
-[2023-Jan-30 10:47:11] [info] 14 node catalogs were found and loaded.
-[2023-Jan-30 10:47:11] [info] 1 node scripts were found and loaded.
-[2023-Jan-30 10:47:11] [info] Starting new level.
-[2023-Jan-30 10:47:11] [warning] Non present effect: 150
-[2023-Jan-30 10:47:13] [info] Shutting down BASS...
-[2023-Jan-30 10:47:13] [info] Cleaning up and exiting...
+[2023-Feb-27 02:17:12] [info] Starting TombEngine version 1.0.7
+[2023-Feb-27 02:17:12] [info] Creating DX11 renderer device...
+[2023-Feb-27 02:17:12] [info] Initializing DX11...
+[2023-Feb-27 02:17:14] [info] Initializing BASS sound device: success
+[2023-Feb-27 02:17:14] [info] Initializing FX plugin: success
+[2023-Feb-27 02:17:14] [info] Starting 3D mixdown: success
+[2023-Feb-27 02:17:14] [info] Attaching environmental FX: success
+[2023-Feb-27 02:17:14] [info] Attaching compressor: success
+[2023-Feb-27 02:17:14] [info] Initializing input system...
+[2023-Feb-27 02:17:15] [info] Starting GameMain...
+[2023-Feb-27 02:17:16] [info] DoTitle
+[2023-Feb-27 02:17:16] [info] Loading level file...
+[2023-Feb-27 02:17:16] [info] Loading level file: Data\title.ten
+[2023-Feb-27 02:17:17] [info] Level compiler version: 1.6.5
+[2023-Feb-27 02:17:17] [info] Loading textures... 
+[2023-Feb-27 02:17:17] [info] Num room textures: 1
+[2023-Feb-27 02:17:17] [info] Num object textures: 1
+[2023-Feb-27 02:17:17] [info] Num static textures: 1
+[2023-Feb-27 02:17:17] [info] Num anim textures: 2
+[2023-Feb-27 02:17:17] [info] Num sprite textures: 1
+[2023-Feb-27 02:17:17] [info] Loading rooms... 
+[2023-Feb-27 02:17:17] [info] Num rooms: 42
+[2023-Feb-27 02:17:17] [info] Num meshes: 572
+[2023-Feb-27 02:17:17] [info] Num animations: 737
+[2023-Feb-27 02:17:17] [info] Num models: 102
+[2023-Feb-27 02:17:17] [info] Initializing objects...
+[2023-Feb-27 02:17:17] [info] Num statics: 23
+[2023-Feb-27 02:17:17] [info] Num sprites: 140
+[2023-Feb-27 02:17:17] [info] Num sprite sequences: 20
+[2023-Feb-27 02:17:17] [info] Num cameras: 0
+[2023-Feb-27 02:17:17] [info] Num sinks: 0
+[2023-Feb-27 02:17:17] [info] Num sound sources: 0
+[2023-Feb-27 02:17:17] [info] Num boxes: 104
+[2023-Feb-27 02:17:17] [info] Num overlaps: 540
+[2023-Feb-27 02:17:17] [info] Num zone groups: 5
+[2023-Feb-27 02:17:17] [info] Num anim textures: 2
+[2023-Feb-27 02:17:17] [info] Num items: 34
+[2023-Feb-27 02:17:17] [info] Num AI objects: 0
+[2023-Feb-27 02:17:17] [info] Num event sets: 1
+[2023-Feb-27 02:17:17] [info] Loading samples... 
+[2023-Feb-27 02:17:17] [info] Sound map size: 4096
+[2023-Feb-27 02:17:17] [info] Num sample infos: 4
+[2023-Feb-27 02:17:17] [info] Num samples: 4
+[2023-Feb-27 02:17:17] [info] Initializing level...
+[2023-Feb-27 02:17:17] [info] Preparing renderer...
+[2023-Feb-27 02:17:17] [info] Allocated renderer object memory.
+[2023-Feb-27 02:17:17] [info] Generated 2 animated textures.
+[2023-Feb-27 02:17:17] [info] Generated 2 animated texture sets.
+[2023-Feb-27 02:17:18] [info] Generated 1 room texture atlases.
+[2023-Feb-27 02:17:18] [info] Generated 1 moveable texture atlases.
+[2023-Feb-27 02:17:18] [info] Generated 1 static mesh texture atlases.
+[2023-Feb-27 02:17:18] [info] Generated 1 sprite atlases.
+[2023-Feb-27 02:17:18] [info] Loaded sky texture.
+[2023-Feb-27 02:17:18] [info] Loaded total 16893 room vertices.
+[2023-Feb-27 02:17:18] [info] Preparing room data...
+[2023-Feb-27 02:17:18] [info] Preparing object data...
+[2023-Feb-27 02:17:18] [info] Preparing static mesh data...
+[2023-Feb-27 02:17:18] [info] Preparing sprite data...
+[2023-Feb-27 02:17:18] [info] Level loading complete.
+[2023-Feb-27 02:17:18] [info] Loading level script...
+[2023-Feb-27 02:17:18] [info] Playing soundtrack 'Audio\104.wav': success
+[2023-Feb-27 02:17:18] [info] Loading node scripts...
+[2023-Feb-27 02:17:18] [info] 14 node catalogs were found and loaded.
+[2023-Feb-27 02:17:18] [info] 1 node scripts were found and loaded.
+[2023-Feb-27 02:17:18] [info] Starting new level.
+[2023-Feb-27 02:17:18] [warning] Non present effect: 150
+[2023-Feb-27 02:17:20] [info] DoLevel
+[2023-Feb-27 02:17:20] [info] Loading level file...
+[2023-Feb-27 02:17:20] [info] Loading level file: Data\settomb.ten
+[2023-Feb-27 02:17:20] [info] Level compiler version: 1.6.5
+[2023-Feb-27 02:17:21] [info] Loading textures... 
+[2023-Feb-27 02:17:21] [info] Num room textures: 1
+[2023-Feb-27 02:17:21] [info] Num object textures: 1
+[2023-Feb-27 02:17:21] [info] Num static textures: 1
+[2023-Feb-27 02:17:21] [info] Num anim textures: 2
+[2023-Feb-27 02:17:21] [info] Num sprite textures: 1
+[2023-Feb-27 02:17:21] [info] Loading rooms... 
+[2023-Feb-27 02:17:21] [info] Num rooms: 169
+[2023-Feb-27 02:17:21] [info] Num meshes: 694
+[2023-Feb-27 02:17:21] [info] Num animations: 891
+[2023-Feb-27 02:17:21] [info] Num models: 137
+[2023-Feb-27 02:17:21] [info] Initializing objects...
+[2023-Feb-27 02:17:21] [info] Num statics: 18
+[2023-Feb-27 02:17:21] [info] Num sprites: 140
+[2023-Feb-27 02:17:21] [info] Num sprite sequences: 20
+[2023-Feb-27 02:17:21] [info] Num cameras: 6
+[2023-Feb-27 02:17:21] [info] Num sinks: 0
+[2023-Feb-27 02:17:21] [info] Num sound sources: 0
+[2023-Feb-27 02:17:21] [info] Num boxes: 770
+[2023-Feb-27 02:17:21] [info] Num overlaps: 3372
+[2023-Feb-27 02:17:21] [info] Num zone groups: 5
+[2023-Feb-27 02:17:21] [info] Num anim textures: 2
+[2023-Feb-27 02:17:21] [info] Num items: 151
+[2023-Feb-27 02:17:21] [info] Num AI objects: 16
+[2023-Feb-27 02:17:21] [info] Num event sets: 3
+[2023-Feb-27 02:17:21] [info] Loading samples... 
+[2023-Feb-27 02:17:21] [info] Sound map size: 4096
+[2023-Feb-27 02:17:21] [info] Num sample infos: 372
+[2023-Feb-27 02:17:21] [info] Num samples: 447
+[2023-Feb-27 02:17:21] [info] Initializing level...
+[2023-Feb-27 02:17:21] [info] Preparing renderer...
+[2023-Feb-27 02:17:21] [info] Allocated renderer object memory.
+[2023-Feb-27 02:17:21] [info] Generated 2 animated textures.
+[2023-Feb-27 02:17:21] [info] Generated 2 animated texture sets.
+[2023-Feb-27 02:17:21] [info] Generated 1 room texture atlases.
+[2023-Feb-27 02:17:21] [info] Generated 1 moveable texture atlases.
+[2023-Feb-27 02:17:21] [info] Generated 1 static mesh texture atlases.
+[2023-Feb-27 02:17:21] [info] Generated 1 sprite atlases.
+[2023-Feb-27 02:17:21] [info] Loaded sky texture.
+[2023-Feb-27 02:17:21] [info] Loaded total 32171 room vertices.
+[2023-Feb-27 02:17:21] [info] Preparing room data...
+[2023-Feb-27 02:17:21] [info] Preparing object data...
+[2023-Feb-27 02:17:21] [info] Preparing static mesh data...
+[2023-Feb-27 02:17:21] [info] Preparing sprite data...
+[2023-Feb-27 02:17:21] [info] Level loading complete.
+[2023-Feb-27 02:17:22] [info] Loading level script...
+[2023-Feb-27 02:17:22] [info] Level's script does not define callback LevelFuncs.OnEnd. Defaulting to no LevelFuncs.OnEnd behaviour.
+[2023-Feb-27 02:17:22] [info] Playing soundtrack 'Audio\107.wav': success
+[2023-Feb-27 02:17:22] [info] Loading node scripts...
+[2023-Feb-27 02:17:22] [info] 14 node catalogs were found and loaded.
+[2023-Feb-27 02:17:22] [info] 2 node scripts were found and loaded.
+[2023-Feb-27 02:17:22] [info] Starting new game.
+[2023-Feb-27 02:17:22] [info] WARNING! Key Effects already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Color already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Misc already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Rotation already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Logic already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Vec3 already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Objects already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Flow already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Inventory already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] WARNING! Key Strings already exists in global environment!	
+[2023-Feb-27 02:17:22] [info] Playing soundtrack 'Audio\086.wav': success
+[2023-Feb-27 02:17:48] [info] Shutting down BASS...
+[2023-Feb-27 02:17:48] [info] Cleaning up and exiting...
