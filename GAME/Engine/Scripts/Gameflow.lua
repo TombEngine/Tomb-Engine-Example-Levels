@@ -18,7 +18,7 @@
 		title.layer2 = Flow.SkyLayer.new(Color.new(128,91,34),3)
 
 		Flow.AddLevel(title) ;
-		
+
 --Settomb Level Block
 	settomb = Level.new();
 		settomb.nameKey = "settomb";
@@ -29,8 +29,8 @@
 		settomb.horizon = false;
 		settomb.farView = 20
 		settomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
-		settomb.objects = 
-			{	
+		settomb.objects =
+			{
 					InventoryItem.new
 					(
 						"eye1",
@@ -62,13 +62,12 @@
 						-1,
 						ItemAction.USE
 					)
-				
-			}						
-	Flow.AddLevel(settomb);	
+			}
+	Flow.AddLevel(settomb);
 
 -- karnak Level Block
 
-	karnak = Level.new();	
+	karnak = Level.new();
 		karnak.nameKey = "karnak";
 		karnak.scriptFile = "Scripts\\karnak.lua";
 		karnak.ambientTrack = "110";
@@ -79,8 +78,8 @@
 		karnak.fog = Flow.Fog.new(Color.new(255,225,225),5,20)
 		karnak.layer1 = Flow.SkyLayer.new(Color.new(200,255,255), 1)
 		karnak.layer2 = Flow.SkyLayer.new(Color.new(192,192,255), 7)
-		karnak.objects = 
-			{	
+		karnak.objects =
+			{
 						InventoryItem.new
 					(
 						"sunT",
@@ -90,7 +89,7 @@
 						Rotation.new (0, 0, 0),
 						RotationAxis.Y,
 						-1,
-						ItemAction.USE 
+						ItemAction.USE
 					),
 						InventoryItem.new
 					(
@@ -101,7 +100,7 @@
 						Rotation.new (0, 0, 0),
 						RotationAxis.Y,
 						1,
-						ItemAction.COMBINE 
+						ItemAction.COMBINE
 					),
 						InventoryItem.new
 					(
@@ -123,7 +122,7 @@
 						Rotation.new (0, 0, 0),
 						RotationAxis.Y,
 						-1,
-						ItemAction.USE 
+						ItemAction.USE
 					),
 						InventoryItem.new
 					(
@@ -134,7 +133,7 @@
 						Rotation.new (0, 0, 0),
 						RotationAxis.Y,
 						-1,
-						ItemAction.USE 
+						ItemAction.USE
 					),
 						InventoryItem.new
 					(
@@ -145,7 +144,7 @@
 						Rotation.new (0, 0, 0),
 						RotationAxis.Y,
 						2,
-						ItemAction.USE 
+						ItemAction.USE
 					),
 						InventoryItem.new
 					(
@@ -170,7 +169,7 @@
 						ItemAction.USE
 					),
 						InventoryItem.new
-					( 	
+					(
 						"hkey",
 						ObjID.KEY_ITEM2,
 						-50,
@@ -180,11 +179,11 @@
 						-1,
 						ItemAction.USE
 					),
-						
+
 			}
-					
+
 	Flow.AddLevel(karnak);
-	
+
 -- coastal Level Block
 
 	coastal = Level.new();
@@ -194,11 +193,10 @@
 		coastal.levelFile = "Data\\coastal.ten";
 		coastal.loadScreenFile = "Screens\\coastal.png";
 		coastal.horizon = true
-		--coastal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
+		coastal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		coastal.layer1 = Flow.SkyLayer.new(Color.new(128,128,128),-8)
-		coastal.objects = 
-			{	
-			
+		coastal.objects =
+			{
 					InventoryItem.new
 				(
 					"token",
@@ -216,16 +214,16 @@
 					ObjID.KEY_ITEM10,
 					-50,
 					1.5,
-					Rotation.new(0, 0, 0)
+					Rotation.new(0, 0, 0),
 					RotationAxis.Y,
 					-1,
 					ItemAction.USE
 				),
-					
-			}					
-	Flow.AddLevel(coastal);	
-	
----catacomb Level Block
+
+			}
+	Flow.AddLevel(coastal);
+
+---Catacombs Level Block
 
 	catacomb = Level.new();
 		catacomb.nameKey = "catacombs";
@@ -236,9 +234,9 @@
 		catacomb.horizon = false
 		catacomb.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
 		catacomb.farView = 20
-		catacomb.objects = 
+		catacomb.objects =
 			{
-		
+
 					InventoryItem.new
 					(
 						"trident",
@@ -250,11 +248,11 @@
 						-1,
 						ItemAction.USE
 					),
-		
+
 			}
-							
+
 	Flow.AddLevel(catacomb);
-	
+
 -- Cleopatra's Palace Level Block
 
 	cleopal = Level.new();
@@ -266,9 +264,8 @@
 		cleopal.horizon = false
 		cleopal.farView = 20
 		cleopal.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
-		cleopal.objects = 
-			{	
-		
+		cleopal.objects =
+			{
 				InventoryItem.new
 				(
 					"beetleb",
@@ -373,7 +370,7 @@
 					"beetle",
 					ObjID.KEY_ITEM10,
 					0,
-					1
+					1,
 					Rotation.new(0, 0, 0),
 					RotationAxis.Y,
 					-1,
@@ -413,9 +410,8 @@
 						ItemAction.COMBINE
 					),
 			}
-						
-	Flow.AddLevel(cleopal);	
-	
+	Flow.AddLevel(cleopal);
+
 ---city Level Block
 
 	city = Level.new();
@@ -428,13 +424,133 @@
 		city.layer1 = Flow.SkyLayer.new(Color.new(56,72,8),16)
 		city.farView = 20
 		city.fog = Flow.Fog.new(Color.new(0,0,0), 15,20)
-		city.objects = 
-			{	
-		
-			InventoryItem.new
-			(
-				"nitro1",
-				ObjID.PUZZLE_ITEM1,
+		city.objects =
+			{
+				InventoryItem.new
+				(
+					"nitro1",
+					ObjID.PUZZLE_ITEM1,
+					0,
+					1,
+					Rotation.new(0, 0, 0),
+					RotationAxis.Y,
+					-1,
+					ItemAction.USE
+					),
+						InventoryItem.new
+						(
+							"valve1",
+							ObjID.PUZZLE_ITEM1_COMBO1,
+							50,
+							0.5,
+							Rotation.new(0, 0, 0),
+							RotationAxis.Y,
+							-1,
+							ItemAction.COMBINE
+						),
+						InventoryItem.new
+						(
+							"nitro2",
+							ObjID.PUZZLE_ITEM1_COMBO2,
+							0,
+							1,
+							Rotation.new(0, 0, 0),
+							RotationAxis.Y,
+							-1,
+							ItemAction.COMBINE
+						),
+				InventoryItem.new
+				(
+					"cjack",
+					ObjID.PUZZLE_ITEM2,
+					-25,
+					1,
+					Rotation.new(0, 0, 90),
+					RotationAxis.Y,
+					-1,
+					ItemAction.USE
+				),
+						InventoryItem.new
+						(
+							"cjackb",
+							ObjID.PUZZLE_ITEM2_COMBO1,
+							0,
+							1,
+							Rotation.new(0, 0, 0),
+							RotationAxis.Y,
+							-1,
+							ItemAction.COMBINE
+						),
+				 	InventoryItem.new
+					 	(
+					 		"chandle",
+					 		ObjID.PUZZLE_ITEM2_COMBO2,
+					 		0,
+					 		1,
+					 		Rotation.new(0, 0, 0),
+					 		RotationAxis.Y,
+					 		-1,
+					 		ItemAction.COMBINE
+				 		),
+				InventoryItem.new
+				(
+					"roofK",
+					ObjID.PUZZLE_ITEM4,
+					0,
+					1,
+					Rotation.new(-45, 180, 90),
+					RotationAxis.Y,
+					-1,
+					ItemAction.USE
+				),
+				InventoryItem.new
+				(
+					"code1",
+					ObjID.PUZZLE_ITEM5,
+					50,
+					1,
+					Rotation.new(-90, 0, 90),
+					RotationAxis.Y,
+					2,
+					ItemAction.USE
+				),
+				InventoryItem.new
+				(
+					"mine",
+					ObjID.PUZZLE_ITEM8,
+					50,
+					0.5,
+					Rotation.new(0, 0, 0),
+					RotationAxis.Y,
+					2,
+					ItemAction.USE
+				),
+					InventoryItem.new
+					(
+						"mine1",
+						ObjID.PUZZLE_ITEM8_COMBO1,
+						0,
+						1,
+						Rotation.new(0, 0, 0),
+						RotationAxis.Y,
+						-1,
+						ItemAction.COMBINE
+					),
+					InventoryItem.new
+					(
+						"mine2",
+						ObjID.PUZZLE_ITEM8_COMBO2,
+						0,
+						1,
+						Rotation.new(0, 0, 90),
+						RotationAxis.Y,
+						-1,
+						ItemAction.COMBINE
+					),
+				InventoryItem.new
+				(
+				"ppillar",
+				ObjID.PUZZLE_ITEM11,
 				0,
 				1,
 				Rotation.new(0, 0, 0),
@@ -442,73 +558,58 @@
 				-1,
 				ItemAction.USE
 				),
-					InventoryItem.new
-					(
-						"valve1",
-						ObjID.PUZZLE_ITEM1_COMBO1,
-						50,
-						0.5,
-						Rotation.new(0, 0, 0),
-						RotationAxis.Y,
-						-1,
-						ItemAction.COMBINE
-					),		
-			InventoryItem.new
-			(
-				"nitro2",
-				ObjID.PUZZLE_ITEM1_COMBO2,
-				0,
-				1,
-				Rotation.new(0, 0, 0),
-				RotationAxis.Y,
-				-1,
-				ItemAction.COMBINE
-			),
-			InventoryItem.new("cjack", ObjID.PUZZLE_ITEM2, -25, 1, Rotation.new(0, 0, 90), RotationAxis.Y, -1, ItemAction.USE ),
-			InventoryItem.new("cjackb", ObjID.PUZZLE_ITEM2_COMBO1, 0, 1, Rotation.new(0, 0, 0), RotationAxis.Y, -1, ItemAction.COMBINE ),
-			InventoryItem.new("chandle", ObjID.PUZZLE_ITEM2_COMBO2, 0, 1, Rotation.new(0, 0, 0), RotationAxis.Y, -1, ItemAction.COMBINE ),
-			InventoryItem.new("roofK", ObjID.PUZZLE_ITEM4, 0, 1, Rotation.new(-45, 180, 90), RotationAxis.Y, -1, ItemAction.USE ),
-			InventoryItem.new("code1", ObjID.PUZZLE_ITEM5, 50, 1, Rotation.new(-90, 0, 90), RotationAxis.Y, 2, ItemAction.USE ),
-			InventoryItem.new("mine", ObjID.PUZZLE_ITEM8, 50, 0.5, Rotation.new(0, 0, 0), RotationAxis.Y, 2, ItemAction.USE ),
-			InventoryItem.new("mine1", ObjID.PUZZLE_ITEM8_COMBO1, 0, 1, Rotation.new(0, 0, 0), RotationAxis.Y, -1, ItemAction.COMBINE ),
-			InventoryItem.new("mine2", ObjID.PUZZLE_ITEM8_COMBO2, 0, 1, Rotation.new(0, 0, 90), RotationAxis.Y, -1, ItemAction.COMBINE ),
-			InventoryItem.new("ppillar", ObjID.PUZZLE_ITEM11, 0, 1, Rotation.new(0, 0, 0), RotationAxis.Y, -1,	ItemAction.USE ),
+			}
 
-					}
-	
-	Flow.AddLevel(city);	
+	Flow.AddLevel(city);
 
--- Guardian of Semerkhet level block 
+-- Guardian of Semerkhet level block
 
 	guard = Level.new()
-	
-	guard.nameKey = "guard"
-	guard.scriptFile = "Scripts\\guard.lua"
-	guard.ambientTrack = "107"
-	guard.horizon = false
-	guard.levelFile = "Data\\guard.ten"
-	guard.loadScreenFile = "Screens\\rome.jpg"
-
+		guard.nameKey = "guard"
+		guard.scriptFile = "Scripts\\guard.lua"
+		guard.ambientTrack = "107"
+		guard.horizon = false
+		guard.levelFile = "Data\\guard.ten"
+		guard.loadScreenFile = "Screens\\rome.jpg"
 	Flow.AddLevel(guard);
 
 -- The Lost Library level block
 
 	library = Level.new()
 
-	library.nameKey = "library"
-	library.scriptFile = "Scripts\\library.lua"
-	library.ambientTrack = "108"
-	library.horizon = false
-	library.levelFile = "Data\\library.ten"
-	library.loadScreenFile = "Screens\\rome.jpg"
-	library.fog = Flow.Fog.new(Color.new(30,0,0),5,20)
-	library.objects = {	
-	
-		InventoryItem.new( "music", ObjID.PUZZLE_ITEM2, 0, 1, Rotation.new(0, 0, 0), RotationAxis.Y, -1, ItemAction.USE ),
-		InventoryItem.new( "horseG", ObjID.PUZZLE_ITEM6, 50, 0.5, Rotation.new(0, 0, 0), RotationAxis.Y, -1, ItemAction.USE ),
-
-						}
+		library.nameKey = "library"
+		library.scriptFile = "Scripts\\library.lua"
+		library.ambientTrack = "108"
+		library.horizon = false
+		library.levelFile = "Data\\library.ten"
+		library.loadScreenFile = "Screens\\rome.jpg"
+		library.fog = Flow.Fog.new(Color.new(30,0,0),5,20)
+		library.objects = 
+		{
+			InventoryItem.new
+			(
+				"music",
+				ObjID.PUZZLE_ITEM2,
+				0,
+				1,
+				Rotation.new(0, 0, 0),
+				RotationAxis.Y,
+				-1,
+				ItemAction.USE
+			),
+			InventoryItem.new
+			(
+				"horseG",
+				ObjID.PUZZLE_ITEM6,
+				50,
+				0.5,
+				Rotation.new(0, 0, 0),
+				RotationAxis.Y,
+				-1,
+				ItemAction.USE
+			),
+		}
 
 	Flow.AddLevel(library)
-	
-	
+
+
